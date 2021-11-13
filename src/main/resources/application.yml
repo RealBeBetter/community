@@ -1,0 +1,48 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /community
+
+spring:
+  # 数据库连接相关信息
+  datasource:
+    url: jdbc:mysql://localhost:3306/community?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    # 连接池的类型、最大连接数、最小保留数、关闭超
+    # 该连接池的类型标注为 HikariDataSource ，该类型是一个第三方的包，并不是 Mybatis 自带的类型
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      maximum-pool-size: 15
+      minimum-idle: 5
+      idle-timeout: 30000
+  # thymeleaf 的缓存设置为关闭
+  thymeleaf:
+    cache: false
+
+mybatis:
+  # 映射文件的地址
+  mapper-locations: classpath*:mapper/*.xml
+  # 实体类所在包名
+  type-aliases-package: com.nowcoder.community.entity
+  configuration:
+    # 启用自动生成主键
+    use-generated-keys: true
+    # 启动 MySQL 中命名的下划线名字和 驼峰命名 自动匹配
+    map-underscore-to-camel-case: true
+
+logging:
+  # 日志级别设置
+  level:
+    com.nowcoder.community:
+      debug
+  # 文件路径。要设置文件指定名称只使用name即可
+  file:
+    path: D:/Java/IdeaProjects/community/log
+    name:  D:/Java/IdeaProjects/community/log/community.log
+  logback:
+    rollingpolicy:
+      max-file-size: 5MB
+      file-name-pattern: D:/Java/IdeaProjects/community/log/error/log-error-%d{yyyy-MM-dd}.%i.log
+      max-history: 30

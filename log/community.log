@@ -1,0 +1,9 @@
+2021-11-13 02:55:57.423  INFO 18952 --- [main] com.nowcoder.community.LoggerTests       : Starting LoggerTests using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 18952 (started by Real in D:\Java\IdeaProjects\community)
+2021-11-13 02:55:57.424 DEBUG 18952 --- [main] com.nowcoder.community.LoggerTests       : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-11-13 02:55:57.425  INFO 18952 --- [main] com.nowcoder.community.LoggerTests       : No active profile set, falling back to default profiles: default
+2021-11-13 02:55:59.000  INFO 18952 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-13 02:55:59.295  INFO 18952 --- [main] com.nowcoder.community.LoggerTests       : Started LoggerTests in 2.173 seconds (JVM running for 2.92)
+2021-11-13 02:55:59.647 DEBUG 18952 --- [main] com.nowcoder.community.LoggerTests       : debug log
+2021-11-13 02:55:59.647  INFO 18952 --- [main] com.nowcoder.community.LoggerTests       : info log
+2021-11-13 02:55:59.647  WARN 18952 --- [main] com.nowcoder.community.LoggerTests       : warn log
+2021-11-13 02:55:59.647 ERROR 18952 --- [main] com.nowcoder.community.LoggerTests       : error log
