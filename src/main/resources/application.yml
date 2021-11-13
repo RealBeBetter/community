@@ -20,6 +20,20 @@ spring:
   # thymeleaf 的缓存设置为关闭
   thymeleaf:
     cache: false
+  # 邮箱相关参数配置
+  # 接收邮件服务器：imap.qq.com，使用SSL，端口号993
+  # 发送邮件服务器：smtp.qq.com，使用SSL，端口号465或587
+  mail:
+    host: smtp.qq.com
+    port: 465
+    username: swrely@qq.com
+    password: nkphtzkshprpdidj
+    protocol: smtps
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
 
 mybatis:
   # 映射文件的地址
@@ -46,3 +60,4 @@ logging:
       max-file-size: 5MB
       file-name-pattern: D:/Java/IdeaProjects/community/log/error/log-error-%d{yyyy-MM-dd}.%i.log
       max-history: 30
+
