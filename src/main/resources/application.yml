@@ -21,8 +21,8 @@ spring:
   thymeleaf:
     cache: false
   # 邮箱相关参数配置
-  # 接收邮件服务器：imap.qq.com，使用SSL，端口号993
-  # 发送邮件服务器：smtp.qq.com，使用SSL，端口号465或587
+  # 接收邮件服务器：imap.qq.com，使用 SSL，端口号993
+  # 发送邮件服务器：smtp.qq.com，使用 SSL，端口号465或587
   mail:
     host: smtp.qq.com
     port: 465
@@ -45,6 +45,8 @@ mybatis:
     use-generated-keys: true
     # 启动 MySQL 中命名的下划线名字和 驼峰命名 自动匹配
     map-underscore-to-camel-case: true
+    # 开启 Mybatis 二级缓存，缓存整个 namespace 内的 Mapper
+    # cache-enabled: true
 
 logging:
   # 日志级别设置
