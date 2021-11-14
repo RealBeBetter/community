@@ -2,8 +2,20 @@ package com.nowcoder.community.service;
 
 import com.nowcoder.community.dao.UserMapper;
 import com.nowcoder.community.entity.User;
+import com.nowcoder.community.util.CommunityConstant;
+import com.nowcoder.community.util.CommunityUtil;
+import com.nowcoder.community.util.MailClient;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import org.thymeleaf.TemplateEngine;
+import org.thymeleaf.context.Context;
+
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Random;
 
 /**
  * @ author : Real
@@ -11,10 +23,22 @@ import org.springframework.stereotype.Service;
  * @ description :
  */
 @Service
-public class UserService {
+public class UserService implements CommunityConstant {
 
     @Autowired
     private UserMapper userMapper;
+
+    @Autowired
+    private MailClient mailClient;
+
+    @Autowired
+    private TemplateEngine templateEngine;
+
+    @Value("${community.path.domain}")
+    private String domain;
+
+    @Value("${server.servlet.context-path}")
+    private String contextPath;
 
     public User findUserById(int userId) {
         return userMapper.selectById(userId);
@@ -23,6 +47,91 @@ public class UserService {
     public String findUsername(int userId) {
         User user = userMapper.selectById(userId);
         return user.getUsername();
+    }
+
+    public Map<String, Object> register(User user) {
+        Map<String, Object> map = new HashMap<>();
+        // 空值处理
+        if (user == null) {
+            throw new IllegalArgumentException("参数不能为空！");
+        }
+        // 用户名为空
+        if (StringUtils.isBlank(user.getUsername())) {
+            map.put("usernameMessage", "用户名不能为空！");
+            return map;
+        }
+        // 密码为空
+        if (StringUtils.isBlank(user.getPassword())) {
+            map.put("passwordMessage", "密码不能为空！");
+            return map;
+        }
+        // 邮箱为空
+        if (StringUtils.isBlank(user.getEmail())) {
+            map.put("emailMessage", "邮箱不能为空！");
+            return map;
+        }
+
+        // 验证账号的合法性
+        User selectUser = userMapper.selectByName(user.getUsername());
+        if (selectUser != null) {
+            // 账号用户名存在，表示应该更换用户名
+            map.put("usernameMessage", "用户名已存在！");
+            return map;
+        }
+
+        // 验证邮箱的合法性
+        selectUser = userMapper.selectByEmail(user.getEmail());
+        if (selectUser != null) {
+            // 邮箱已经被注册，表示应该更换邮箱注册，或者找回密码
+            map.put("emailMessage", "邮箱已被注册！");
+        }
+
+        // 注册账号，要将数据写入到数据库中
+        // 一、设置 salt 值
+        user.setSalt(CommunityUtil.generatorUUID().substring(0, 5));
+        // 二、设置被加密的密码值
+        user.setPassword(CommunityUtil.md5(user.getPassword() + user.getSalt()));
+        // 三、设置用户类型
+        user.setType(0);
+        // 四、设置用户状态，默认为未激活
+        user.setStatus(0);
+        // 五、设置用户的激活码
+        user.setActivationCode(CommunityUtil.generatorUUID());
+        // 六、设置默认头像路径
+        user.setHeaderUrl("http://images.nowcoder.com/head/" + new Random().nextInt(1000) + "t.png");
+        // 七、设置注册时间
+        user.setCreateTime(new Date());
+        // 八、保存用户
+        userMapper.insertUser(user);
+        // 九、发送激活邮件
+        Context context = new Context();
+        context.setVariable("email", user.getEmail());
+        // 填充网页链接：http://locolhost:8080/community/activation/userId/activationCode
+        String url = domain + contextPath + "/activation/" + user.getId() + "/" + user.getActivationCode();
+        context.setVariable("url", url);
+        // 模板引擎调用网页，将其中的数据填充之后，生成一个 HTML 网页字符串对象，格式化网页
+        String process = templateEngine.process("/mail/activation", context);
+        mailClient.sendMail(user.getEmail(), "激活账号链接", process);
+
+        return map;
+    }
+
+    public int activation(int userId, String activationCode) {
+        // 查询到用户，获取到激活码，判断激活码是否正确
+        User user = userMapper.selectById(userId);
+        String selectCode = user.getActivationCode();
+        if (user.getStatus() == 1) {
+            // 表示已经激活过，重复激活
+            return ACTIVATION_REPEAT;
+        }else if (activationCode.equals(selectCode)) {
+            // 激活码匹配，激活成功，修改激活状态
+            userMapper.updateStatus(userId, 1);
+            return ACTIVATION_SUCCESS;
+        } else {
+            // 激活码不匹配，应该返回失败
+            return ACTIVATION_FAILED;
+        }
+
     }
 
 }

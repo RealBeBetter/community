@@ -63,3 +63,7 @@ logging:
       file-name-pattern: D:/Java/IdeaProjects/community/log/error/log-error-%d{yyyy-MM-dd}.%i.log
       max-history: 30
 
+# 自定义网站配置域名
+community:
+  path:
+    domain: http://localhost:8080
