@@ -4,6 +4,9 @@ server:
     context-path: /community
 
 spring:
+  # 后来发现的 bean 会覆盖之前相同名称的 bean
+  # main:
+    # allow-bean-definition-overriding: true
   # 数据库连接相关信息
   datasource:
     url: jdbc:mysql://localhost:3306/community?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8

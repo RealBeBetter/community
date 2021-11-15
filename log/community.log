@@ -1,332 +1,139 @@
-2021-11-15 00:09:38.961  INFO 28740 --- [restartedMain] c.n.community.CommunityApplication       : Starting CommunityApplication using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 28740 (D:\Java\IdeaProjects\community\target\classes started by Real in D:\Java\IdeaProjects\community)
-2021-11-15 00:09:38.965 DEBUG 28740 --- [restartedMain] c.n.community.CommunityApplication       : Running with Spring Boot v2.4.10, Spring v5.3.9
-2021-11-15 00:09:38.965  INFO 28740 --- [restartedMain] c.n.community.CommunityApplication       : No active profile set, falling back to default profiles: default
-2021-11-15 00:09:39.001  INFO 28740 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-11-15 00:09:39.001  INFO 28740 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-11-15 00:09:39.917  INFO 28740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-11-15 00:09:39.927  INFO 28740 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-11-15 00:09:39.927  INFO 28740 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
-2021-11-15 00:09:40.015  INFO 28740 --- [restartedMain] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring embedded WebApplicationContext
-2021-11-15 00:09:40.015  INFO 28740 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1013 ms
-2021-11-15 00:09:40.528  INFO 28740 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-11-15 00:09:40.668  INFO 28740 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-11-15 00:09:40.706  INFO 28740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/community'
-2021-11-15 00:09:40.718  INFO 28740 --- [restartedMain] c.n.community.CommunityApplication       : Started CommunityApplication in 2.086 seconds (JVM running for 2.682)
-2021-11-15 00:10:02.042  INFO 28740 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-11-15 00:10:02.043  INFO 28740 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-11-15 00:10:02.044  INFO 28740 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2021-11-15 00:10:02.095  INFO 28740 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-11-15 00:10:02.396  INFO 28740 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-11-15 00:10:02.402 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.c.d.D.selectDiscussPostRows          : ==>  Preparing: select count(id) from discuss_post where status != 2
-2021-11-15 00:10:02.426 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.c.d.D.selectDiscussPostRows          : ==> Parameters: 
-2021-11-15 00:10:02.451 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.c.d.D.selectDiscussPostRows          : <==      Total: 1
-2021-11-15 00:10:02.457 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.c.d.D.selectDiscussPosts             : ==>  Preparing: select id, user_id, title, content, type, status, create_time, comment_count, score from discuss_post where status != 2 order by type desc, create_time desc limit ?, ?
-2021-11-15 00:10:02.457 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.c.d.D.selectDiscussPosts             : ==> Parameters: 0(Integer), 10(Integer)
-2021-11-15 00:10:02.466 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.c.d.D.selectDiscussPosts             : <==      Total: 10
-2021-11-15 00:10:02.468 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
-2021-11-15 00:10:02.469 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 11(Integer)
-2021-11-15 00:10:02.472 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
-2021-11-15 00:10:02.473 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
-2021-11-15 00:10:02.474 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
-2021-11-15 00:10:02.476 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
-2021-11-15 00:10:02.477 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
-2021-11-15 00:10:02.477 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 149(Integer)
-2021-11-15 00:10:02.479 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
-2021-11-15 00:10:02.480 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
-2021-11-15 00:10:02.480 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 149(Integer)
-2021-11-15 00:10:02.482 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
-2021-11-15 00:10:02.483 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
-2021-11-15 00:10:02.483 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 149(Integer)
-2021-11-15 00:10:02.485 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
-2021-11-15 00:10:02.485 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
-2021-11-15 00:10:02.486 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 146(Integer)
-2021-11-15 00:10:02.487 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
-2021-11-15 00:10:02.488 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
-2021-11-15 00:10:02.488 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 145(Integer)
-2021-11-15 00:10:02.490 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
-2021-11-15 00:10:02.491 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
-2021-11-15 00:10:02.491 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 138(Integer)
-2021-11-15 00:10:02.493 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
-2021-11-15 00:10:02.493 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
-2021-11-15 00:10:02.494 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 138(Integer)
-2021-11-15 00:10:02.496 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
-2021-11-15 00:10:02.496 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
-2021-11-15 00:10:02.496 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 103(Integer)
-2021-11-15 00:10:02.498 DEBUG 28740 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
-2021-11-15 00:12:04.611 DEBUG 28740 --- [http-nio-8080-exec-2] c.n.c.dao.UserMapper.selectByName        : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where username = ?
-2021-11-15 00:12:04.612 DEBUG 28740 --- [http-nio-8080-exec-2] c.n.c.dao.UserMapper.selectByName        : ==> Parameters: niuke(String)
-2021-11-15 00:12:04.622 DEBUG 28740 --- [http-nio-8080-exec-2] c.n.c.dao.UserMapper.selectByName        : <==      Total: 1
-2021-11-15 00:12:56.371 DEBUG 28740 --- [http-nio-8080-exec-2] c.n.c.dao.UserMapper.selectByName        : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where username = ?
-2021-11-15 00:12:56.371 DEBUG 28740 --- [http-nio-8080-exec-2] c.n.c.dao.UserMapper.selectByName        : ==> Parameters: xixi(String)
-2021-11-15 00:12:56.372 DEBUG 28740 --- [http-nio-8080-exec-2] c.n.c.dao.UserMapper.selectByName        : <==      Total: 0
-2021-11-15 00:12:56.373 DEBUG 28740 --- [http-nio-8080-exec-2] c.n.c.dao.UserMapper.selectByEmail       : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where email = ?
-2021-11-15 00:12:56.373 DEBUG 28740 --- [http-nio-8080-exec-2] c.n.c.dao.UserMapper.selectByEmail       : ==> Parameters: test@qq.com(String)
-2021-11-15 00:12:56.374 DEBUG 28740 --- [http-nio-8080-exec-2] c.n.c.dao.UserMapper.selectByEmail       : <==      Total: 0
-2021-11-15 00:12:56.376 DEBUG 28740 --- [http-nio-8080-exec-2] c.n.community.dao.UserMapper.insertUser  : ==>  Preparing: insert into user( username, password, salt, email, type, status, activation_code, header_url, create_time ) values(?, ?, ?, ?, ?, ?, ?, ?, ?)
-2021-11-15 00:12:56.379 DEBUG 28740 --- [http-nio-8080-exec-2] c.n.community.dao.UserMapper.insertUser  : ==> Parameters: xixi(String), 9714cbcb284e0c1648b3ed9fe56621ee(String), 71696(String), test@qq.com(String), 0(Integer), 0(Integer), 1b387556d8ab43cfacdf5e14ab45be3e(String), http://images.nowcoder.com/head/165t.png(String), 2021-11-15 00:12:56.376(Timestamp)
-2021-11-15 00:12:56.396 DEBUG 28740 --- [http-nio-8080-exec-2] c.n.community.dao.UserMapper.insertUser  : <==    Updates: 1
-2021-11-15 00:12:57.494 ERROR 28740 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/community] threw exception [Request processing failed; nested exception is org.springframework.mail.MailSendException: Failed messages: com.sun.mail.smtp.SMTPSendFailedException: 550 Mail content denied. http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=20022&&no=1000726 [MFd0KkH7b1TCXpoBpkZ9J31Vpv1j00Vbgb/xL8BTO2qMqHCuilt0gtteMOBezKpxMg== IP: 119.39.133.66]
-; message exceptions (1) are:
-Failed message 1: com.sun.mail.smtp.SMTPSendFailedException: 550 Mail content denied. http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=20022&&no=1000726 [MFd0KkH7b1TCXpoBpkZ9J31Vpv1j00Vbgb/xL8BTO2qMqHCuilt0gtteMOBezKpxMg== IP: 119.39.133.66]
-] with root cause
+2021-11-16 01:04:17.312  INFO 23472 --- [restartedMain] c.n.community.CommunityApplication       : Starting CommunityApplication using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 23472 (D:\Java\IdeaProjects\community\target\classes started by Real in D:\Java\IdeaProjects\community)
+2021-11-16 01:04:17.321 DEBUG 23472 --- [restartedMain] c.n.community.CommunityApplication       : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-11-16 01:04:17.321  INFO 23472 --- [restartedMain] c.n.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2021-11-16 01:04:17.386  INFO 23472 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-16 01:04:17.387  INFO 23472 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-16 01:04:17.898  WARN 23472 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'kaptchaConfig' defined in class path resource [com/nowcoder/community/config/KaptchaConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=kaptchaConfig; factoryMethodName=kaptchaConfig; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/nowcoder/community/config/KaptchaConfig.class]] for bean 'kaptchaConfig': There is already [Generic bean: class [com.nowcoder.community.config.KaptchaConfig]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Java\IdeaProjects\community\target\classes\com\nowcoder\community\config\KaptchaConfig.class]] bound.
+2021-11-16 01:04:17.906  INFO 23472 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
 
-org.springframework.mail.MailSendException: Failed messages: com.sun.mail.smtp.SMTPSendFailedException: 550 Mail content denied. http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=20022&&no=1000726 [MFd0KkH7b1TCXpoBpkZ9J31Vpv1j00Vbgb/xL8BTO2qMqHCuilt0gtteMOBezKpxMg== IP: 119.39.133.66]
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-16 01:04:17.926 ERROR 23472 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
 
-	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:491) ~[spring-context-support-5.3.9.jar:5.3.9]
-	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:361) ~[spring-context-support-5.3.9.jar:5.3.9]
-	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:356) ~[spring-context-support-5.3.9.jar:5.3.9]
-	at com.nowcoder.community.util.MailClient.sendMail(MailClient.java:42) ~[classes/:na]
-	at com.nowcoder.community.service.UserService.register(UserService.java:113) ~[classes/:na]
-	at com.nowcoder.community.controller.LoginController.register(LoginController.java:32) ~[classes/:na]
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'kaptchaConfig', defined in class path resource [com/nowcoder/community/config/KaptchaConfig.class], could not be registered. A bean with that name has already been defined in file [D:\Java\IdeaProjects\community\target\classes\com\nowcoder\community\config\KaptchaConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2021-11-16 01:05:32.241  INFO 37508 --- [restartedMain] c.n.community.CommunityApplication       : Starting CommunityApplication using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 37508 (D:\Java\IdeaProjects\community\target\classes started by Real in D:\Java\IdeaProjects\community)
+2021-11-16 01:05:32.243 DEBUG 37508 --- [restartedMain] c.n.community.CommunityApplication       : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-11-16 01:05:32.244  INFO 37508 --- [restartedMain] c.n.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2021-11-16 01:05:32.274  INFO 37508 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-16 01:05:32.274  INFO 37508 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-16 01:05:32.628  WARN 37508 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'kaptchaConfig' defined in class path resource [com/nowcoder/community/config/KaptchaConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=kaptchaConfig; factoryMethodName=kaptchaConfig; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/nowcoder/community/config/KaptchaConfig.class]] for bean 'kaptchaConfig': There is already [Generic bean: class [com.nowcoder.community.config.KaptchaConfig]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Java\IdeaProjects\community\target\classes\com\nowcoder\community\config\KaptchaConfig.class]] bound.
+2021-11-16 01:05:32.636  INFO 37508 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-16 01:05:32.649 ERROR 37508 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'kaptchaConfig', defined in class path resource [com/nowcoder/community/config/KaptchaConfig.class], could not be registered. A bean with that name has already been defined in file [D:\Java\IdeaProjects\community\target\classes\com\nowcoder\community\config\KaptchaConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2021-11-16 01:06:46.284  INFO 10624 --- [restartedMain] c.n.community.CommunityApplication       : Starting CommunityApplication using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 10624 (D:\Java\IdeaProjects\community\target\classes started by Real in D:\Java\IdeaProjects\community)
+2021-11-16 01:06:46.286 DEBUG 10624 --- [restartedMain] c.n.community.CommunityApplication       : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-11-16 01:06:46.286  INFO 10624 --- [restartedMain] c.n.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2021-11-16 01:06:46.321  INFO 10624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-16 01:06:46.321  INFO 10624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-16 01:06:46.705  WARN 10624 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'kaptchaConfig' defined in class path resource [com/nowcoder/community/config/KaptchaConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=kaptchaConfig; factoryMethodName=kaptchaConfig; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/nowcoder/community/config/KaptchaConfig.class]] for bean 'kaptchaConfig': There is already [Generic bean: class [com.nowcoder.community.config.KaptchaConfig]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Java\IdeaProjects\community\target\classes\com\nowcoder\community\config\KaptchaConfig.class]] bound.
+2021-11-16 01:06:46.713  INFO 10624 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-16 01:06:46.726 ERROR 10624 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'kaptchaConfig', defined in class path resource [com/nowcoder/community/config/KaptchaConfig.class], could not be registered. A bean with that name has already been defined in file [D:\Java\IdeaProjects\community\target\classes\com\nowcoder\community\config\KaptchaConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2021-11-16 01:08:18.902  INFO 15276 --- [restartedMain] c.n.community.CommunityApplication       : Starting CommunityApplication using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 15276 (D:\Java\IdeaProjects\community\target\classes started by Real in D:\Java\IdeaProjects\community)
+2021-11-16 01:08:18.904 DEBUG 15276 --- [restartedMain] c.n.community.CommunityApplication       : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-11-16 01:08:18.904  INFO 15276 --- [restartedMain] c.n.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2021-11-16 01:08:18.933  INFO 15276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-16 01:08:18.933  INFO 15276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-16 01:08:19.549  WARN 15276 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'persistenceExceptionTranslationPostProcessor' defined in class path resource [org/springframework/boot/autoconfigure/dao/PersistenceExceptionTranslationAutoConfiguration.class]: Unsatisfied dependency expressed through method 'persistenceExceptionTranslationPostProcessor' parameter 0; nested exception is org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'kaptchaConfig' defined in class path resource [com/nowcoder/community/config/KaptchaConfig.class]: factory-bean reference points back to the same bean definition
+2021-11-16 01:08:19.556  INFO 15276 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-16 01:08:19.569 ERROR 15276 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'persistenceExceptionTranslationPostProcessor' defined in class path resource [org/springframework/boot/autoconfigure/dao/PersistenceExceptionTranslationAutoConfiguration.class]: Unsatisfied dependency expressed through method 'persistenceExceptionTranslationPostProcessor' parameter 0; nested exception is org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'kaptchaConfig' defined in class path resource [com/nowcoder/community/config/KaptchaConfig.class]: factory-bean reference points back to the same bean definition
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:258) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.10.jar:2.4.10]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:771) ~[spring-boot-2.4.10.jar:2.4.10]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:763) ~[spring-boot-2.4.10.jar:2.4.10]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438) ~[spring-boot-2.4.10.jar:2.4.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) ~[spring-boot-2.4.10.jar:2.4.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) ~[spring-boot-2.4.10.jar:2.4.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1318) ~[spring-boot-2.4.10.jar:2.4.10]
+	at com.nowcoder.community.CommunityApplication.main(CommunityApplication.java:10) ~[classes/:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.9.jar:5.3.9]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.9.jar:5.3.9]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.9.jar:5.3.9]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.9.jar:5.3.9]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.9.jar:5.3.9]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.9.jar:5.3.9]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064) ~[spring-webmvc-5.3.9.jar:5.3.9]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.9.jar:5.3.9]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.9.jar:5.3.9]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.9.jar:5.3.9]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.52.jar:4.0.FR]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.9.jar:5.3.9]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.52.jar:4.0.FR]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.52.jar:9.0.52]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.9.jar:5.3.9]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.9.jar:5.3.9]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.9.jar:5.3.9]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.4.10.jar:2.4.10]
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'kaptchaConfig' defined in class path resource [com/nowcoder/community/config/KaptchaConfig.class]: factory-bean reference points back to the same bean definition
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:725) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:685) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:656) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:265) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1546) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1343) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.9.jar:5.3.9]
+	... 25 common frames omitted
 
-2021-11-15 00:14:58.134 DEBUG 28740 --- [http-nio-8080-exec-8] c.n.c.dao.UserMapper.selectByName        : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where username = ?
-2021-11-15 00:14:58.135 DEBUG 28740 --- [http-nio-8080-exec-8] c.n.c.dao.UserMapper.selectByName        : ==> Parameters: xixi(String)
-2021-11-15 00:14:58.136 DEBUG 28740 --- [http-nio-8080-exec-8] c.n.c.dao.UserMapper.selectByName        : <==      Total: 1
-2021-11-15 00:16:25.174  INFO 30960 --- [restartedMain] c.n.community.CommunityApplication       : Starting CommunityApplication using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 30960 (D:\Java\IdeaProjects\community\target\classes started by Real in D:\Java\IdeaProjects\community)
-2021-11-15 00:16:25.176 DEBUG 30960 --- [restartedMain] c.n.community.CommunityApplication       : Running with Spring Boot v2.4.10, Spring v5.3.9
-2021-11-15 00:16:25.177  INFO 30960 --- [restartedMain] c.n.community.CommunityApplication       : No active profile set, falling back to default profiles: default
-2021-11-15 00:16:25.207  INFO 30960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-11-15 00:16:25.208  INFO 30960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-11-15 00:16:26.101  INFO 30960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-11-15 00:16:26.109  INFO 30960 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-11-15 00:16:26.109  INFO 30960 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
-2021-11-15 00:16:26.192  INFO 30960 --- [restartedMain] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring embedded WebApplicationContext
-2021-11-15 00:16:26.192  INFO 30960 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 984 ms
-2021-11-15 00:16:26.684  INFO 30960 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-11-15 00:16:26.824  INFO 30960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-11-15 00:16:26.864  INFO 30960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/community'
-2021-11-15 00:16:26.878  INFO 30960 --- [restartedMain] c.n.community.CommunityApplication       : Started CommunityApplication in 2.0 seconds (JVM running for 2.83)
-2021-11-15 00:16:36.073  INFO 30960 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-11-15 00:16:36.073  INFO 30960 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-11-15 00:16:36.074  INFO 30960 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2021-11-15 00:16:36.109  INFO 30960 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-11-15 00:16:36.334  INFO 30960 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-11-15 00:16:36.340 DEBUG 30960 --- [http-nio-8080-exec-1] c.n.c.dao.UserMapper.selectByName        : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where username = ?
-2021-11-15 00:16:36.365 DEBUG 30960 --- [http-nio-8080-exec-1] c.n.c.dao.UserMapper.selectByName        : ==> Parameters: xixi(String)
-2021-11-15 00:16:36.386 DEBUG 30960 --- [http-nio-8080-exec-1] c.n.c.dao.UserMapper.selectByName        : <==      Total: 1
-2021-11-15 00:17:13.195 DEBUG 30960 --- [http-nio-8080-exec-6] c.n.c.dao.UserMapper.selectByName        : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where username = ?
-2021-11-15 00:17:13.196 DEBUG 30960 --- [http-nio-8080-exec-6] c.n.c.dao.UserMapper.selectByName        : ==> Parameters: xixi(String)
-2021-11-15 00:17:13.197 DEBUG 30960 --- [http-nio-8080-exec-6] c.n.c.dao.UserMapper.selectByName        : <==      Total: 1
-2021-11-15 00:17:15.709 DEBUG 30960 --- [http-nio-8080-exec-1] c.n.c.dao.UserMapper.selectByName        : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where username = ?
-2021-11-15 00:17:15.709 DEBUG 30960 --- [http-nio-8080-exec-1] c.n.c.dao.UserMapper.selectByName        : ==> Parameters: xixi(String)
-2021-11-15 00:17:15.711 DEBUG 30960 --- [http-nio-8080-exec-1] c.n.c.dao.UserMapper.selectByName        : <==      Total: 1
-2021-11-15 00:17:37.531 DEBUG 30960 --- [http-nio-8080-exec-6] c.n.c.dao.UserMapper.selectByName        : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where username = ?
-2021-11-15 00:17:37.531 DEBUG 30960 --- [http-nio-8080-exec-6] c.n.c.dao.UserMapper.selectByName        : ==> Parameters: ccc(String)
-2021-11-15 00:17:37.532 DEBUG 30960 --- [http-nio-8080-exec-6] c.n.c.dao.UserMapper.selectByName        : <==      Total: 1
-2021-11-15 00:17:47.494 DEBUG 30960 --- [http-nio-8080-exec-1] c.n.c.dao.UserMapper.selectByName        : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where username = ?
-2021-11-15 00:17:47.494 DEBUG 30960 --- [http-nio-8080-exec-1] c.n.c.dao.UserMapper.selectByName        : ==> Parameters: sdhuaihdo(String)
-2021-11-15 00:17:47.495 DEBUG 30960 --- [http-nio-8080-exec-1] c.n.c.dao.UserMapper.selectByName        : <==      Total: 0
-2021-11-15 00:17:47.496 DEBUG 30960 --- [http-nio-8080-exec-1] c.n.c.dao.UserMapper.selectByEmail       : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where email = ?
-2021-11-15 00:17:47.496 DEBUG 30960 --- [http-nio-8080-exec-1] c.n.c.dao.UserMapper.selectByEmail       : ==> Parameters: nowcoder101@sina.com(String)
-2021-11-15 00:17:47.497 DEBUG 30960 --- [http-nio-8080-exec-1] c.n.c.dao.UserMapper.selectByEmail       : <==      Total: 2
-2021-11-15 00:17:47.503 ERROR 30960 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/community] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 2] with root cause
-
-org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 2
-	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:80) ~[mybatis-3.5.6.jar:3.5.6]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
-	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427) ~[mybatis-spring-2.0.6.jar:2.0.6]
-	at com.sun.proxy.$Proxy58.selectOne(Unknown Source) ~[na:na]
-	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:160) ~[mybatis-spring-2.0.6.jar:2.0.6]
-	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87) ~[mybatis-3.5.6.jar:3.5.6]
-	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152) ~[mybatis-3.5.6.jar:3.5.6]
-	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85) ~[mybatis-3.5.6.jar:3.5.6]
-	at com.sun.proxy.$Proxy60.selectByEmail(Unknown Source) ~[na:na]
-	at com.nowcoder.community.service.UserService.register(UserService.java:82) ~[classes/:na]
-	at com.nowcoder.community.controller.LoginController.register(LoginController.java:32) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.9.jar:5.3.9]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.9.jar:5.3.9]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.9.jar:5.3.9]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.9.jar:5.3.9]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.9.jar:5.3.9]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.9.jar:5.3.9]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064) ~[spring-webmvc-5.3.9.jar:5.3.9]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.9.jar:5.3.9]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.9.jar:5.3.9]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.9.jar:5.3.9]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.52.jar:4.0.FR]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.9.jar:5.3.9]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.52.jar:4.0.FR]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.52.jar:9.0.52]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.9.jar:5.3.9]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.9.jar:5.3.9]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.9.jar:5.3.9]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
-	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
-
-2021-11-15 00:20:10.181 DEBUG 30960 --- [http-nio-8080-exec-7] c.n.c.dao.UserMapper.selectByName        : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where username = ?
-2021-11-15 00:20:10.181 DEBUG 30960 --- [http-nio-8080-exec-7] c.n.c.dao.UserMapper.selectByName        : ==> Parameters: sdhuaihdo(String)
-2021-11-15 00:20:10.183 DEBUG 30960 --- [http-nio-8080-exec-7] c.n.c.dao.UserMapper.selectByName        : <==      Total: 0
-2021-11-15 00:20:10.183 DEBUG 30960 --- [http-nio-8080-exec-7] c.n.c.dao.UserMapper.selectByEmail       : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where email = ?
-2021-11-15 00:20:10.183 DEBUG 30960 --- [http-nio-8080-exec-7] c.n.c.dao.UserMapper.selectByEmail       : ==> Parameters: nowcoder101@sina.com(String)
-2021-11-15 00:20:10.185 DEBUG 30960 --- [http-nio-8080-exec-7] c.n.c.dao.UserMapper.selectByEmail       : <==      Total: 1
-2021-11-15 00:20:10.187 DEBUG 30960 --- [http-nio-8080-exec-7] c.n.community.dao.UserMapper.insertUser  : ==>  Preparing: insert into user( username, password, salt, email, type, status, activation_code, header_url, create_time ) values(?, ?, ?, ?, ?, ?, ?, ?, ?)
-2021-11-15 00:20:10.188 DEBUG 30960 --- [http-nio-8080-exec-7] c.n.community.dao.UserMapper.insertUser  : ==> Parameters: sdhuaihdo(String), eeb68708a2a4d6d300f7149fbd973fff(String), b1489(String), nowcoder101@sina.com(String), 0(Integer), 0(Integer), a75675e14e6343478c081b5974bab32c(String), http://images.nowcoder.com/head/352t.png(String), 2021-11-15 00:20:10.186(Timestamp)
-2021-11-15 00:20:10.191 DEBUG 30960 --- [http-nio-8080-exec-7] c.n.community.dao.UserMapper.insertUser  : <==    Updates: 1
-2021-11-15 00:21:28.965 DEBUG 30960 --- [http-nio-8080-exec-5] c.n.c.dao.UserMapper.selectByName        : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where username = ?
-2021-11-15 00:21:28.965 DEBUG 30960 --- [http-nio-8080-exec-5] c.n.c.dao.UserMapper.selectByName        : ==> Parameters: test(String)
-2021-11-15 00:21:28.966 DEBUG 30960 --- [http-nio-8080-exec-5] c.n.c.dao.UserMapper.selectByName        : <==      Total: 0
-2021-11-15 00:21:28.967 DEBUG 30960 --- [http-nio-8080-exec-5] c.n.c.dao.UserMapper.selectByEmail       : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where email = ?
-2021-11-15 00:21:28.967 DEBUG 30960 --- [http-nio-8080-exec-5] c.n.c.dao.UserMapper.selectByEmail       : ==> Parameters: 2411178558@qq.com(String)
-2021-11-15 00:21:28.968 DEBUG 30960 --- [http-nio-8080-exec-5] c.n.c.dao.UserMapper.selectByEmail       : <==      Total: 0
-2021-11-15 00:21:28.968 DEBUG 30960 --- [http-nio-8080-exec-5] c.n.community.dao.UserMapper.insertUser  : ==>  Preparing: insert into user( username, password, salt, email, type, status, activation_code, header_url, create_time ) values(?, ?, ?, ?, ?, ?, ?, ?, ?)
-2021-11-15 00:21:28.969 DEBUG 30960 --- [http-nio-8080-exec-5] c.n.community.dao.UserMapper.insertUser  : ==> Parameters: test(String), f4585df6fa7511be35214eb4136182d9(String), 3736f(String), 2411178558@qq.com(String), 0(Integer), 0(Integer), 9a9fe541aa2b4a21a92dc520c4b1d78c(String), http://images.nowcoder.com/head/448t.png(String), 2021-11-15 00:21:28.968(Timestamp)
-2021-11-15 00:21:28.971 DEBUG 30960 --- [http-nio-8080-exec-5] c.n.community.dao.UserMapper.insertUser  : <==    Updates: 1
-2021-11-15 00:21:32.023 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.c.d.D.selectDiscussPostRows          : ==>  Preparing: select count(id) from discuss_post where status != 2
-2021-11-15 00:21:32.024 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.c.d.D.selectDiscussPostRows          : ==> Parameters: 
-2021-11-15 00:21:32.033 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.c.d.D.selectDiscussPostRows          : <==      Total: 1
-2021-11-15 00:21:32.034 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.c.d.D.selectDiscussPosts             : ==>  Preparing: select id, user_id, title, content, type, status, create_time, comment_count, score from discuss_post where status != 2 order by type desc, create_time desc limit ?, ?
-2021-11-15 00:21:32.034 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.c.d.D.selectDiscussPosts             : ==> Parameters: 0(Integer), 10(Integer)
-2021-11-15 00:21:32.038 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.c.d.D.selectDiscussPosts             : <==      Total: 10
-2021-11-15 00:21:32.039 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
-2021-11-15 00:21:32.039 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 11(Integer)
-2021-11-15 00:21:32.040 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
-2021-11-15 00:21:32.040 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
-2021-11-15 00:21:32.041 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
-2021-11-15 00:21:32.042 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
-2021-11-15 00:21:32.043 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
-2021-11-15 00:21:32.043 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 149(Integer)
-2021-11-15 00:21:32.044 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
-2021-11-15 00:21:32.044 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
-2021-11-15 00:21:32.045 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 149(Integer)
-2021-11-15 00:21:32.046 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
-2021-11-15 00:21:32.047 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
-2021-11-15 00:21:32.047 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 149(Integer)
-2021-11-15 00:21:32.048 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
-2021-11-15 00:21:32.048 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
-2021-11-15 00:21:32.048 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 146(Integer)
-2021-11-15 00:21:32.049 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
-2021-11-15 00:21:32.050 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
-2021-11-15 00:21:32.050 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 145(Integer)
-2021-11-15 00:21:32.051 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
-2021-11-15 00:21:32.051 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
-2021-11-15 00:21:32.051 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 138(Integer)
-2021-11-15 00:21:32.052 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
-2021-11-15 00:21:32.052 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
-2021-11-15 00:21:32.052 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 138(Integer)
-2021-11-15 00:21:32.054 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
-2021-11-15 00:21:32.054 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
-2021-11-15 00:21:32.054 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 103(Integer)
-2021-11-15 00:21:32.055 DEBUG 30960 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
-2021-11-15 00:48:49.494  INFO 30960 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2021-11-15 00:48:49.497  INFO 30960 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2021-11-15 00:48:49.554  INFO 30960 --- [restartedMain] c.n.community.CommunityApplication       : Starting CommunityApplication using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 30960 (D:\Java\IdeaProjects\community\target\classes started by Real in D:\Java\IdeaProjects\community)
-2021-11-15 00:48:49.554 DEBUG 30960 --- [restartedMain] c.n.community.CommunityApplication       : Running with Spring Boot v2.4.10, Spring v5.3.9
-2021-11-15 00:48:49.555  INFO 30960 --- [restartedMain] c.n.community.CommunityApplication       : No active profile set, falling back to default profiles: default
-2021-11-15 00:48:49.793  INFO 30960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-11-15 00:48:49.793  INFO 30960 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-11-15 00:48:49.794  INFO 30960 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
-2021-11-15 00:48:49.833  INFO 30960 --- [restartedMain] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring embedded WebApplicationContext
-2021-11-15 00:48:49.834  INFO 30960 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 277 ms
-2021-11-15 00:48:49.972  INFO 30960 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-11-15 00:48:50.019  INFO 30960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-11-15 00:48:50.031  INFO 30960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/community'
-2021-11-15 00:48:50.035  INFO 30960 --- [restartedMain] c.n.community.CommunityApplication       : Started CommunityApplication in 0.507 seconds (JVM running for 1945.986)
-2021-11-15 00:48:50.037  INFO 30960 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2021-11-15 00:48:51.525  INFO 30960 --- [restartedMain] c.n.community.CommunityApplication       : Starting CommunityApplication using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 30960 (D:\Java\IdeaProjects\community\target\classes started by Real in D:\Java\IdeaProjects\community)
-2021-11-15 00:48:51.525 DEBUG 30960 --- [restartedMain] c.n.community.CommunityApplication       : Running with Spring Boot v2.4.10, Spring v5.3.9
-2021-11-15 00:48:51.525  INFO 30960 --- [restartedMain] c.n.community.CommunityApplication       : No active profile set, falling back to default profiles: default
-2021-11-15 00:48:51.696  INFO 30960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-11-15 00:48:51.697  INFO 30960 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-11-15 00:48:51.697  INFO 30960 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
-2021-11-15 00:48:51.735  INFO 30960 --- [restartedMain] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring embedded WebApplicationContext
-2021-11-15 00:48:51.736  INFO 30960 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 209 ms
-2021-11-15 00:48:51.850  INFO 30960 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-11-15 00:48:51.884  INFO 30960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-11-15 00:48:51.898  INFO 30960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/community'
-2021-11-15 00:48:51.901  INFO 30960 --- [restartedMain] c.n.community.CommunityApplication       : Started CommunityApplication in 0.396 seconds (JVM running for 1947.852)
-2021-11-15 00:48:51.902  INFO 30960 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2021-11-15 00:49:01.588  INFO 30960 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-11-15 00:49:01.588  INFO 30960 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-11-15 00:49:01.589  INFO 30960 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2021-11-15 00:49:01.592  INFO 30960 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2021-11-15 00:49:01.604  INFO 30960 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2021-11-15 00:49:01.605 DEBUG 30960 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
-2021-11-15 00:49:01.605 DEBUG 30960 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 153(Integer)
-2021-11-15 00:49:01.612 DEBUG 30960 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
-2021-11-15 00:49:01.613 DEBUG 30960 --- [http-nio-8080-exec-1] c.n.c.dao.UserMapper.updateStatus        : ==>  Preparing: update user set status = ? where id = ?
-2021-11-15 00:49:01.613 DEBUG 30960 --- [http-nio-8080-exec-1] c.n.c.dao.UserMapper.updateStatus        : ==> Parameters: 1(Integer), 153(Integer)
-2021-11-15 00:49:01.616 DEBUG 30960 --- [http-nio-8080-exec-1] c.n.c.dao.UserMapper.updateStatus        : <==    Updates: 1
+2021-11-16 01:10:26.136  INFO 29904 --- [restartedMain] c.n.community.CommunityApplication       : Starting CommunityApplication using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 29904 (D:\Java\IdeaProjects\community\target\classes started by Real in D:\Java\IdeaProjects\community)
+2021-11-16 01:10:26.138 DEBUG 29904 --- [restartedMain] c.n.community.CommunityApplication       : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-11-16 01:10:26.139  INFO 29904 --- [restartedMain] c.n.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2021-11-16 01:10:26.175  INFO 29904 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-16 01:10:26.175  INFO 29904 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-16 01:10:27.277  INFO 29904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-16 01:10:27.285  INFO 29904 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-16 01:10:27.285  INFO 29904 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-16 01:10:27.375  INFO 29904 --- [restartedMain] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring embedded WebApplicationContext
+2021-11-16 01:10:27.375  INFO 29904 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1199 ms
+2021-11-16 01:10:27.903  INFO 29904 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-16 01:10:28.060  INFO 29904 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-16 01:10:28.107  INFO 29904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/community'
+2021-11-16 01:10:28.120  INFO 29904 --- [restartedMain] c.n.community.CommunityApplication       : Started CommunityApplication in 2.331 seconds (JVM running for 2.957)
+2021-11-16 01:10:47.336  INFO 29904 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-16 01:10:47.337  INFO 29904 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-16 01:10:47.338  INFO 29904 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
