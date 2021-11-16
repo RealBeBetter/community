@@ -197,3 +197,16 @@
 2021-11-17 00:05:33.832 DEBUG 28324 --- [http-nio-8080-exec-8] c.n.c.d.LoginTicketMapper.updateStatus   : <==    Updates: 1
 2021-11-17 00:24:03.099  INFO 28324 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
 2021-11-17 00:24:03.101  INFO 28324 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-11-17 00:24:03.160  INFO 28324 --- [restartedMain] c.n.community.CommunityApplication       : Starting CommunityApplication using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 28324 (D:\Java\IdeaProjects\community\target\classes started by Real in D:\Java\IdeaProjects\community)
+2021-11-17 00:24:03.160 DEBUG 28324 --- [restartedMain] c.n.community.CommunityApplication       : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-11-17 00:24:03.160  INFO 28324 --- [restartedMain] c.n.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2021-11-17 00:24:03.337  INFO 28324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-17 00:24:03.338  INFO 28324 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-17 00:24:03.338  INFO 28324 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-17 00:24:03.381  INFO 28324 --- [restartedMain] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring embedded WebApplicationContext
+2021-11-17 00:24:03.381  INFO 28324 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 219 ms
+2021-11-17 00:24:03.520  INFO 28324 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-17 00:24:03.561  INFO 28324 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-17 00:24:03.574  INFO 28324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/community'
+2021-11-17 00:24:03.578  INFO 28324 --- [restartedMain] c.n.community.CommunityApplication       : Started CommunityApplication in 0.439 seconds (JVM running for 1623.181)
+2021-11-17 00:24:03.580  INFO 28324 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
