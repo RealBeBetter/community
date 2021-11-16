@@ -22,4 +22,14 @@ public interface CommunityConstant {
      */
     final int ACTIVATION_FAILED = 2;
 
+    /**
+     * 默认状态的登录凭证超时时间，24小时
+     */
+    final int DEFAULT_EXPIRED_SECONDS = 3600 * 24;
+
+    /**
+     * 记住状态的登录凭证超时时间，3个月
+     */
+    final int REMEMBER_EXPIRED_SECONDS = 3600 * 24 * 90;
+
 }

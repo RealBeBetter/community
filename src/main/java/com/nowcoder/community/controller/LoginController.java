@@ -4,17 +4,21 @@ import com.google.code.kaptcha.Producer;
 import com.nowcoder.community.entity.User;
 import com.nowcoder.community.service.UserService;
 import com.nowcoder.community.util.CommunityConstant;
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.CookieValue;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.imageio.ImageIO;
 import javax.servlet.ServletOutputStream;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.awt.image.BufferedImage;
@@ -36,6 +40,9 @@ public class LoginController implements CommunityConstant {
 
     @Autowired
     private Producer kaptchaProducer;
+
+    @Value("${server.servlet.context-path}")
+    private String contextPath;
 
     // 获取注册页面
     @RequestMapping(path = "/register", method = RequestMethod.GET)
@@ -108,6 +115,44 @@ public class LoginController implements CommunityConstant {
         } catch (IOException e) {
             logger.error("响应验证码失败：" + e.getMessage());
         }
+    }
+
+    // 登录方法，使用的 URL 路径可以和之前相同，只要方法不相同就不会发生冲突
+    @RequestMapping(path = "/login", method = RequestMethod.POST)
+    public String login(String username, String password, String code, boolean rememberMe,
+                        HttpSession session, HttpServletResponse response, Model model) {
+        // 检查验证码
+        String kaptcha = session.getAttribute("kaptcha").toString();
+        if (StringUtils.isBlank(kaptcha) || StringUtils.isBlank(code) || !kaptcha.equalsIgnoreCase(code)) {
+            // 验证码错误
+            model.addAttribute("codeMessage", "验证码错误！");
+            return "/site/login";
+        }
+
+        // 检查账号，密码
+        int expiredSeconds = rememberMe ? REMEMBER_EXPIRED_SECONDS : DEFAULT_EXPIRED_SECONDS;
+        Map<String, Object> map = userService.login(username, password, expiredSeconds);
+        if (map.containsKey("ticket")) {
+            // 表示登录成功，需要让客户端携带登录凭证
+            // 这个 ticket 应该使用 Cookie 存放到客户端
+            Cookie cookie = new Cookie("ticket", map.get("ticket").toString());
+            cookie.setPath(contextPath);
+            cookie.setMaxAge(expiredSeconds);
+            response.addCookie(cookie);
+            return "redirect:/index";
+        } else {
+            // 登录失败，将提示信息展示到前台页面
+            // 如果不是相应的错误类型，那么获取到的数据也是空值，不会显示
+            model.addAttribute("usernameMessage", map.get("usernameMessage"));
+            model.addAttribute("passwordMessage", map.get("passwordMessage"));
+            return "/site/login";
+        }
+    }
+
+    @RequestMapping(path = "/logout", method = RequestMethod.GET)
+    public String logout(@CookieValue("ticket") String ticket) {
+        userService.logout(ticket);
+        return "redirect:/login";
     }
 
 }
