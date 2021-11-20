@@ -1,9 +1,0 @@
-2021-11-13 02:55:38.877  INFO 23068 --- [main] com.nowcoder.community.LoggerTests       : Starting LoggerTests using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 23068 (started by Real in D:\Java\IdeaProjects\community)
-2021-11-13 02:55:38.878 DEBUG 23068 --- [main] com.nowcoder.community.LoggerTests       : Running with Spring Boot v2.4.10, Spring v5.3.9
-2021-11-13 02:55:38.879  INFO 23068 --- [main] com.nowcoder.community.LoggerTests       : No active profile set, falling back to default profiles: default
-2021-11-13 02:55:40.250  INFO 23068 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-11-13 02:55:40.570  INFO 23068 --- [main] com.nowcoder.community.LoggerTests       : Started LoggerTests in 1.986 seconds (JVM running for 2.656)
-2021-11-13 02:55:40.915 DEBUG 23068 --- [main] com.nowcoder.community.LoggerTests       : debug log
-2021-11-13 02:55:40.915  INFO 23068 --- [main] com.nowcoder.community.LoggerTests       : info log
-2021-11-13 02:55:40.915  WARN 23068 --- [main] com.nowcoder.community.LoggerTests       : warn log
-2021-11-13 02:55:40.916 ERROR 23068 --- [main] com.nowcoder.community.LoggerTests       : error log

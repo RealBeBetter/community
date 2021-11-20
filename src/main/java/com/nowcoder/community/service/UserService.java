@@ -35,7 +35,7 @@ public class UserService implements CommunityConstant {
 
     @Autowired
     private TemplateEngine templateEngine;
-    
+
     @Autowired
     private LoginTicketMapper loginTicketMapper;
 
@@ -128,7 +128,7 @@ public class UserService implements CommunityConstant {
         if (user.getStatus() == 1) {
             // 表示已经激活过，重复激活
             return ACTIVATION_REPEAT;
-        }else if (activationCode.equals(selectCode)) {
+        } else if (activationCode.equals(selectCode)) {
             // 激活码匹配，激活成功，修改激活状态
             userMapper.updateStatus(userId, 1);
             return ACTIVATION_SUCCESS;
@@ -186,6 +186,10 @@ public class UserService implements CommunityConstant {
     public void logout(String ticket) {
         // 1 表示无效
         loginTicketMapper.updateStatus(ticket, 1);
+    }
+
+    public LoginTicket getLoginTicket(String ticket) {
+        return loginTicketMapper.selectByTicket(ticket);
     }
 
 }
