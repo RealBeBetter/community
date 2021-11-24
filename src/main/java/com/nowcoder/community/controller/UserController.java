@@ -115,7 +115,7 @@ public class UserController {
         // 服务器存放路径
         fileName = uploadPath + "/" + fileName;
         // 获得 .jpg / .png / .jpeg 类型的字符串，文件后缀名
-        String fileType = fileName.substring(fileName.lastIndexOf("."));
+        String fileType = fileName.substring(fileName.lastIndexOf(".") + 1);
         // 响应文件类型
         response.setContentType("image/" + fileType);
 
