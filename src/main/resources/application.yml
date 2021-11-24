@@ -70,3 +70,4 @@ logging:
 community:
   path:
     domain: http://localhost:8080
+    upload: D:\Java\IdeaProjects\community\src\main\resources\static\header
