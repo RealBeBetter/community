@@ -3,9 +3,9 @@ package com.nowcoder.community.entity;
 import java.util.Date;
 
 /**
- * @ author : Real
- * @ date : 2021/11/16 21:34
- * @ description :
+ * @author : Real
+ * @date : 2021/11/16 21:34
+ * @description :
  */
 public class LoginTicket {
 

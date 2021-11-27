@@ -10,9 +10,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * @ author : Real
- * @ date : 2021/11/18 20:32
- * @ description :
+ * @author : Real
+ * @date : 2021/11/18 20:32
+ * @description :
  */
 @Component
 public class InterceptorDemo implements HandlerInterceptor {

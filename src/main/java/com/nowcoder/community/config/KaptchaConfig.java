@@ -9,9 +9,9 @@ import org.springframework.context.annotation.Configuration;
 import java.util.Properties;
 
 /**
- * @ author : Real
- * @ date : 2021/11/16 0:04
- * @ description : Kaptcha 验证码 的 配置类
+ * @author : Real
+ * @date : 2021/11/16 0:04
+ * @description : Kaptcha 验证码 的 配置类
  */
 @Configuration
 public class KaptchaConfig {

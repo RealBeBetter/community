@@ -1,5 +1,6 @@
 package com.nowcoder.community.controller;
 
+import com.nowcoder.community.annotation.LoginRequired;
 import com.nowcoder.community.entity.User;
 import com.nowcoder.community.service.UserService;
 import com.nowcoder.community.util.CommunityUtil;
@@ -16,7 +17,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.multipart.MultipartFile;
 
-import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.FileInputStream;
@@ -49,11 +49,13 @@ public class UserController {
     @Autowired
     private HostHolder hostHolder;
 
+    @LoginRequired
     @RequestMapping(path = "/setting", method = RequestMethod.GET)
     public String getSettingPage() {
         return "/site/setting";
     }
 
+    @LoginRequired
     @RequestMapping(path = "/upload", method = RequestMethod.POST)
     public String uploadHeader(MultipartFile headerImage, Model model) {
         // 异常情况处理
@@ -110,6 +112,7 @@ public class UserController {
         return "redirect:/index";
     }
 
+    @LoginRequired
     @RequestMapping(path = "/header/{fileName}", method = RequestMethod.GET)
     public void getHeaderUrl(@PathVariable("fileName") String fileName, HttpServletResponse response) {
         // 服务器存放路径
@@ -133,4 +136,46 @@ public class UserController {
             logger.error("读取头像失败：" + e.getMessage());
         }
     }
+
+    @LoginRequired
+    @RequestMapping(path = "/updatePassword", method = RequestMethod.POST)
+    public String updatePassword(String oldPassword, String newPassword, String confirmPassword, Model model) {
+        // 判断两次输入的新密码是否相等，是否合法
+        if (!StringUtils.isBlank(newPassword) || !StringUtils.isBlank(confirmPassword)) {
+            if (!newPassword.equals(confirmPassword)) {
+                // 两次密码不相等
+                model.addAttribute("confirmPasswordError", "确认密码不一致！请重新输入！");
+                return "/site/setting";
+            }
+        }/* else {
+            // 前端界面做了判断，不需要这里的处理
+            if (StringUtils.isBlank(newPassword)) {
+                model.addAttribute("newPasswordError", "新密码为空！请重新输入！");
+            } else {
+                model.addAttribute("confirmPasswordError", "确认密码为空！请重新输入！");
+            }
+            return "/site/setting";
+        }*/
+
+        // 获得原始密码，判断初始密码是否正确
+        User user = hostHolder.getUser();
+        if (oldPassword.length() == 0) {
+            // 原始密码为空，应该添加提示信息
+            model.addAttribute("initialError", "原密码为空！请重新输入！");
+            return "/site/setting";
+        }
+        oldPassword = CommunityUtil.md5(oldPassword + user.getSalt());
+        if (!StringUtils.isBlank(oldPassword)) {
+            if (!oldPassword.equals(user.getPassword())) {
+                model.addAttribute("initialError", "原密码错误！请重新输入！");
+                return "/site/setting";
+            }
+        }
+
+        // 更新密码
+        userService.updatePassword(user.getId(), CommunityUtil.md5(newPassword + user.getSalt()));
+        // 修改成功重定向至登录界面，并且设置原有的 LoginTicket 失效
+        return "redirect:/logout";
+    }
+
 }

@@ -4,9 +4,9 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @ author : Real
- * @ date : 2021/11/20 20:37
- * @ description : 从请求中获取 Cookie 对象值的小工具
+ * @author : Real
+ * @date : 2021/11/20 20:37
+ * @description : 从请求中获取 Cookie 对象值的小工具
  */
 public class CookieUtil {
 

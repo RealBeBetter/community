@@ -1,9 +1,9 @@
 package com.nowcoder.community.util;
 
 /**
- * @ author : Real
- * @ date : 2021/11/15 0:25
- * @ description :
+ * @author : Real
+ * @date : 2021/11/15 0:25
+ * @description :
  */
 public interface CommunityConstant {
 

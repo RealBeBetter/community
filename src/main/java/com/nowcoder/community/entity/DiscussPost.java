@@ -3,8 +3,8 @@ package com.nowcoder.community.entity;
 import java.util.Date;
 
 /**
- * @ author： Real
- * @ date： 2021年09月17日 22:29
+ * @author : Real
+ * @date : 2021年09月17日 22:29
  */
 public class DiscussPost {
 

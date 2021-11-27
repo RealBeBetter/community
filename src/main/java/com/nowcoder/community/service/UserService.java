@@ -20,9 +20,9 @@ import java.util.Map;
 import java.util.Random;
 
 /**
- * @ author : Real
- * @ date : 2021/11/9 15:21
- * @ description :
+ * @author : Real
+ * @date : 2021/11/9 15:21
+ * @description :
  */
 @Service
 public class UserService implements CommunityConstant {

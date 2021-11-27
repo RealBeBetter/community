@@ -12,9 +12,9 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import java.util.Date;
 
 /**
- * @ author : Real
- * @ date : 2021/11/16 21:54
- * @ description : 测试 LoginTicket 类
+ * @author : Real
+ * @date : 2021/11/16 21:54
+ * @description : 测试 LoginTicket 类
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest

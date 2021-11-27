@@ -1,9 +1,9 @@
 package com.nowcoder.community.entity;
 
 /**
- * @ author : Real
- * @ date : 2021/11/13 0:47
- * @ description : 封装分页相关组件
+ * @author : Real
+ * @date : 2021/11/13 0:47
+ * @description : 封装分页相关组件
  */
 public class Page {
 

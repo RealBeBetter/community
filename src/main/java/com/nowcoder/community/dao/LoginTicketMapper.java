@@ -4,9 +4,9 @@ import com.nowcoder.community.entity.LoginTicket;
 import org.apache.ibatis.annotations.*;
 
 /**
- * @ author : Real
- * @ date : 2021/11/16 21:36
- * @ description :
+ * @author : Real
+ * @date : 2021/11/16 21:36
+ * @description :
  */
 @Mapper
 public interface LoginTicketMapper {

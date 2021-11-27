@@ -16,9 +16,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.Date;
 
 /**
- * @ author : Real
- * @ date : 2021/11/18 22:55
- * @ description :
+ * @author : Real
+ * @date : 2021/11/18 22:55
+ * @description : 登录凭证拦截器，主要是检查登录凭证以及存储登录用户
  */
 @Component
 public class LoginTicketInterceptor implements HandlerInterceptor {

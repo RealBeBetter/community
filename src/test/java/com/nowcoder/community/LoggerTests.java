@@ -9,9 +9,9 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 /**
- * @ author : Real
- * @ date : 2021/11/13 2:28
- * @ description : 日志测试
+ * @author : Real
+ * @date : 2021/11/13 2:28
+ * @description : 日志测试
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest

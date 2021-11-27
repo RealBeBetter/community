@@ -12,9 +12,9 @@ import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
 
 /**
- * @ author : Real
- * @ date : 2021/11/13 21:26
- * @ description : 发送邮件客户端
+ * @author : Real
+ * @date : 2021/11/13 21:26
+ * @description : 发送邮件客户端
  */
 @Component
 public class MailClient {

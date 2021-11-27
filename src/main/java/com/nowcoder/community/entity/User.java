@@ -3,9 +3,9 @@ package com.nowcoder.community.entity;
 import java.util.Date;
 
 /**
- * @ author : Real
- * @ date : 2021/11/7 22:44
- * @ description : 用户表对应的实体类
+ * @author : Real
+ * @date : 2021/11/7 22:44
+ * @description : 用户表对应的实体类
  */
 public class User {
     private int id;

@@ -3,13 +3,12 @@ package com.nowcoder.community.util;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.util.DigestUtils;
 
-import java.nio.charset.StandardCharsets;
 import java.util.UUID;
 
 /**
- * @ author : Real
- * @ date : 2021/11/14 20:27
- * @ description : 提供简单的工具类，声明为静态的，不由容器托管
+ * @author : Real
+ * @date : 2021/11/14 20:27
+ * @description : 提供简单的工具类，声明为静态的，不由容器托管
  */
 public class CommunityUtil {
 
@@ -26,5 +25,12 @@ public class CommunityUtil {
         }
         return DigestUtils.md5DigestAsHex(key.getBytes());
     }
+
+    /*public static void main(String[] args) {
+        // String s = md5("12327dc0");     // 68bb6c4ff160bbf37d0dcdd90692786a
+        String s = md5("1227dc0");     // 5a7efd31b0d9c0fb9f5596b4daece9ee
+
+        System.out.println(s);
+    }*/
 
 }

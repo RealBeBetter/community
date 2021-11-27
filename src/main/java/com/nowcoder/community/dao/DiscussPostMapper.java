@@ -7,8 +7,8 @@ import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
 /**
- * @ author： Real
- * @ date： 2021年09月17日 22:33
+ * @author : Real
+ * @date : 2021年09月17日 22:33
  */
 @Mapper
 public interface DiscussPostMapper {

@@ -4,9 +4,9 @@ import com.nowcoder.community.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
- * @ author : Real
- * @ date : 2021/11/7 22:48
- * @ description :
+ * @author : Real
+ * @date : 2021/11/7 22:48
+ * @description :
  */
 @Mapper
 public interface UserMapper {

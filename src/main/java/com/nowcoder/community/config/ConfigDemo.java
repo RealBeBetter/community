@@ -6,9 +6,9 @@ import org.springframework.context.annotation.Configuration;
 import java.text.SimpleDateFormat;
 
 /**
- * @ author : Real
- * @ date : 2021/11/4 15:59
- * @ description :
+ * @author : Real
+ * @date : 2021/11/4 15:59
+ * @description :
  */
 @Configuration
 public class ConfigDemo {

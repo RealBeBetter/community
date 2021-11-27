@@ -26,9 +26,9 @@ import java.io.IOException;
 import java.util.Map;
 
 /**
- * @ author : Real
- * @ date : 2021/11/14 19:27
- * @ description :
+ * @author : Real
+ * @date : 2021/11/14 19:27
+ * @description :
  */
 @Controller
 public class LoginController implements CommunityConstant {
