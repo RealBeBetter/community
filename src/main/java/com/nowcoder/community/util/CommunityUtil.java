@@ -12,13 +12,17 @@ import java.util.UUID;
  */
 public class CommunityUtil {
 
-    // 生成随机字符串，充当验证码使用
+    /**
+     * 生成随机字符串，充当验证码使用
+     */
     public static String generatorUUID() {
         return UUID.randomUUID().toString().replace("-", "");
     }
 
-    // 加密密码，使用 MD5 加密
-    // 加密的时候，使用用户提供的密码 + salt 值进行加密，避免直接使用 MD5 逆向解密得到原始密码
+    /**
+     * 加密密码，使用 MD5 加密
+     * 加密的时候，使用用户提供的密码 + salt 值进行加密，避免直接使用 MD5 逆向解密得到原始密码
+     */
     public static String md5(String key) {
         if (StringUtils.isBlank(key)) {
             return null;
@@ -32,5 +36,7 @@ public class CommunityUtil {
 
         System.out.println(s);
     }*/
+
+
 
 }

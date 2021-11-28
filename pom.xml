@@ -42,7 +42,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
-
         <!--AOP依赖-->
         <dependency>
             <groupId>org.aspectj</groupId>
@@ -83,12 +82,17 @@
             <artifactId>kaptcha</artifactId>
             <version>2.3.2</version>
         </dependency>
-
         <!-- 判断数据空值使用的工具类 -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.9</version>
+        </dependency>
+        <!-- json 转换工具-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.78</version>
         </dependency>
     </dependencies>
 
