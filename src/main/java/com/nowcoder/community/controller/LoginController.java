@@ -28,7 +28,7 @@ import java.util.Map;
 /**
  * @author : Real
  * @date : 2021/11/14 19:27
- * @description :
+ * @description : 登录页面
  */
 @Controller
 public class LoginController implements CommunityConstant {
@@ -44,13 +44,17 @@ public class LoginController implements CommunityConstant {
     @Value("${server.servlet.context-path}")
     private String contextPath;
 
-    // 获取注册页面
+    /**
+     * 获取注册页面
+     */
     @RequestMapping(path = "/register", method = RequestMethod.GET)
     public String getRegisterPage() {
         return "/site/register";
     }
 
-    // 获取登录页面
+    /**
+     * 获取登录页面
+     */
     @RequestMapping(path = "/login", method = RequestMethod.GET)
     public String getLoginPage() {
         return "/site/login";
@@ -117,7 +121,9 @@ public class LoginController implements CommunityConstant {
         }
     }
 
-    // 登录方法，使用的 URL 路径可以和之前相同，只要方法不相同就不会发生冲突
+    /**
+     * 登录方法，使用的 URL 路径可以和之前相同，只要方法不相同就不会发生冲突
+     */
     @RequestMapping(path = "/login", method = RequestMethod.POST)
     public String login(String username, String password, String code, boolean rememberMe,
                         HttpSession session, HttpServletResponse response, Model model) {
