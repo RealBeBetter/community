@@ -1,0 +1,65 @@
+2021-11-27 17:32:50.824  INFO 27932 --- [main] com.nowcoder.community.SensitiveTests    : Starting SensitiveTests using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 27932 (started by Real in D:\Java\IdeaProjects\community)
+2021-11-27 17:32:50.829 DEBUG 27932 --- [main] com.nowcoder.community.SensitiveTests    : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-11-27 17:32:50.830  INFO 27932 --- [main] com.nowcoder.community.SensitiveTests    : No active profile set, falling back to default profiles: default
+2021-11-27 17:32:52.359  INFO 27932 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-27 17:32:52.591  INFO 27932 --- [main] com.nowcoder.community.SensitiveTests    : Started SensitiveTests in 2.034 seconds (JVM running for 2.701)
+2021-11-27 17:33:05.709  INFO 14408 --- [main] com.nowcoder.community.SensitiveTests    : Starting SensitiveTests using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 14408 (started by Real in D:\Java\IdeaProjects\community)
+2021-11-27 17:33:05.710 DEBUG 14408 --- [main] com.nowcoder.community.SensitiveTests    : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-11-27 17:33:05.711  INFO 14408 --- [main] com.nowcoder.community.SensitiveTests    : No active profile set, falling back to default profiles: default
+2021-11-27 17:33:07.089  INFO 14408 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-27 17:33:07.316  INFO 14408 --- [main] com.nowcoder.community.SensitiveTests    : Started SensitiveTests in 1.877 seconds (JVM running for 2.496)
+2021-11-27 17:33:58.017  INFO 14272 --- [main] com.nowcoder.community.SensitiveTests    : Starting SensitiveTests using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 14272 (started by Real in D:\Java\IdeaProjects\community)
+2021-11-27 17:33:58.018 DEBUG 14272 --- [main] com.nowcoder.community.SensitiveTests    : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-11-27 17:33:58.019  INFO 14272 --- [main] com.nowcoder.community.SensitiveTests    : No active profile set, falling back to default profiles: default
+2021-11-27 17:33:59.649  INFO 14272 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-27 17:33:59.871  INFO 14272 --- [main] com.nowcoder.community.SensitiveTests    : Started SensitiveTests in 2.135 seconds (JVM running for 2.781)
+2021-11-27 17:36:18.084  INFO 26808 --- [main] com.nowcoder.community.SensitiveTests    : Starting SensitiveTests using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 26808 (started by Real in D:\Java\IdeaProjects\community)
+2021-11-27 17:36:18.085 DEBUG 26808 --- [main] com.nowcoder.community.SensitiveTests    : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-11-27 17:36:18.086  INFO 26808 --- [main] com.nowcoder.community.SensitiveTests    : No active profile set, falling back to default profiles: default
+2021-11-27 17:36:19.462  INFO 26808 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-27 17:36:19.732  INFO 26808 --- [main] com.nowcoder.community.SensitiveTests    : Started SensitiveTests in 1.922 seconds (JVM running for 2.568)
+2021-11-27 17:36:51.234  INFO 23212 --- [main] com.nowcoder.community.SensitiveTests    : Starting SensitiveTests using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 23212 (started by Real in D:\Java\IdeaProjects\community)
+2021-11-27 17:36:51.235 DEBUG 23212 --- [main] com.nowcoder.community.SensitiveTests    : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-11-27 17:36:51.236  INFO 23212 --- [main] com.nowcoder.community.SensitiveTests    : No active profile set, falling back to default profiles: default
+2021-11-27 17:36:52.555  INFO 23212 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-27 17:36:52.752  INFO 23212 --- [main] com.nowcoder.community.SensitiveTests    : Started SensitiveTests in 1.786 seconds (JVM running for 2.395)
+2021-11-27 17:38:26.177  INFO 5580 --- [main] com.nowcoder.community.SensitiveTests    : Starting SensitiveTests using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 5580 (started by Real in D:\Java\IdeaProjects\community)
+2021-11-27 17:38:26.178 DEBUG 5580 --- [main] com.nowcoder.community.SensitiveTests    : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-11-27 17:38:26.179  INFO 5580 --- [main] com.nowcoder.community.SensitiveTests    : No active profile set, falling back to default profiles: default
+2021-11-27 17:38:27.584  INFO 5580 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-27 17:38:27.795  INFO 5580 --- [main] com.nowcoder.community.SensitiveTests    : Started SensitiveTests in 1.885 seconds (JVM running for 2.486)
+2021-11-27 17:39:31.089  INFO 28896 --- [main] com.nowcoder.community.SensitiveTests    : Starting SensitiveTests using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 28896 (started by Real in D:\Java\IdeaProjects\community)
+2021-11-27 17:39:31.090 DEBUG 28896 --- [main] com.nowcoder.community.SensitiveTests    : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-11-27 17:39:31.091  INFO 28896 --- [main] com.nowcoder.community.SensitiveTests    : No active profile set, falling back to default profiles: default
+2021-11-27 17:39:32.457  INFO 28896 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-27 17:39:32.705  INFO 28896 --- [main] com.nowcoder.community.SensitiveTests    : Started SensitiveTests in 1.9 seconds (JVM running for 2.53)
+2021-11-27 17:40:31.453  INFO 1880 --- [main] com.nowcoder.community.SensitiveTests    : Starting SensitiveTests using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 1880 (started by Real in D:\Java\IdeaProjects\community)
+2021-11-27 17:40:31.454 DEBUG 1880 --- [main] com.nowcoder.community.SensitiveTests    : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-11-27 17:40:31.455  INFO 1880 --- [main] com.nowcoder.community.SensitiveTests    : No active profile set, falling back to default profiles: default
+2021-11-27 17:40:32.874  INFO 1880 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-27 17:40:33.098  INFO 1880 --- [main] com.nowcoder.community.SensitiveTests    : Started SensitiveTests in 1.924 seconds (JVM running for 2.594)
+2021-11-27 17:41:07.694  INFO 27144 --- [main] com.nowcoder.community.SensitiveTests    : Starting SensitiveTests using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 27144 (started by Real in D:\Java\IdeaProjects\community)
+2021-11-27 17:41:07.695 DEBUG 27144 --- [main] com.nowcoder.community.SensitiveTests    : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-11-27 17:41:07.697  INFO 27144 --- [main] com.nowcoder.community.SensitiveTests    : No active profile set, falling back to default profiles: default
+2021-11-27 17:41:09.137  INFO 27144 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-27 17:41:09.360  INFO 27144 --- [main] com.nowcoder.community.SensitiveTests    : Started SensitiveTests in 1.945 seconds (JVM running for 2.563)
+2021-11-27 17:41:23.920  INFO 7492 --- [main] com.nowcoder.community.SensitiveTests    : Starting SensitiveTests using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 7492 (started by Real in D:\Java\IdeaProjects\community)
+2021-11-27 17:41:23.921 DEBUG 7492 --- [main] com.nowcoder.community.SensitiveTests    : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-11-27 17:41:23.922  INFO 7492 --- [main] com.nowcoder.community.SensitiveTests    : No active profile set, falling back to default profiles: default
+2021-11-27 17:41:25.232  INFO 7492 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-27 17:41:25.422  INFO 7492 --- [main] com.nowcoder.community.SensitiveTests    : Started SensitiveTests in 1.772 seconds (JVM running for 2.378)
+2021-11-27 17:44:06.708  INFO 10620 --- [main] com.nowcoder.community.SensitiveTests    : Starting SensitiveTests using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 10620 (started by Real in D:\Java\IdeaProjects\community)
+2021-11-27 17:44:06.709 DEBUG 10620 --- [main] com.nowcoder.community.SensitiveTests    : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-11-27 17:44:06.710  INFO 10620 --- [main] com.nowcoder.community.SensitiveTests    : No active profile set, falling back to default profiles: default
+2021-11-27 17:44:08.143  INFO 10620 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-27 17:44:08.378  INFO 10620 --- [main] com.nowcoder.community.SensitiveTests    : Started SensitiveTests in 1.945 seconds (JVM running for 2.556)
+2021-11-27 17:44:26.129  INFO 19812 --- [main] com.nowcoder.community.SensitiveTests    : Starting SensitiveTests using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 19812 (started by Real in D:\Java\IdeaProjects\community)
+2021-11-27 17:44:26.130 DEBUG 19812 --- [main] com.nowcoder.community.SensitiveTests    : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-11-27 17:44:26.131  INFO 19812 --- [main] com.nowcoder.community.SensitiveTests    : No active profile set, falling back to default profiles: default
+2021-11-27 17:44:27.462  INFO 19812 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-27 17:44:27.659  INFO 19812 --- [main] com.nowcoder.community.SensitiveTests    : Started SensitiveTests in 1.788 seconds (JVM running for 2.387)
+2021-11-27 17:46:43.019  INFO 31556 --- [main] com.nowcoder.community.SensitiveTests    : Starting SensitiveTests using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 31556 (started by Real in D:\Java\IdeaProjects\community)
+2021-11-27 17:46:43.020 DEBUG 31556 --- [main] com.nowcoder.community.SensitiveTests    : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-11-27 17:46:43.021  INFO 31556 --- [main] com.nowcoder.community.SensitiveTests    : No active profile set, falling back to default profiles: default
+2021-11-27 17:46:44.672  INFO 31556 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-27 17:46:44.879  INFO 31556 --- [main] com.nowcoder.community.SensitiveTests    : Started SensitiveTests in 2.137 seconds (JVM running for 2.761)

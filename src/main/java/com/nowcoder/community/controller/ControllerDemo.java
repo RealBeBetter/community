@@ -60,7 +60,12 @@ public class ControllerDemo {
 
     }
 
-    // ①GET 请求的处理 /students?current=1&limit=20 当前是第一页，一共显示20条数据
+    /** ①GET 请求的处理 /students?current=1&limit=20 当前是第一页，一共显示20条数据
+     *
+     * @param current
+     * @param limit
+     * @return
+     */
     @RequestMapping(path = "/students", method = RequestMethod.GET)
     @ResponseBody
     public String getStudents(
@@ -186,6 +191,17 @@ public class ControllerDemo {
         System.out.println(session.getAttribute("id"));
         System.out.println(session.getAttribute("name"));
         return "get session";
+    }
+
+    /**
+     * 发送 ajax 请求实例
+     */
+    @RequestMapping(path = "/ajax", method = RequestMethod.POST)
+    @ResponseBody
+    public String testAjax(String name, int age) {
+        System.out.println(name);
+        System.out.println(age);
+        return CommunityUtil.getJSONString(0, "操作成功！");
     }
 
 }
