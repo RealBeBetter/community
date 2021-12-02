@@ -36,8 +36,8 @@ public class DiscussPostService {
     /**
      * 添加讨论帖
      *
-     * @param discussPost
-     * @return
+     * @param discussPost 讨论帖
+     * @return 插入结果
      */
     public int addDiscussPost(DiscussPost discussPost) {
         if (discussPost == null) {
@@ -54,5 +54,10 @@ public class DiscussPostService {
 
         return discussPostMapper.insertDiscussPost(discussPost);
     }
+
+    public DiscussPost findDiscussPostById(int id) {
+        return discussPostMapper.selectDiscussPostById(id);
+    }
+
 
 }

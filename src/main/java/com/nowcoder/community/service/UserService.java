@@ -138,8 +138,15 @@ public class UserService implements CommunityConstant {
         }
     }
 
-    // 登录方法，要求返回一个 Map ，表示用户登录的状态
-    // 由于数据库存储的是加密的密码，所以在使用的时候要将传入的 password 进行加密之后和数据库中的密码进行比对
+    /**
+     * 登录方法，要求返回一个 Map ，表示用户登录的状态
+     * 由于数据库存储的是加密的密码，
+     * 所以在使用的时候要将传入的 password 进行加密之后和数据库中的密码进行比对
+     * @param username 用户名
+     * @param password 密码
+     * @param expiredSeconds 失效时间
+     * @return Map
+     */
     public Map<String, Object> login(String username, String password, long expiredSeconds) {
         Map<String, Object> map = new HashMap<>();
         // 空值处理

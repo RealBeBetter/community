@@ -23,7 +23,8 @@ public interface DiscussPostMapper {
      */
     List<DiscussPost> selectDiscussPosts(int userId, int offset, int limit);
 
-    /** @Param 用于给参数取别名。如果只有一个参数且需要在<if>里面使用，则必须加别名
+    /**
+     * 用于给参数取别名。如果只有一个参数且需要在<if>里面使用，则必须加别名
      * 一共有多少条数据
      * @param userId 用户 ID
      * @return 查询出的行数
@@ -37,6 +38,14 @@ public interface DiscussPostMapper {
      * @return 插入的提示符
      */
     int insertDiscussPost(DiscussPost discussPost);
+
+
+    /**
+     * 查询帖子详情
+     * @param id 根据帖子 id
+     * @return 帖子
+     */
+    DiscussPost selectDiscussPostById(int id);
 
 
 }
