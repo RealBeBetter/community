@@ -70,7 +70,7 @@ public class Page {
     /**
      * 获取当前页的起始行
      *
-     * @return
+     * @return 起始行
      */
     public int getOffset() {
         // current * limit - limit
@@ -80,7 +80,7 @@ public class Page {
     /**
      * 页面上要显示总页码，计算出总页数
      *
-     * @return
+     * @return 总页数
      */
     public int getTotal() {
         // rows / limit ，需要进一处理
@@ -94,7 +94,7 @@ public class Page {
     /**
      * 获取起始页码，页面中的五个页码标签中最开始
      *
-     * @return
+     * @return 开始页面
      */
     public int getFrom() {
         int from = current - 2;
