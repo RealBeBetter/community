@@ -2609,3 +2609,217 @@ org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property o
 2021-12-03 21:03:56.301 DEBUG 54232 --- [http-nio-8080-exec-10] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
 2021-12-03 21:03:56.301 DEBUG 54232 --- [http-nio-8080-exec-10] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 154(Integer)
 2021-12-03 21:03:56.301 DEBUG 54232 --- [http-nio-8080-exec-10] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:08:42.719  INFO 52816 --- [restartedMain] c.n.community.CommunityApplication       : Starting CommunityApplication using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 52816 (D:\Java\IdeaProjects\community\target\classes started by Real in D:\Java\IdeaProjects\community)
+2021-12-03 21:08:42.721 DEBUG 52816 --- [restartedMain] c.n.community.CommunityApplication       : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-12-03 21:08:42.721  INFO 52816 --- [restartedMain] c.n.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2021-12-03 21:08:42.754  INFO 52816 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-03 21:08:42.755  INFO 52816 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-03 21:08:43.680  INFO 52816 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-03 21:08:43.690  INFO 52816 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-03 21:08:43.690  INFO 52816 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-12-03 21:08:43.764  INFO 52816 --- [restartedMain] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring embedded WebApplicationContext
+2021-12-03 21:08:43.764  INFO 52816 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1009 ms
+2021-12-03 21:08:44.309  INFO 52816 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-12-03 21:08:44.435  INFO 52816 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-03 21:08:44.477  INFO 52816 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/community'
+2021-12-03 21:08:44.488  INFO 52816 --- [restartedMain] c.n.community.CommunityApplication       : Started CommunityApplication in 2.195 seconds (JVM running for 2.968)
+2021-12-03 21:08:51.725  INFO 52816 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-03 21:08:51.725  INFO 52816 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-03 21:08:51.726  INFO 52816 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-03 21:08:51.747  INFO 52816 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-03 21:08:51.979  INFO 52816 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-03 21:08:51.986 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : ==>  Preparing: select id, user_id, ticket, status, expired from login_ticket where ticket = ?
+2021-12-03 21:08:52.009 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : ==> Parameters: 886fe1e5a7964fbcb92faac0b2d9896e(String)
+2021-12-03 21:08:52.030 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : <==      Total: 1
+2021-12-03 21:08:52.036 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:08:52.036 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 154(Integer)
+2021-12-03 21:08:52.038 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:08:52.059 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.D.selectDiscussPostById          : ==>  Preparing: select id, user_id, title, content, type, status, create_time, comment_count, score from discuss_post where id = ?
+2021-12-03 21:08:52.059 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.D.selectDiscussPostById          : ==> Parameters: 274(Integer)
+2021-12-03 21:08:52.062 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.D.selectDiscussPostById          : <==      Total: 1
+2021-12-03 21:08:52.063 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:08:52.063 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 146(Integer)
+2021-12-03 21:08:52.065 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:08:52.066 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCommentsByEntity         : ==>  Preparing: select id, user_id, entity_type, entity_id, target_id, content, status, create_time from comment where status = 0 and entity_id = ? and entity_type = ? order by create_time asc limit ?, ?
+2021-12-03 21:08:52.067 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCommentsByEntity         : ==> Parameters: 274(Integer), 1(Integer), 0(Integer), 5(Integer)
+2021-12-03 21:08:52.070 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCommentsByEntity         : <==      Total: 5
+2021-12-03 21:08:52.071 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:08:52.072 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 146(Integer)
+2021-12-03 21:08:52.074 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:08:52.075 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCommentsByEntity         : ==>  Preparing: select id, user_id, entity_type, entity_id, target_id, content, status, create_time from comment where status = 0 and entity_id = ? and entity_type = ? order by create_time asc limit ?, ?
+2021-12-03 21:08:52.076 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCommentsByEntity         : ==> Parameters: 104(Integer), 2(Integer), 0(Integer), 2147483647(Integer)
+2021-12-03 21:08:52.078 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCommentsByEntity         : <==      Total: 3
+2021-12-03 21:08:52.079 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:08:52.079 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-03 21:08:52.081 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:08:52.081 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:08:52.082 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 146(Integer)
+2021-12-03 21:08:52.083 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:08:52.084 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:08:52.084 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-03 21:08:52.086 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:08:52.087 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:08:52.087 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-03 21:08:52.089 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:08:52.090 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:08:52.090 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 146(Integer)
+2021-12-03 21:08:52.092 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:08:52.093 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCountByEntity            : ==>  Preparing: select count(id) from comment where status = 0 and entity_id = ? and entity_type = ?
+2021-12-03 21:08:52.093 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCountByEntity            : ==> Parameters: 2(Integer), 104(Integer)
+2021-12-03 21:08:52.096 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCountByEntity            : <==      Total: 1
+2021-12-03 21:08:52.097 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:08:52.097 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 112(Integer)
+2021-12-03 21:08:52.099 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:08:52.100 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCommentsByEntity         : ==>  Preparing: select id, user_id, entity_type, entity_id, target_id, content, status, create_time from comment where status = 0 and entity_id = ? and entity_type = ? order by create_time asc limit ?, ?
+2021-12-03 21:08:52.100 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCommentsByEntity         : ==> Parameters: 108(Integer), 2(Integer), 0(Integer), 2147483647(Integer)
+2021-12-03 21:08:52.102 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCommentsByEntity         : <==      Total: 0
+2021-12-03 21:08:52.103 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCountByEntity            : ==>  Preparing: select count(id) from comment where status = 0 and entity_id = ? and entity_type = ?
+2021-12-03 21:08:52.103 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCountByEntity            : ==> Parameters: 2(Integer), 108(Integer)
+2021-12-03 21:08:52.105 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCountByEntity            : <==      Total: 1
+2021-12-03 21:08:52.106 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:08:52.107 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 112(Integer)
+2021-12-03 21:08:52.109 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:08:52.109 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCommentsByEntity         : ==>  Preparing: select id, user_id, entity_type, entity_id, target_id, content, status, create_time from comment where status = 0 and entity_id = ? and entity_type = ? order by create_time asc limit ?, ?
+2021-12-03 21:08:52.109 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCommentsByEntity         : ==> Parameters: 109(Integer), 2(Integer), 0(Integer), 2147483647(Integer)
+2021-12-03 21:08:52.110 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCommentsByEntity         : <==      Total: 0
+2021-12-03 21:08:52.111 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCountByEntity            : ==>  Preparing: select count(id) from comment where status = 0 and entity_id = ? and entity_type = ?
+2021-12-03 21:08:52.111 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCountByEntity            : ==> Parameters: 2(Integer), 109(Integer)
+2021-12-03 21:08:52.112 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCountByEntity            : <==      Total: 1
+2021-12-03 21:08:52.112 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:08:52.112 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-03 21:08:52.114 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:08:52.115 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCommentsByEntity         : ==>  Preparing: select id, user_id, entity_type, entity_id, target_id, content, status, create_time from comment where status = 0 and entity_id = ? and entity_type = ? order by create_time asc limit ?, ?
+2021-12-03 21:08:52.115 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCommentsByEntity         : ==> Parameters: 110(Integer), 2(Integer), 0(Integer), 2147483647(Integer)
+2021-12-03 21:08:52.117 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCommentsByEntity         : <==      Total: 0
+2021-12-03 21:08:52.117 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCountByEntity            : ==>  Preparing: select count(id) from comment where status = 0 and entity_id = ? and entity_type = ?
+2021-12-03 21:08:52.118 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCountByEntity            : ==> Parameters: 2(Integer), 110(Integer)
+2021-12-03 21:08:52.119 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCountByEntity            : <==      Total: 1
+2021-12-03 21:08:52.119 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:08:52.119 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-03 21:08:52.121 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:08:52.122 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCommentsByEntity         : ==>  Preparing: select id, user_id, entity_type, entity_id, target_id, content, status, create_time from comment where status = 0 and entity_id = ? and entity_type = ? order by create_time asc limit ?, ?
+2021-12-03 21:08:52.122 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCommentsByEntity         : ==> Parameters: 111(Integer), 2(Integer), 0(Integer), 2147483647(Integer)
+2021-12-03 21:08:52.123 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCommentsByEntity         : <==      Total: 0
+2021-12-03 21:08:52.123 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCountByEntity            : ==>  Preparing: select count(id) from comment where status = 0 and entity_id = ? and entity_type = ?
+2021-12-03 21:08:52.124 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCountByEntity            : ==> Parameters: 2(Integer), 111(Integer)
+2021-12-03 21:08:52.125 DEBUG 52816 --- [http-nio-8080-exec-1] c.n.c.d.C.selectCountByEntity            : <==      Total: 1
+2021-12-03 21:10:30.468 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.L.selectByTicket                 : ==>  Preparing: select id, user_id, ticket, status, expired from login_ticket where ticket = ?
+2021-12-03 21:10:30.468 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.L.selectByTicket                 : ==> Parameters: 886fe1e5a7964fbcb92faac0b2d9896e(String)
+2021-12-03 21:10:30.469 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.L.selectByTicket                 : <==      Total: 1
+2021-12-03 21:10:30.470 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:10:30.470 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 154(Integer)
+2021-12-03 21:10:30.471 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:10:30.471 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.D.selectDiscussPostById          : ==>  Preparing: select id, user_id, title, content, type, status, create_time, comment_count, score from discuss_post where id = ?
+2021-12-03 21:10:30.471 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.D.selectDiscussPostById          : ==> Parameters: 274(Integer)
+2021-12-03 21:10:30.472 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.D.selectDiscussPostById          : <==      Total: 1
+2021-12-03 21:10:30.472 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:10:30.473 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 146(Integer)
+2021-12-03 21:10:30.473 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:10:30.473 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCommentsByEntity         : ==>  Preparing: select id, user_id, entity_type, entity_id, target_id, content, status, create_time from comment where status = 0 and entity_id = ? and entity_type = ? order by create_time asc limit ?, ?
+2021-12-03 21:10:30.474 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCommentsByEntity         : ==> Parameters: 274(Integer), 1(Integer), 5(Integer), 5(Integer)
+2021-12-03 21:10:30.475 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCommentsByEntity         : <==      Total: 5
+2021-12-03 21:10:30.475 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:10:30.475 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-03 21:10:30.476 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:10:30.476 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCommentsByEntity         : ==>  Preparing: select id, user_id, entity_type, entity_id, target_id, content, status, create_time from comment where status = 0 and entity_id = ? and entity_type = ? order by create_time asc limit ?, ?
+2021-12-03 21:10:30.476 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCommentsByEntity         : ==> Parameters: 112(Integer), 2(Integer), 0(Integer), 2147483647(Integer)
+2021-12-03 21:10:30.477 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCommentsByEntity         : <==      Total: 0
+2021-12-03 21:10:30.477 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCountByEntity            : ==>  Preparing: select count(id) from comment where status = 0 and entity_id = ? and entity_type = ?
+2021-12-03 21:10:30.477 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCountByEntity            : ==> Parameters: 2(Integer), 112(Integer)
+2021-12-03 21:10:30.478 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCountByEntity            : <==      Total: 1
+2021-12-03 21:10:30.478 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:10:30.478 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-03 21:10:30.480 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:10:30.480 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCommentsByEntity         : ==>  Preparing: select id, user_id, entity_type, entity_id, target_id, content, status, create_time from comment where status = 0 and entity_id = ? and entity_type = ? order by create_time asc limit ?, ?
+2021-12-03 21:10:30.481 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCommentsByEntity         : ==> Parameters: 113(Integer), 2(Integer), 0(Integer), 2147483647(Integer)
+2021-12-03 21:10:30.481 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCommentsByEntity         : <==      Total: 0
+2021-12-03 21:10:30.482 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCountByEntity            : ==>  Preparing: select count(id) from comment where status = 0 and entity_id = ? and entity_type = ?
+2021-12-03 21:10:30.482 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCountByEntity            : ==> Parameters: 2(Integer), 113(Integer)
+2021-12-03 21:10:30.482 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCountByEntity            : <==      Total: 1
+2021-12-03 21:10:30.483 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:10:30.483 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-03 21:10:30.484 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:10:30.484 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCommentsByEntity         : ==>  Preparing: select id, user_id, entity_type, entity_id, target_id, content, status, create_time from comment where status = 0 and entity_id = ? and entity_type = ? order by create_time asc limit ?, ?
+2021-12-03 21:10:30.484 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCommentsByEntity         : ==> Parameters: 114(Integer), 2(Integer), 0(Integer), 2147483647(Integer)
+2021-12-03 21:10:30.485 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCommentsByEntity         : <==      Total: 0
+2021-12-03 21:10:30.485 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCountByEntity            : ==>  Preparing: select count(id) from comment where status = 0 and entity_id = ? and entity_type = ?
+2021-12-03 21:10:30.485 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCountByEntity            : ==> Parameters: 2(Integer), 114(Integer)
+2021-12-03 21:10:30.485 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCountByEntity            : <==      Total: 1
+2021-12-03 21:10:30.485 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:10:30.486 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-03 21:10:30.486 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:10:30.486 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCommentsByEntity         : ==>  Preparing: select id, user_id, entity_type, entity_id, target_id, content, status, create_time from comment where status = 0 and entity_id = ? and entity_type = ? order by create_time asc limit ?, ?
+2021-12-03 21:10:30.487 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCommentsByEntity         : ==> Parameters: 115(Integer), 2(Integer), 0(Integer), 2147483647(Integer)
+2021-12-03 21:10:30.487 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCommentsByEntity         : <==      Total: 0
+2021-12-03 21:10:30.487 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCountByEntity            : ==>  Preparing: select count(id) from comment where status = 0 and entity_id = ? and entity_type = ?
+2021-12-03 21:10:30.487 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCountByEntity            : ==> Parameters: 2(Integer), 115(Integer)
+2021-12-03 21:10:30.488 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCountByEntity            : <==      Total: 1
+2021-12-03 21:10:30.488 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:10:30.488 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-03 21:10:30.489 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:10:30.489 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCommentsByEntity         : ==>  Preparing: select id, user_id, entity_type, entity_id, target_id, content, status, create_time from comment where status = 0 and entity_id = ? and entity_type = ? order by create_time asc limit ?, ?
+2021-12-03 21:10:30.489 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCommentsByEntity         : ==> Parameters: 116(Integer), 2(Integer), 0(Integer), 2147483647(Integer)
+2021-12-03 21:10:30.489 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCommentsByEntity         : <==      Total: 0
+2021-12-03 21:10:30.490 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCountByEntity            : ==>  Preparing: select count(id) from comment where status = 0 and entity_id = ? and entity_type = ?
+2021-12-03 21:10:30.490 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCountByEntity            : ==> Parameters: 2(Integer), 116(Integer)
+2021-12-03 21:10:30.490 DEBUG 52816 --- [http-nio-8080-exec-8] c.n.c.d.C.selectCountByEntity            : <==      Total: 1
+2021-12-03 21:10:35.684 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.L.selectByTicket                 : ==>  Preparing: select id, user_id, ticket, status, expired from login_ticket where ticket = ?
+2021-12-03 21:10:35.685 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.L.selectByTicket                 : ==> Parameters: 886fe1e5a7964fbcb92faac0b2d9896e(String)
+2021-12-03 21:10:35.686 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.L.selectByTicket                 : <==      Total: 1
+2021-12-03 21:10:35.686 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:10:35.686 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 154(Integer)
+2021-12-03 21:10:35.687 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:10:35.688 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.D.selectDiscussPostById          : ==>  Preparing: select id, user_id, title, content, type, status, create_time, comment_count, score from discuss_post where id = ?
+2021-12-03 21:10:35.688 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.D.selectDiscussPostById          : ==> Parameters: 274(Integer)
+2021-12-03 21:10:35.689 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.D.selectDiscussPostById          : <==      Total: 1
+2021-12-03 21:10:35.689 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:10:35.689 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 146(Integer)
+2021-12-03 21:10:35.690 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:10:35.690 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCommentsByEntity         : ==>  Preparing: select id, user_id, entity_type, entity_id, target_id, content, status, create_time from comment where status = 0 and entity_id = ? and entity_type = ? order by create_time asc limit ?, ?
+2021-12-03 21:10:35.690 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCommentsByEntity         : ==> Parameters: 274(Integer), 1(Integer), 10(Integer), 5(Integer)
+2021-12-03 21:10:35.693 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCommentsByEntity         : <==      Total: 5
+2021-12-03 21:10:35.693 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:10:35.693 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-03 21:10:35.694 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:10:35.695 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCommentsByEntity         : ==>  Preparing: select id, user_id, entity_type, entity_id, target_id, content, status, create_time from comment where status = 0 and entity_id = ? and entity_type = ? order by create_time asc limit ?, ?
+2021-12-03 21:10:35.695 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCommentsByEntity         : ==> Parameters: 117(Integer), 2(Integer), 0(Integer), 2147483647(Integer)
+2021-12-03 21:10:35.695 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCommentsByEntity         : <==      Total: 0
+2021-12-03 21:10:35.696 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCountByEntity            : ==>  Preparing: select count(id) from comment where status = 0 and entity_id = ? and entity_type = ?
+2021-12-03 21:10:35.696 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCountByEntity            : ==> Parameters: 2(Integer), 117(Integer)
+2021-12-03 21:10:35.696 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCountByEntity            : <==      Total: 1
+2021-12-03 21:10:35.696 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:10:35.697 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-03 21:10:35.697 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:10:35.698 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCommentsByEntity         : ==>  Preparing: select id, user_id, entity_type, entity_id, target_id, content, status, create_time from comment where status = 0 and entity_id = ? and entity_type = ? order by create_time asc limit ?, ?
+2021-12-03 21:10:35.698 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCommentsByEntity         : ==> Parameters: 118(Integer), 2(Integer), 0(Integer), 2147483647(Integer)
+2021-12-03 21:10:35.698 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCommentsByEntity         : <==      Total: 0
+2021-12-03 21:10:35.698 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCountByEntity            : ==>  Preparing: select count(id) from comment where status = 0 and entity_id = ? and entity_type = ?
+2021-12-03 21:10:35.698 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCountByEntity            : ==> Parameters: 2(Integer), 118(Integer)
+2021-12-03 21:10:35.699 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCountByEntity            : <==      Total: 1
+2021-12-03 21:10:35.699 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:10:35.699 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-03 21:10:35.700 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:10:35.700 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCommentsByEntity         : ==>  Preparing: select id, user_id, entity_type, entity_id, target_id, content, status, create_time from comment where status = 0 and entity_id = ? and entity_type = ? order by create_time asc limit ?, ?
+2021-12-03 21:10:35.700 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCommentsByEntity         : ==> Parameters: 119(Integer), 2(Integer), 0(Integer), 2147483647(Integer)
+2021-12-03 21:10:35.701 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCommentsByEntity         : <==      Total: 0
+2021-12-03 21:10:35.701 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCountByEntity            : ==>  Preparing: select count(id) from comment where status = 0 and entity_id = ? and entity_type = ?
+2021-12-03 21:10:35.701 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCountByEntity            : ==> Parameters: 2(Integer), 119(Integer)
+2021-12-03 21:10:35.701 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCountByEntity            : <==      Total: 1
+2021-12-03 21:10:35.702 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:10:35.702 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-03 21:10:35.702 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:10:35.702 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCommentsByEntity         : ==>  Preparing: select id, user_id, entity_type, entity_id, target_id, content, status, create_time from comment where status = 0 and entity_id = ? and entity_type = ? order by create_time asc limit ?, ?
+2021-12-03 21:10:35.703 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCommentsByEntity         : ==> Parameters: 120(Integer), 2(Integer), 0(Integer), 2147483647(Integer)
+2021-12-03 21:10:35.703 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCommentsByEntity         : <==      Total: 0
+2021-12-03 21:10:35.703 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCountByEntity            : ==>  Preparing: select count(id) from comment where status = 0 and entity_id = ? and entity_type = ?
+2021-12-03 21:10:35.703 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCountByEntity            : ==> Parameters: 2(Integer), 120(Integer)
+2021-12-03 21:10:35.704 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCountByEntity            : <==      Total: 1
+2021-12-03 21:10:35.704 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-03 21:10:35.704 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-03 21:10:35.704 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-03 21:10:35.705 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCommentsByEntity         : ==>  Preparing: select id, user_id, entity_type, entity_id, target_id, content, status, create_time from comment where status = 0 and entity_id = ? and entity_type = ? order by create_time asc limit ?, ?
+2021-12-03 21:10:35.705 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCommentsByEntity         : ==> Parameters: 121(Integer), 2(Integer), 0(Integer), 2147483647(Integer)
+2021-12-03 21:10:35.705 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCommentsByEntity         : <==      Total: 0
+2021-12-03 21:10:35.706 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCountByEntity            : ==>  Preparing: select count(id) from comment where status = 0 and entity_id = ? and entity_type = ?
+2021-12-03 21:10:35.706 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCountByEntity            : ==> Parameters: 2(Integer), 121(Integer)
+2021-12-03 21:10:35.706 DEBUG 52816 --- [http-nio-8080-exec-3] c.n.c.d.C.selectCountByEntity            : <==      Total: 1
