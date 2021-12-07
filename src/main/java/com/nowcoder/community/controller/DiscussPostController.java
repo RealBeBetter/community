@@ -41,6 +41,12 @@ public class DiscussPostController implements CommunityConstant {
     @Autowired
     private CommentService commentService;
 
+    /**
+     * 发布帖子，获取发布的用户，传入发布的帖子对象
+     * @param title 标题
+     * @param content 内容
+     * @return JSON 字符串
+     */
     @RequestMapping(path = "/add", method = RequestMethod.POST)
     @ResponseBody
     public String addDiscussPost(String title, String content) {

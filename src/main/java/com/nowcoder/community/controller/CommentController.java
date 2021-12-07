@@ -26,6 +26,12 @@ public class CommentController {
     @Autowired
     private HostHolder hostHolder;
 
+    /**
+     * 添加评论
+     * @param discussionPostId 帖子 ID
+     * @param comment 评论实体对象
+     * @return 帖子详情页面，重定向
+     */
     @RequestMapping(path = "/add/{discussPostId}", method = RequestMethod.POST)
     public String addComment(@PathVariable("discussPostId") int discussionPostId,
                              Comment comment) {

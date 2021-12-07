@@ -137,10 +137,13 @@ public class ControllerDemo {
         return map;
     }
 
-    // 响应 JSON 数据，处理异步请求
-    // Java 对象 -> JSON 字符串 -> JS 对象，JSON 只是起到一个中间值的作用，方便将 Java 对象转换为其他语言对象
+    /**
+     * 响应 JSON 数据，处理异步请求
+     * Java 对象 -> JSON 字符串 -> JS 对象，
+     * JSON 只是起到一个中间值的作用，方便将 Java 对象转换为其他语言对象
+     */
     @RequestMapping(path = "/emps", method = RequestMethod.GET)
-    @ResponseBody       // 不加这个注解，会认为返回一个html页面
+    @ResponseBody       // 不加这个注解，会认为返回一个 html 页面
     public List<Map<String, Object>> getEmps() {
         List<Map<String, Object>> list = new ArrayList<>();
         Map<String, Object> map = new HashMap<>();
@@ -156,7 +159,11 @@ public class ControllerDemo {
         return list;
     }
 
-    // Cookie 实例
+    /**
+     * Cookie 实例
+     * @param response 相应对象
+     * @return 相应成功字符串
+     */
     @RequestMapping(path = "/cookie/set", method = RequestMethod.GET)
     @ResponseBody
     public String setCookie(HttpServletResponse response) {
@@ -179,7 +186,9 @@ public class ControllerDemo {
         return "get Cookie";
     }
 
-    // Session 示例
+    /**
+     * Session 示例
+     */
     @RequestMapping(path = "/session/set", method = RequestMethod.GET)
     @ResponseBody
     public String setSession(HttpSession session) {
