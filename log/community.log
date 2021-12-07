@@ -2407,3 +2407,322 @@ java.lang.NumberFormatException: For input string: "map.fromUser.headerUrl"
 2021-12-07 16:10:43.756 DEBUG 57608 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
 2021-12-07 16:10:43.757 DEBUG 57608 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 112(Integer)
 2021-12-07 16:10:43.757 DEBUG 57608 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:13:47.683  INFO 37340 --- [restartedMain] c.n.community.CommunityApplication       : Starting CommunityApplication using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 37340 (D:\Java\IdeaProjects\community\target\classes started by Real in D:\Java\IdeaProjects\community)
+2021-12-07 16:13:47.685 DEBUG 37340 --- [restartedMain] c.n.community.CommunityApplication       : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-12-07 16:13:47.685  INFO 37340 --- [restartedMain] c.n.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2021-12-07 16:13:47.723  INFO 37340 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-07 16:13:47.723  INFO 37340 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-07 16:13:48.779  INFO 37340 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-07 16:13:48.787  INFO 37340 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-07 16:13:48.788  INFO 37340 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-12-07 16:13:48.866  INFO 37340 --- [restartedMain] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring embedded WebApplicationContext
+2021-12-07 16:13:48.867  INFO 37340 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1144 ms
+2021-12-07 16:13:49.440  INFO 37340 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-12-07 16:13:49.556  INFO 37340 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-07 16:13:49.604  INFO 37340 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/community'
+2021-12-07 16:13:49.617  INFO 37340 --- [restartedMain] c.n.community.CommunityApplication       : Started CommunityApplication in 2.321 seconds (JVM running for 3.097)
+2021-12-07 16:13:59.952  INFO 37340 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-07 16:13:59.952  INFO 37340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-07 16:13:59.953  INFO 37340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-12-07 16:13:59.976  INFO 37340 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-07 16:14:00.206  INFO 37340 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-07 16:14:00.212 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : ==>  Preparing: select id, user_id, ticket, status, expired from login_ticket where ticket = ?
+2021-12-07 16:14:00.235 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : ==> Parameters: 0270776bbba249f9996a7dba453f8ad6(String)
+2021-12-07 16:14:00.255 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : <==      Total: 1
+2021-12-07 16:14:00.259 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:00.260 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-07 16:14:00.262 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:00.280 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==>  Preparing: select count(id) from message where status != 2 and from_id != 1 and conversation_id = ?
+2021-12-07 16:14:00.280 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==> Parameters: 111_112(String)
+2021-12-07 16:14:00.284 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : <==      Total: 1
+2021-12-07 16:14:00.285 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.dao.MessageMapper.selectLetters    : ==>  Preparing: select id, from_id, to_id, conversation_id, content, status, create_time from message where status != 2 and from_id != 1 and conversation_id = ? order by id desc limit ?, ?
+2021-12-07 16:14:00.286 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.dao.MessageMapper.selectLetters    : ==> Parameters: 111_112(String), 0(Integer), 5(Integer)
+2021-12-07 16:14:00.290 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.dao.MessageMapper.selectLetters    : <==      Total: 5
+2021-12-07 16:14:00.290 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:00.291 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-07 16:14:00.292 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:00.293 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:00.293 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-07 16:14:00.295 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:00.295 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:00.295 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 112(Integer)
+2021-12-07 16:14:00.297 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:00.297 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:00.297 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 112(Integer)
+2021-12-07 16:14:00.298 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:00.299 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:00.299 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 112(Integer)
+2021-12-07 16:14:00.300 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:00.301 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:00.301 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 112(Integer)
+2021-12-07 16:14:00.302 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:01.957 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.L.selectByTicket                 : ==>  Preparing: select id, user_id, ticket, status, expired from login_ticket where ticket = ?
+2021-12-07 16:14:01.957 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.L.selectByTicket                 : ==> Parameters: 0270776bbba249f9996a7dba453f8ad6(String)
+2021-12-07 16:14:01.957 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.L.selectByTicket                 : <==      Total: 1
+2021-12-07 16:14:01.957 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:01.958 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-07 16:14:01.958 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:01.959 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectConversationsCount       : ==>  Preparing: select count(m.maxid) from ( select max(id) as maxid from message where status != 2 and from_id != 1 and (from_id = ? or to_id = ?) group by conversation_id ) as m
+2021-12-07 16:14:01.959 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectConversationsCount       : ==> Parameters: 111(Integer), 111(Integer)
+2021-12-07 16:14:01.960 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectConversationsCount       : <==      Total: 1
+2021-12-07 16:14:01.960 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectConversations            : ==>  Preparing: select id, from_id, to_id, conversation_id, content, status, create_time from message where id in ( select max(id) from message where status != 2 and from_id != 1 and (from_id = ? or to_id = ?) group by conversation_id ) order by id desc limit ?, ?
+2021-12-07 16:14:01.961 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectConversations            : ==> Parameters: 111(Integer), 111(Integer), 0(Integer), 5(Integer)
+2021-12-07 16:14:01.963 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectConversations            : <==      Total: 5
+2021-12-07 16:14:01.964 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectedLetterCount            : ==>  Preparing: select count(id) from message where status != 2 and from_id != 1 and conversation_id = ?
+2021-12-07 16:14:01.964 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectedLetterCount            : ==> Parameters: 111_112(String)
+2021-12-07 16:14:01.965 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectedLetterCount            : <==      Total: 1
+2021-12-07 16:14:01.975 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectLetterUnreadCount        : ==>  Preparing: select count(id) from message where status = 0 and from_id != 1 and to_id = ? and conversation_id = ?
+2021-12-07 16:14:01.975 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectLetterUnreadCount        : ==> Parameters: 111(Integer), 111_112(String)
+2021-12-07 16:14:01.977 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectLetterUnreadCount        : <==      Total: 1
+2021-12-07 16:14:01.978 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:01.978 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 112(Integer)
+2021-12-07 16:14:01.979 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:01.980 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectedLetterCount            : ==>  Preparing: select count(id) from message where status != 2 and from_id != 1 and conversation_id = ?
+2021-12-07 16:14:01.980 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectedLetterCount            : ==> Parameters: 111_145(String)
+2021-12-07 16:14:01.980 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectedLetterCount            : <==      Total: 1
+2021-12-07 16:14:01.981 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectLetterUnreadCount        : ==>  Preparing: select count(id) from message where status = 0 and from_id != 1 and to_id = ? and conversation_id = ?
+2021-12-07 16:14:01.981 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectLetterUnreadCount        : ==> Parameters: 111(Integer), 111_145(String)
+2021-12-07 16:14:01.982 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectLetterUnreadCount        : <==      Total: 1
+2021-12-07 16:14:01.982 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:01.982 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 145(Integer)
+2021-12-07 16:14:01.983 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:01.983 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectedLetterCount            : ==>  Preparing: select count(id) from message where status != 2 and from_id != 1 and conversation_id = ?
+2021-12-07 16:14:01.983 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectedLetterCount            : ==> Parameters: 111_111(String)
+2021-12-07 16:14:01.984 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectedLetterCount            : <==      Total: 1
+2021-12-07 16:14:01.984 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectLetterUnreadCount        : ==>  Preparing: select count(id) from message where status = 0 and from_id != 1 and to_id = ? and conversation_id = ?
+2021-12-07 16:14:01.984 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectLetterUnreadCount        : ==> Parameters: 111(Integer), 111_111(String)
+2021-12-07 16:14:01.985 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectLetterUnreadCount        : <==      Total: 1
+2021-12-07 16:14:01.985 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:01.986 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-07 16:14:01.987 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:01.987 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectedLetterCount            : ==>  Preparing: select count(id) from message where status != 2 and from_id != 1 and conversation_id = ?
+2021-12-07 16:14:01.987 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectedLetterCount            : ==> Parameters: 111_138(String)
+2021-12-07 16:14:01.987 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectedLetterCount            : <==      Total: 1
+2021-12-07 16:14:01.988 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectLetterUnreadCount        : ==>  Preparing: select count(id) from message where status = 0 and from_id != 1 and to_id = ? and conversation_id = ?
+2021-12-07 16:14:01.988 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectLetterUnreadCount        : ==> Parameters: 111(Integer), 111_138(String)
+2021-12-07 16:14:01.988 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectLetterUnreadCount        : <==      Total: 1
+2021-12-07 16:14:01.989 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:01.989 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 138(Integer)
+2021-12-07 16:14:01.989 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:01.990 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectedLetterCount            : ==>  Preparing: select count(id) from message where status != 2 and from_id != 1 and conversation_id = ?
+2021-12-07 16:14:01.990 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectedLetterCount            : ==> Parameters: 111_134(String)
+2021-12-07 16:14:01.990 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectedLetterCount            : <==      Total: 1
+2021-12-07 16:14:01.991 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectLetterUnreadCount        : ==>  Preparing: select count(id) from message where status = 0 and from_id != 1 and to_id = ? and conversation_id = ?
+2021-12-07 16:14:01.991 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectLetterUnreadCount        : ==> Parameters: 111(Integer), 111_134(String)
+2021-12-07 16:14:01.991 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectLetterUnreadCount        : <==      Total: 1
+2021-12-07 16:14:01.992 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:01.992 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 134(Integer)
+2021-12-07 16:14:01.992 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:01.993 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectLetterUnreadCount        : ==>  Preparing: select count(id) from message where status = 0 and from_id != 1 and to_id = ?
+2021-12-07 16:14:01.993 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectLetterUnreadCount        : ==> Parameters: 111(Integer)
+2021-12-07 16:14:01.993 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectLetterUnreadCount        : <==      Total: 1
+2021-12-07 16:14:03.582 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : ==>  Preparing: select id, user_id, ticket, status, expired from login_ticket where ticket = ?
+2021-12-07 16:14:03.582 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : ==> Parameters: 0270776bbba249f9996a7dba453f8ad6(String)
+2021-12-07 16:14:03.583 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : <==      Total: 1
+2021-12-07 16:14:03.584 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:03.584 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-07 16:14:03.585 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:03.585 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==>  Preparing: select count(id) from message where status != 2 and from_id != 1 and conversation_id = ?
+2021-12-07 16:14:03.586 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==> Parameters: 111_112(String)
+2021-12-07 16:14:03.587 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : <==      Total: 1
+2021-12-07 16:14:03.587 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.dao.MessageMapper.selectLetters    : ==>  Preparing: select id, from_id, to_id, conversation_id, content, status, create_time from message where status != 2 and from_id != 1 and conversation_id = ? order by id desc limit ?, ?
+2021-12-07 16:14:03.588 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.dao.MessageMapper.selectLetters    : ==> Parameters: 111_112(String), 0(Integer), 5(Integer)
+2021-12-07 16:14:03.589 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.dao.MessageMapper.selectLetters    : <==      Total: 5
+2021-12-07 16:14:03.589 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:03.590 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-07 16:14:03.590 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:03.591 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:03.591 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-07 16:14:03.593 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:03.594 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:03.595 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 112(Integer)
+2021-12-07 16:14:03.596 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:03.598 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:03.598 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 112(Integer)
+2021-12-07 16:14:03.599 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:03.599 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:03.600 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 112(Integer)
+2021-12-07 16:14:03.601 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:03.601 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:03.601 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 112(Integer)
+2021-12-07 16:14:03.602 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:04.706 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.L.selectByTicket                 : ==>  Preparing: select id, user_id, ticket, status, expired from login_ticket where ticket = ?
+2021-12-07 16:14:04.706 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.L.selectByTicket                 : ==> Parameters: 0270776bbba249f9996a7dba453f8ad6(String)
+2021-12-07 16:14:04.707 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.L.selectByTicket                 : <==      Total: 1
+2021-12-07 16:14:04.708 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:04.708 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-07 16:14:04.709 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:04.710 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectedLetterCount            : ==>  Preparing: select count(id) from message where status != 2 and from_id != 1 and conversation_id = ?
+2021-12-07 16:14:04.710 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectedLetterCount            : ==> Parameters: 111_112(String)
+2021-12-07 16:14:04.711 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectedLetterCount            : <==      Total: 1
+2021-12-07 16:14:04.711 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.dao.MessageMapper.selectLetters    : ==>  Preparing: select id, from_id, to_id, conversation_id, content, status, create_time from message where status != 2 and from_id != 1 and conversation_id = ? order by id desc limit ?, ?
+2021-12-07 16:14:04.711 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.dao.MessageMapper.selectLetters    : ==> Parameters: 111_112(String), 0(Integer), 5(Integer)
+2021-12-07 16:14:04.713 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.dao.MessageMapper.selectLetters    : <==      Total: 5
+2021-12-07 16:14:04.714 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:04.714 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-07 16:14:04.714 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:04.715 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:04.715 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-07 16:14:04.716 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:04.716 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:04.716 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 112(Integer)
+2021-12-07 16:14:04.716 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:04.717 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:04.717 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 112(Integer)
+2021-12-07 16:14:04.717 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:04.718 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:04.718 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 112(Integer)
+2021-12-07 16:14:04.719 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:04.719 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:04.719 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 112(Integer)
+2021-12-07 16:14:04.720 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:06.382 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : ==>  Preparing: select id, user_id, ticket, status, expired from login_ticket where ticket = ?
+2021-12-07 16:14:06.383 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : ==> Parameters: 0270776bbba249f9996a7dba453f8ad6(String)
+2021-12-07 16:14:06.384 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : <==      Total: 1
+2021-12-07 16:14:06.384 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:06.384 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-07 16:14:06.385 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:06.385 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectConversationsCount       : ==>  Preparing: select count(m.maxid) from ( select max(id) as maxid from message where status != 2 and from_id != 1 and (from_id = ? or to_id = ?) group by conversation_id ) as m
+2021-12-07 16:14:06.386 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectConversationsCount       : ==> Parameters: 111(Integer), 111(Integer)
+2021-12-07 16:14:06.387 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectConversationsCount       : <==      Total: 1
+2021-12-07 16:14:06.387 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectConversations            : ==>  Preparing: select id, from_id, to_id, conversation_id, content, status, create_time from message where id in ( select max(id) from message where status != 2 and from_id != 1 and (from_id = ? or to_id = ?) group by conversation_id ) order by id desc limit ?, ?
+2021-12-07 16:14:06.387 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectConversations            : ==> Parameters: 111(Integer), 111(Integer), 0(Integer), 5(Integer)
+2021-12-07 16:14:06.389 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectConversations            : <==      Total: 5
+2021-12-07 16:14:06.389 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==>  Preparing: select count(id) from message where status != 2 and from_id != 1 and conversation_id = ?
+2021-12-07 16:14:06.389 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==> Parameters: 111_112(String)
+2021-12-07 16:14:06.390 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : <==      Total: 1
+2021-12-07 16:14:06.390 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==>  Preparing: select count(id) from message where status = 0 and from_id != 1 and to_id = ? and conversation_id = ?
+2021-12-07 16:14:06.390 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==> Parameters: 111(Integer), 111_112(String)
+2021-12-07 16:14:06.391 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : <==      Total: 1
+2021-12-07 16:14:06.391 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:06.391 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 112(Integer)
+2021-12-07 16:14:06.392 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:06.392 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==>  Preparing: select count(id) from message where status != 2 and from_id != 1 and conversation_id = ?
+2021-12-07 16:14:06.392 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==> Parameters: 111_145(String)
+2021-12-07 16:14:06.393 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : <==      Total: 1
+2021-12-07 16:14:06.394 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==>  Preparing: select count(id) from message where status = 0 and from_id != 1 and to_id = ? and conversation_id = ?
+2021-12-07 16:14:06.394 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==> Parameters: 111(Integer), 111_145(String)
+2021-12-07 16:14:06.395 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : <==      Total: 1
+2021-12-07 16:14:06.395 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:06.395 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 145(Integer)
+2021-12-07 16:14:06.396 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:06.396 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==>  Preparing: select count(id) from message where status != 2 and from_id != 1 and conversation_id = ?
+2021-12-07 16:14:06.396 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==> Parameters: 111_111(String)
+2021-12-07 16:14:06.396 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : <==      Total: 1
+2021-12-07 16:14:06.397 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==>  Preparing: select count(id) from message where status = 0 and from_id != 1 and to_id = ? and conversation_id = ?
+2021-12-07 16:14:06.397 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==> Parameters: 111(Integer), 111_111(String)
+2021-12-07 16:14:06.397 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : <==      Total: 1
+2021-12-07 16:14:06.397 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:06.397 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-07 16:14:06.398 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:06.398 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==>  Preparing: select count(id) from message where status != 2 and from_id != 1 and conversation_id = ?
+2021-12-07 16:14:06.399 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==> Parameters: 111_138(String)
+2021-12-07 16:14:06.399 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : <==      Total: 1
+2021-12-07 16:14:06.400 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==>  Preparing: select count(id) from message where status = 0 and from_id != 1 and to_id = ? and conversation_id = ?
+2021-12-07 16:14:06.400 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==> Parameters: 111(Integer), 111_138(String)
+2021-12-07 16:14:06.401 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : <==      Total: 1
+2021-12-07 16:14:06.401 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:06.401 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 138(Integer)
+2021-12-07 16:14:06.402 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:06.402 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==>  Preparing: select count(id) from message where status != 2 and from_id != 1 and conversation_id = ?
+2021-12-07 16:14:06.402 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==> Parameters: 111_134(String)
+2021-12-07 16:14:06.402 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : <==      Total: 1
+2021-12-07 16:14:06.403 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==>  Preparing: select count(id) from message where status = 0 and from_id != 1 and to_id = ? and conversation_id = ?
+2021-12-07 16:14:06.403 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==> Parameters: 111(Integer), 111_134(String)
+2021-12-07 16:14:06.403 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : <==      Total: 1
+2021-12-07 16:14:06.403 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:06.404 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 134(Integer)
+2021-12-07 16:14:06.405 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:06.405 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==>  Preparing: select count(id) from message where status = 0 and from_id != 1 and to_id = ?
+2021-12-07 16:14:06.406 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==> Parameters: 111(Integer)
+2021-12-07 16:14:06.407 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : <==      Total: 1
+2021-12-07 16:14:08.501 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.L.selectByTicket                 : ==>  Preparing: select id, user_id, ticket, status, expired from login_ticket where ticket = ?
+2021-12-07 16:14:08.501 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.L.selectByTicket                 : ==> Parameters: 0270776bbba249f9996a7dba453f8ad6(String)
+2021-12-07 16:14:08.502 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.L.selectByTicket                 : <==      Total: 1
+2021-12-07 16:14:08.502 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:08.502 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-07 16:14:08.503 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:08.503 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectedLetterCount            : ==>  Preparing: select count(id) from message where status != 2 and from_id != 1 and conversation_id = ?
+2021-12-07 16:14:08.503 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectedLetterCount            : ==> Parameters: 111_112(String)
+2021-12-07 16:14:08.504 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.d.M.selectedLetterCount            : <==      Total: 1
+2021-12-07 16:14:08.504 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.dao.MessageMapper.selectLetters    : ==>  Preparing: select id, from_id, to_id, conversation_id, content, status, create_time from message where status != 2 and from_id != 1 and conversation_id = ? order by id desc limit ?, ?
+2021-12-07 16:14:08.508 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.dao.MessageMapper.selectLetters    : ==> Parameters: 111_112(String), 0(Integer), 5(Integer)
+2021-12-07 16:14:08.510 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.c.dao.MessageMapper.selectLetters    : <==      Total: 5
+2021-12-07 16:14:08.510 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:08.510 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-07 16:14:08.511 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:08.511 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:08.511 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-07 16:14:08.512 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:08.512 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:08.512 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 112(Integer)
+2021-12-07 16:14:08.512 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:08.512 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:08.512 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 112(Integer)
+2021-12-07 16:14:08.513 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:08.513 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:08.513 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 112(Integer)
+2021-12-07 16:14:08.514 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:08.514 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:08.514 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 112(Integer)
+2021-12-07 16:14:08.514 DEBUG 37340 --- [http-nio-8080-exec-6] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:09.563 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : ==>  Preparing: select id, user_id, ticket, status, expired from login_ticket where ticket = ?
+2021-12-07 16:14:09.563 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : ==> Parameters: 0270776bbba249f9996a7dba453f8ad6(String)
+2021-12-07 16:14:09.564 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : <==      Total: 1
+2021-12-07 16:14:09.564 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:09.564 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-07 16:14:09.565 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:09.565 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectConversationsCount       : ==>  Preparing: select count(m.maxid) from ( select max(id) as maxid from message where status != 2 and from_id != 1 and (from_id = ? or to_id = ?) group by conversation_id ) as m
+2021-12-07 16:14:09.566 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectConversationsCount       : ==> Parameters: 111(Integer), 111(Integer)
+2021-12-07 16:14:09.566 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectConversationsCount       : <==      Total: 1
+2021-12-07 16:14:09.567 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectConversations            : ==>  Preparing: select id, from_id, to_id, conversation_id, content, status, create_time from message where id in ( select max(id) from message where status != 2 and from_id != 1 and (from_id = ? or to_id = ?) group by conversation_id ) order by id desc limit ?, ?
+2021-12-07 16:14:09.567 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectConversations            : ==> Parameters: 111(Integer), 111(Integer), 0(Integer), 5(Integer)
+2021-12-07 16:14:09.568 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectConversations            : <==      Total: 5
+2021-12-07 16:14:09.568 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==>  Preparing: select count(id) from message where status != 2 and from_id != 1 and conversation_id = ?
+2021-12-07 16:14:09.568 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==> Parameters: 111_112(String)
+2021-12-07 16:14:09.569 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : <==      Total: 1
+2021-12-07 16:14:09.569 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==>  Preparing: select count(id) from message where status = 0 and from_id != 1 and to_id = ? and conversation_id = ?
+2021-12-07 16:14:09.569 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==> Parameters: 111(Integer), 111_112(String)
+2021-12-07 16:14:09.570 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : <==      Total: 1
+2021-12-07 16:14:09.570 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:09.570 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 112(Integer)
+2021-12-07 16:14:09.571 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:09.571 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==>  Preparing: select count(id) from message where status != 2 and from_id != 1 and conversation_id = ?
+2021-12-07 16:14:09.571 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==> Parameters: 111_145(String)
+2021-12-07 16:14:09.571 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : <==      Total: 1
+2021-12-07 16:14:09.571 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==>  Preparing: select count(id) from message where status = 0 and from_id != 1 and to_id = ? and conversation_id = ?
+2021-12-07 16:14:09.572 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==> Parameters: 111(Integer), 111_145(String)
+2021-12-07 16:14:09.572 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : <==      Total: 1
+2021-12-07 16:14:09.572 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:09.572 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 145(Integer)
+2021-12-07 16:14:09.573 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:09.573 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==>  Preparing: select count(id) from message where status != 2 and from_id != 1 and conversation_id = ?
+2021-12-07 16:14:09.573 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==> Parameters: 111_111(String)
+2021-12-07 16:14:09.574 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : <==      Total: 1
+2021-12-07 16:14:09.574 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==>  Preparing: select count(id) from message where status = 0 and from_id != 1 and to_id = ? and conversation_id = ?
+2021-12-07 16:14:09.574 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==> Parameters: 111(Integer), 111_111(String)
+2021-12-07 16:14:09.575 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : <==      Total: 1
+2021-12-07 16:14:09.575 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:09.575 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-07 16:14:09.576 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:09.576 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==>  Preparing: select count(id) from message where status != 2 and from_id != 1 and conversation_id = ?
+2021-12-07 16:14:09.576 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==> Parameters: 111_138(String)
+2021-12-07 16:14:09.576 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : <==      Total: 1
+2021-12-07 16:14:09.576 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==>  Preparing: select count(id) from message where status = 0 and from_id != 1 and to_id = ? and conversation_id = ?
+2021-12-07 16:14:09.577 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==> Parameters: 111(Integer), 111_138(String)
+2021-12-07 16:14:09.577 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : <==      Total: 1
+2021-12-07 16:14:09.577 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:09.577 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 138(Integer)
+2021-12-07 16:14:09.578 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:09.578 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==>  Preparing: select count(id) from message where status != 2 and from_id != 1 and conversation_id = ?
+2021-12-07 16:14:09.578 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : ==> Parameters: 111_134(String)
+2021-12-07 16:14:09.578 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectedLetterCount            : <==      Total: 1
+2021-12-07 16:14:09.579 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==>  Preparing: select count(id) from message where status = 0 and from_id != 1 and to_id = ? and conversation_id = ?
+2021-12-07 16:14:09.579 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==> Parameters: 111(Integer), 111_134(String)
+2021-12-07 16:14:09.579 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : <==      Total: 1
+2021-12-07 16:14:09.579 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-07 16:14:09.580 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 134(Integer)
+2021-12-07 16:14:09.580 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-07 16:14:09.580 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==>  Preparing: select count(id) from message where status = 0 and from_id != 1 and to_id = ?
+2021-12-07 16:14:09.580 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : ==> Parameters: 111(Integer)
+2021-12-07 16:14:09.581 DEBUG 37340 --- [http-nio-8080-exec-1] c.n.c.d.M.selectLetterUnreadCount        : <==      Total: 1
