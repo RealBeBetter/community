@@ -6,6 +6,7 @@ import com.nowcoder.community.entity.Page;
 import com.nowcoder.community.entity.User;
 import com.nowcoder.community.service.MessageService;
 import com.nowcoder.community.service.UserService;
+import com.nowcoder.community.util.CommunityUtil;
 import com.nowcoder.community.util.HostHolder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -13,11 +14,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author : Real
@@ -116,6 +115,11 @@ public class MessageController {
         model.addAttribute("letters", letterList);
         // 私信目标用户
         model.addAttribute("target", getTargetUser(conversationId));
+        // 设置已读
+        List<Integer> unreadConversationId = getUnreadConversationId(letters);
+        if (!unreadConversationId.isEmpty()) {
+            messageService.readMessage(unreadConversationId);
+        }
         return "/site/letter-detail";
     }
 
@@ -136,6 +140,56 @@ public class MessageController {
         } else {
             return userService.findUserById(user1);
         }
+    }
+
+    /**
+     * 获取集合中未读消息的状态
+     *
+     * @param letters
+     * @return
+     */
+    private List<Integer> getUnreadConversationId(List<Message> letters) {
+        List<Integer> list = new ArrayList<>();
+        if (letters != null) {
+            for (Message letter : letters) {
+                if (hostHolder.getUser().getId() == letter.getToId() && letter.getStatus() == 0) {
+                    // 只有当接收者是一个未读的状态，才会改变消息的状态
+                    list.add(letter.getId());
+                }
+            }
+        }
+        return list;
+    }
+
+    /**
+     * 发送私信的方法
+     *
+     * @param toName  发送的用户名
+     * @param content 发送的私信内容
+     * @return 发送之后的页面，刷新的私信列表
+     */
+    @RequestMapping(path = "/letter/send", method = RequestMethod.POST)
+    @ResponseBody
+    public String sendLetter(String toName, String content) {
+        User target = userService.findUserByName(toName);
+        if (target == null) {
+            return CommunityUtil.getJSONString(1, "目标用户不存在！");
+        }
+        // 利用目标用户以及私信内容构建一个 Message 对象
+        Message message = new Message();
+        message.setFromId(hostHolder.getUser().getId());
+        message.setToId(target.getId());
+        message.setContent(content);
+        message.setCreateTime(new Date());
+        if (message.getFromId() < message.getToId()) {
+            message.setConversationId(message.getFromId() + "_" + message.getToId());
+        } else {
+            message.setConversationId(message.getToId() + "_" + message.getFromId());
+        }
+        messageService.addMessage(message);
+
+        // 表示处理成功
+        return CommunityUtil.getJSONString(0);
     }
 
 }

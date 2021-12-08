@@ -37,6 +37,12 @@ spring:
         smtp:
           ssl:
             enable: true
+  # redis 配置
+  redis:
+    database: 11
+    host: localhost
+    port: 6379
+
 
 mybatis:
   # 映射文件的地址
