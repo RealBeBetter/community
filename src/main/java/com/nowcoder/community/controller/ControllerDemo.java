@@ -79,7 +79,11 @@ public class ControllerDemo {
         return "some students";
     }
 
-    // ②查询单个学生，id为123，不使用参数的时候，直接编排到url中时：/student/123
+    /**
+     * ②查询单个学生，id为123，不使用参数的时候，直接编排到url中时：/student/123
+     * @param id
+     * @return
+     */
     @RequestMapping(path = "/student/{id}", method = RequestMethod.GET)
     @ResponseBody
     public String getStudent(@PathVariable("id") int id) {
@@ -89,12 +93,11 @@ public class ControllerDemo {
 
     /**
      * 请求的参数填写的应该和html表单中的名字一致
-     *
+     * POST 请求参数的处理
      * @param name
      * @param age
      * @return
      */
-    // POST 请求参数的处理
     @RequestMapping(path = "/student", method = RequestMethod.POST)
     @ResponseBody
     public String saveStudent(String name, int age) {

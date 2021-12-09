@@ -9,8 +9,9 @@ import org.springframework.stereotype.Component;
  * @date : 2021/12/7 18:17
  * @description : Aspect demo ，注释掉
  */
-//@Component
-//@Aspect
+// @Component
+// @Aspect
+
 public class AlphaAspect {
 
     /**

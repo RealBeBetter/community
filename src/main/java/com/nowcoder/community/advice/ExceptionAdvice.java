@@ -15,9 +15,9 @@ import java.io.PrintWriter;
 /**
  * @author : Real
  * @date : 2021/12/7 17:27
- * @description : 统一异常处理
+ * @description : 统一异常处理，规定只扫描标注了 @Controller 注解的类
  */
-@ControllerAdvice(annotations = Controller.class)   // 规定只扫描标注了 Controller 注解的类
+@ControllerAdvice(annotations = Controller.class)
 public class ExceptionAdvice {
 
     private static final Logger logger = LoggerFactory.getLogger(ExceptionAdvice.class);

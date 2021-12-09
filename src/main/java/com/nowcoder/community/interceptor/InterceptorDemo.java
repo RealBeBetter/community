@@ -19,21 +19,45 @@ public class InterceptorDemo implements HandlerInterceptor {
 
     public static final Logger logger = LoggerFactory.getLogger(InterceptorDemo.class);
 
-    // 发生在 Controller 访问之前
+    /**
+     * 发生在 Controller 访问之前
+     *
+     * @param request
+     * @param response
+     * @param handler
+     * @return
+     * @throws Exception
+     */
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         logger.debug("preHandle " + handler.toString());
         return HandlerInterceptor.super.preHandle(request, response, handler);
     }
 
-    // 发生在 Controller 访问之后，视图渲染完成之前
+    /**
+     * 发生在 Controller 访问之后，视图渲染完成之前
+     *
+     * @param request
+     * @param response
+     * @param handler
+     * @param modelAndView
+     * @throws Exception
+     */
     @Override
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
         logger.debug("postHandle " + handler.toString());
         HandlerInterceptor.super.postHandle(request, response, handler, modelAndView);
     }
 
-    // 发生在 模板引擎加载之后 / 视图渲染完毕之后
+    /**
+     * 发生在 模板引擎加载之后 / 视图渲染完毕之后
+     *
+     * @param request
+     * @param response
+     * @param handler
+     * @param ex
+     * @throws Exception
+     */
     @Override
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
         logger.debug("afterCompletion " + handler.toString());
