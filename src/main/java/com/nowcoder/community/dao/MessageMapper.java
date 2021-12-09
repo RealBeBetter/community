@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * @author : Real
  * @date : 2021/12/5 17:39
- * @description :
+ * @description : 私信功能 DAO 层
  */
 @Mapper
 public interface MessageMapper {

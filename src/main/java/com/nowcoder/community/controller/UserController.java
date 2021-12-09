@@ -2,6 +2,7 @@ package com.nowcoder.community.controller;
 
 import com.nowcoder.community.annotation.LoginRequired;
 import com.nowcoder.community.entity.User;
+import com.nowcoder.community.service.LikeService;
 import com.nowcoder.community.service.UserService;
 import com.nowcoder.community.util.CommunityUtil;
 import com.nowcoder.community.util.HostHolder;
@@ -48,6 +49,9 @@ public class UserController {
 
     @Autowired
     private HostHolder hostHolder;
+
+    @Autowired
+    private LikeService likeService;
 
     @LoginRequired
     @RequestMapping(path = "/setting", method = RequestMethod.GET)
@@ -141,7 +145,7 @@ public class UserController {
     @RequestMapping(path = "/updatePassword", method = RequestMethod.POST)
     public String updatePassword(String oldPassword, String newPassword, String confirmPassword, Model model) {
         // 判断两次输入的新密码是否相等，是否合法
-        if (!StringUtils.isBlank(newPassword) || !StringUtils.isBlank(confirmPassword)) {
+        if (!StringUtils.isBlank(newPassword) && !StringUtils.isBlank(confirmPassword)) {
             if (!newPassword.equals(confirmPassword)) {
                 // 两次密码不相等
                 model.addAttribute("confirmPasswordError", "确认密码不一致！请重新输入！");
@@ -176,6 +180,28 @@ public class UserController {
         userService.updatePassword(user.getId(), CommunityUtil.md5(newPassword + user.getSalt()));
         // 修改成功重定向至登录界面，并且设置原有的 LoginTicket 失效
         return "redirect:/logout";
+    }
+
+    /**
+     * 显示用户主页
+     *
+     * @param userId 用户 ID
+     * @param model  model 对象
+     * @return 用户主页界面
+     */
+    @RequestMapping(path = "/profile/{userId}", method = RequestMethod.GET)
+    public String getProfilePage(@PathVariable("userId") int userId, Model model) {
+        User user = userService.findUserById(userId);
+        if (user == null) {
+            throw new RuntimeException("该用户不存在！");
+        }
+        // 用户相关信息显示
+        model.addAttribute("user", user);
+        // 用户收到的点赞数量
+        int userLikeCount = likeService.findUserLikeCount(userId);
+        model.addAttribute("userLikeCount", userLikeCount);
+
+        return "/site/profile";
     }
 
 }
