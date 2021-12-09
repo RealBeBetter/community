@@ -2223,3 +2223,172 @@
 2021-12-10 00:51:54.751 DEBUG 67292 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 149(Integer)
 2021-12-10 00:51:54.752 DEBUG 67292 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
 2021-12-10 00:51:54.752  INFO 67292 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:51:54]，访问了[com.nowcoder.community.service.LikeService.findUserLikeCount]
+2021-12-10 00:52:07.393  INFO 71216 --- [restartedMain] c.n.community.CommunityApplication       : Starting CommunityApplication using Java 14.0.1 on LAPTOP-5CRCV1LI with PID 71216 (D:\Java\IdeaProjects\community\target\classes started by Real in D:\Java\IdeaProjects\community)
+2021-12-10 00:52:07.395 DEBUG 71216 --- [restartedMain] c.n.community.CommunityApplication       : Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-12-10 00:52:07.395  INFO 71216 --- [restartedMain] c.n.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2021-12-10 00:52:07.428  INFO 71216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-10 00:52:07.429  INFO 71216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-10 00:52:07.977  INFO 71216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-12-10 00:52:07.979  INFO 71216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-12-10 00:52:08.001  INFO 71216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-12-10 00:52:08.675  INFO 71216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-10 00:52:08.682  INFO 71216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-10 00:52:08.683  INFO 71216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-12-10 00:52:08.766  INFO 71216 --- [restartedMain] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring embedded WebApplicationContext
+2021-12-10 00:52:08.767  INFO 71216 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1337 ms
+2021-12-10 00:52:09.958  INFO 71216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-12-10 00:52:10.338  INFO 71216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-10 00:52:10.400  INFO 71216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/community'
+2021-12-10 00:52:10.416  INFO 71216 --- [restartedMain] c.n.community.CommunityApplication       : Started CommunityApplication in 3.356 seconds (JVM running for 3.948)
+2021-12-10 00:52:14.595  INFO 71216 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-10 00:52:14.595  INFO 71216 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-10 00:52:14.596  INFO 71216 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-10 00:52:14.608  INFO 71216 --- [http-nio-8080-exec-1] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:14]，访问了[com.nowcoder.community.service.UserService.getLoginTicket]
+2021-12-10 00:52:14.624  INFO 71216 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-10 00:52:14.851  INFO 71216 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-10 00:52:14.856 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : ==>  Preparing: select id, user_id, ticket, status, expired from login_ticket where ticket = ?
+2021-12-10 00:52:14.878 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : ==> Parameters: 874280f323cb45be919dd35a06bb58de(String)
+2021-12-10 00:52:14.899 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : <==      Total: 1
+2021-12-10 00:52:14.904  INFO 71216 --- [http-nio-8080-exec-1] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:14]，访问了[com.nowcoder.community.service.UserService.findUserById]
+2021-12-10 00:52:14.905 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-10 00:52:14.906 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 149(Integer)
+2021-12-10 00:52:14.907 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-10 00:52:14.920  INFO 71216 --- [http-nio-8080-exec-1] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:14]，访问了[com.nowcoder.community.service.UserService.findUserById]
+2021-12-10 00:52:14.920 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-10 00:52:14.920 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 149(Integer)
+2021-12-10 00:52:14.923 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-10 00:52:14.924  INFO 71216 --- [http-nio-8080-exec-1] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:14]，访问了[com.nowcoder.community.service.LikeService.findUserLikeCount]
+2021-12-10 00:52:19.011  INFO 71216 --- [http-nio-8080-exec-5] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:19]，访问了[com.nowcoder.community.service.UserService.getLoginTicket]
+2021-12-10 00:52:19.012 DEBUG 71216 --- [http-nio-8080-exec-5] c.n.c.d.L.selectByTicket                 : ==>  Preparing: select id, user_id, ticket, status, expired from login_ticket where ticket = ?
+2021-12-10 00:52:19.012 DEBUG 71216 --- [http-nio-8080-exec-5] c.n.c.d.L.selectByTicket                 : ==> Parameters: 874280f323cb45be919dd35a06bb58de(String)
+2021-12-10 00:52:19.013 DEBUG 71216 --- [http-nio-8080-exec-5] c.n.c.d.L.selectByTicket                 : <==      Total: 1
+2021-12-10 00:52:19.014  INFO 71216 --- [http-nio-8080-exec-5] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:19]，访问了[com.nowcoder.community.service.UserService.findUserById]
+2021-12-10 00:52:19.014 DEBUG 71216 --- [http-nio-8080-exec-5] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-10 00:52:19.014 DEBUG 71216 --- [http-nio-8080-exec-5] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 149(Integer)
+2021-12-10 00:52:19.016 DEBUG 71216 --- [http-nio-8080-exec-5] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-10 00:52:27.875  INFO 71216 --- [http-nio-8080-exec-9] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:27]，访问了[com.nowcoder.community.service.UserService.getLoginTicket]
+2021-12-10 00:52:27.876 DEBUG 71216 --- [http-nio-8080-exec-9] c.n.c.d.L.selectByTicket                 : ==>  Preparing: select id, user_id, ticket, status, expired from login_ticket where ticket = ?
+2021-12-10 00:52:27.876 DEBUG 71216 --- [http-nio-8080-exec-9] c.n.c.d.L.selectByTicket                 : ==> Parameters: 874280f323cb45be919dd35a06bb58de(String)
+2021-12-10 00:52:27.878 DEBUG 71216 --- [http-nio-8080-exec-9] c.n.c.d.L.selectByTicket                 : <==      Total: 1
+2021-12-10 00:52:27.878  INFO 71216 --- [http-nio-8080-exec-9] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:27]，访问了[com.nowcoder.community.service.UserService.findUserById]
+2021-12-10 00:52:27.878 DEBUG 71216 --- [http-nio-8080-exec-9] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-10 00:52:27.878 DEBUG 71216 --- [http-nio-8080-exec-9] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 149(Integer)
+2021-12-10 00:52:27.879 DEBUG 71216 --- [http-nio-8080-exec-9] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-10 00:52:27.885  INFO 71216 --- [http-nio-8080-exec-9] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:27]，访问了[com.nowcoder.community.service.UserService.updatePassword]
+2021-12-10 00:52:27.885 DEBUG 71216 --- [http-nio-8080-exec-9] c.n.c.dao.UserMapper.updatePassword      : ==>  Preparing: update user set password = ? where id = ?
+2021-12-10 00:52:27.886 DEBUG 71216 --- [http-nio-8080-exec-9] c.n.c.dao.UserMapper.updatePassword      : ==> Parameters: 5866f80d338f3fd8feeac55f62136a85(String), 149(Integer)
+2021-12-10 00:52:27.889 DEBUG 71216 --- [http-nio-8080-exec-9] c.n.c.dao.UserMapper.updatePassword      : <==    Updates: 1
+2021-12-10 00:52:27.917  INFO 71216 --- [http-nio-8080-exec-10] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:27]，访问了[com.nowcoder.community.service.UserService.getLoginTicket]
+2021-12-10 00:52:27.917 DEBUG 71216 --- [http-nio-8080-exec-10] c.n.c.d.L.selectByTicket                 : ==>  Preparing: select id, user_id, ticket, status, expired from login_ticket where ticket = ?
+2021-12-10 00:52:27.917 DEBUG 71216 --- [http-nio-8080-exec-10] c.n.c.d.L.selectByTicket                 : ==> Parameters: 874280f323cb45be919dd35a06bb58de(String)
+2021-12-10 00:52:27.919 DEBUG 71216 --- [http-nio-8080-exec-10] c.n.c.d.L.selectByTicket                 : <==      Total: 1
+2021-12-10 00:52:27.919  INFO 71216 --- [http-nio-8080-exec-10] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:27]，访问了[com.nowcoder.community.service.UserService.findUserById]
+2021-12-10 00:52:27.920 DEBUG 71216 --- [http-nio-8080-exec-10] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-10 00:52:27.920 DEBUG 71216 --- [http-nio-8080-exec-10] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 149(Integer)
+2021-12-10 00:52:27.921 DEBUG 71216 --- [http-nio-8080-exec-10] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-10 00:52:27.924  INFO 71216 --- [http-nio-8080-exec-10] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:27]，访问了[com.nowcoder.community.service.UserService.logout]
+2021-12-10 00:52:27.924 DEBUG 71216 --- [http-nio-8080-exec-10] c.n.c.d.LoginTicketMapper.updateStatus   : ==>  Preparing: update login_ticket set status = ? where ticket = ?
+2021-12-10 00:52:27.924 DEBUG 71216 --- [http-nio-8080-exec-10] c.n.c.d.LoginTicketMapper.updateStatus   : ==> Parameters: 1(Integer), 874280f323cb45be919dd35a06bb58de(String)
+2021-12-10 00:52:27.927 DEBUG 71216 --- [http-nio-8080-exec-10] c.n.c.d.LoginTicketMapper.updateStatus   : <==    Updates: 1
+2021-12-10 00:52:27.949 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.c.interceptor.InterceptorDemo        : preHandle com.nowcoder.community.controller.LoginController#getLoginPage()
+2021-12-10 00:52:27.949  INFO 71216 --- [http-nio-8080-exec-1] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:27]，访问了[com.nowcoder.community.service.UserService.getLoginTicket]
+2021-12-10 00:52:27.950 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : ==>  Preparing: select id, user_id, ticket, status, expired from login_ticket where ticket = ?
+2021-12-10 00:52:27.950 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : ==> Parameters: 874280f323cb45be919dd35a06bb58de(String)
+2021-12-10 00:52:27.951 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : <==      Total: 1
+2021-12-10 00:52:27.951 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.c.interceptor.InterceptorDemo        : postHandle com.nowcoder.community.controller.LoginController#getLoginPage()
+2021-12-10 00:52:27.962 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.c.interceptor.InterceptorDemo        : afterCompletion com.nowcoder.community.controller.LoginController#getLoginPage()
+2021-12-10 00:52:28.018  INFO 71216 --- [http-nio-8080-exec-4] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:28]，访问了[com.nowcoder.community.service.UserService.getLoginTicket]
+2021-12-10 00:52:28.019 DEBUG 71216 --- [http-nio-8080-exec-4] c.n.c.d.L.selectByTicket                 : ==>  Preparing: select id, user_id, ticket, status, expired from login_ticket where ticket = ?
+2021-12-10 00:52:28.019 DEBUG 71216 --- [http-nio-8080-exec-4] c.n.c.d.L.selectByTicket                 : ==> Parameters: 874280f323cb45be919dd35a06bb58de(String)
+2021-12-10 00:52:28.021 DEBUG 71216 --- [http-nio-8080-exec-4] c.n.c.d.L.selectByTicket                 : <==      Total: 1
+2021-12-10 00:52:39.874 DEBUG 71216 --- [http-nio-8080-exec-6] c.n.c.interceptor.InterceptorDemo        : preHandle com.nowcoder.community.controller.LoginController#login(String, String, String, boolean, HttpSession, HttpServletResponse, Model)
+2021-12-10 00:52:39.875  INFO 71216 --- [http-nio-8080-exec-6] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:39]，访问了[com.nowcoder.community.service.UserService.getLoginTicket]
+2021-12-10 00:52:39.876 DEBUG 71216 --- [http-nio-8080-exec-6] c.n.c.d.L.selectByTicket                 : ==>  Preparing: select id, user_id, ticket, status, expired from login_ticket where ticket = ?
+2021-12-10 00:52:39.876 DEBUG 71216 --- [http-nio-8080-exec-6] c.n.c.d.L.selectByTicket                 : ==> Parameters: 874280f323cb45be919dd35a06bb58de(String)
+2021-12-10 00:52:39.877 DEBUG 71216 --- [http-nio-8080-exec-6] c.n.c.d.L.selectByTicket                 : <==      Total: 1
+2021-12-10 00:52:39.878 DEBUG 71216 --- [http-nio-8080-exec-6] c.n.c.interceptor.InterceptorDemo        : postHandle com.nowcoder.community.controller.LoginController#login(String, String, String, boolean, HttpSession, HttpServletResponse, Model)
+2021-12-10 00:52:39.885 DEBUG 71216 --- [http-nio-8080-exec-6] c.n.c.interceptor.InterceptorDemo        : afterCompletion com.nowcoder.community.controller.LoginController#login(String, String, String, boolean, HttpSession, HttpServletResponse, Model)
+2021-12-10 00:52:39.948  INFO 71216 --- [http-nio-8080-exec-10] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:39]，访问了[com.nowcoder.community.service.UserService.getLoginTicket]
+2021-12-10 00:52:39.948 DEBUG 71216 --- [http-nio-8080-exec-10] c.n.c.d.L.selectByTicket                 : ==>  Preparing: select id, user_id, ticket, status, expired from login_ticket where ticket = ?
+2021-12-10 00:52:39.949 DEBUG 71216 --- [http-nio-8080-exec-10] c.n.c.d.L.selectByTicket                 : ==> Parameters: 874280f323cb45be919dd35a06bb58de(String)
+2021-12-10 00:52:39.950 DEBUG 71216 --- [http-nio-8080-exec-10] c.n.c.d.L.selectByTicket                 : <==      Total: 1
+2021-12-10 00:52:44.908 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.c.interceptor.InterceptorDemo        : preHandle com.nowcoder.community.controller.LoginController#login(String, String, String, boolean, HttpSession, HttpServletResponse, Model)
+2021-12-10 00:52:44.909  INFO 71216 --- [http-nio-8080-exec-1] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:44]，访问了[com.nowcoder.community.service.UserService.getLoginTicket]
+2021-12-10 00:52:44.910 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : ==>  Preparing: select id, user_id, ticket, status, expired from login_ticket where ticket = ?
+2021-12-10 00:52:44.910 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : ==> Parameters: 874280f323cb45be919dd35a06bb58de(String)
+2021-12-10 00:52:44.911 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.c.d.L.selectByTicket                 : <==      Total: 1
+2021-12-10 00:52:44.913  INFO 71216 --- [http-nio-8080-exec-1] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:44]，访问了[com.nowcoder.community.service.UserService.login]
+2021-12-10 00:52:44.913 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.c.dao.UserMapper.selectByName        : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where username = ?
+2021-12-10 00:52:44.913 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.c.dao.UserMapper.selectByName        : ==> Parameters: niuke(String)
+2021-12-10 00:52:44.915 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.c.dao.UserMapper.selectByName        : <==      Total: 1
+2021-12-10 00:52:44.916 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.c.d.L.insertLoginTicket              : ==>  Preparing: insert into login_ticket( user_id, ticket, status, expired ) values(?, ?, ?, ?)
+2021-12-10 00:52:44.918 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.c.d.L.insertLoginTicket              : ==> Parameters: 149(Integer), 4ef643bcc3d8402f8bdab3c2cd8cf7f0(String), 0(Integer), 2022-03-10 00:52:44.916(Timestamp)
+2021-12-10 00:52:44.920 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.c.d.L.insertLoginTicket              : <==    Updates: 1
+2021-12-10 00:52:44.924 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.c.interceptor.InterceptorDemo        : postHandle com.nowcoder.community.controller.LoginController#login(String, String, String, boolean, HttpSession, HttpServletResponse, Model)
+2021-12-10 00:52:44.924 DEBUG 71216 --- [http-nio-8080-exec-1] c.n.c.interceptor.InterceptorDemo        : afterCompletion com.nowcoder.community.controller.LoginController#login(String, String, String, boolean, HttpSession, HttpServletResponse, Model)
+2021-12-10 00:52:44.942  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:44]，访问了[com.nowcoder.community.service.UserService.getLoginTicket]
+2021-12-10 00:52:44.943 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.c.d.L.selectByTicket                 : ==>  Preparing: select id, user_id, ticket, status, expired from login_ticket where ticket = ?
+2021-12-10 00:52:44.943 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.c.d.L.selectByTicket                 : ==> Parameters: 4ef643bcc3d8402f8bdab3c2cd8cf7f0(String)
+2021-12-10 00:52:44.944 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.c.d.L.selectByTicket                 : <==      Total: 1
+2021-12-10 00:52:44.945  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:44]，访问了[com.nowcoder.community.service.UserService.findUserById]
+2021-12-10 00:52:44.946 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-10 00:52:44.946 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 149(Integer)
+2021-12-10 00:52:44.947 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-10 00:52:44.949  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:44]，访问了[com.nowcoder.community.service.DiscussPostService.findDiscussPostRows]
+2021-12-10 00:52:44.966 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.c.d.D.selectDiscussPostRows          : ==>  Preparing: select count(id) from discuss_post where status != 2
+2021-12-10 00:52:44.966 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.c.d.D.selectDiscussPostRows          : ==> Parameters: 
+2021-12-10 00:52:44.968 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.c.d.D.selectDiscussPostRows          : <==      Total: 1
+2021-12-10 00:52:44.969  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:44]，访问了[com.nowcoder.community.service.DiscussPostService.findDiscussPosts]
+2021-12-10 00:52:44.969 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.c.d.D.selectDiscussPosts             : ==>  Preparing: select id, user_id, title, content, type, status, create_time, comment_count, score from discuss_post where status != 2 order by type desc, create_time desc limit ?, ?
+2021-12-10 00:52:44.970 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.c.d.D.selectDiscussPosts             : ==> Parameters: 0(Integer), 10(Integer)
+2021-12-10 00:52:44.974 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.c.d.D.selectDiscussPosts             : <==      Total: 10
+2021-12-10 00:52:44.976  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:44]，访问了[com.nowcoder.community.service.UserService.findUserById]
+2021-12-10 00:52:44.976 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-10 00:52:44.976 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 11(Integer)
+2021-12-10 00:52:44.978 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-10 00:52:44.979  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:44]，访问了[com.nowcoder.community.service.LikeService.findEntityLikeCount]
+2021-12-10 00:52:44.981  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:44]，访问了[com.nowcoder.community.service.UserService.findUserById]
+2021-12-10 00:52:44.982 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-10 00:52:44.982 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2021-12-10 00:52:44.984 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-10 00:52:44.985  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:44]，访问了[com.nowcoder.community.service.LikeService.findEntityLikeCount]
+2021-12-10 00:52:44.986  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:44]，访问了[com.nowcoder.community.service.UserService.findUserById]
+2021-12-10 00:52:44.986 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-10 00:52:44.987 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 154(Integer)
+2021-12-10 00:52:44.988 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-10 00:52:44.988  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:44]，访问了[com.nowcoder.community.service.LikeService.findEntityLikeCount]
+2021-12-10 00:52:44.990  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:44]，访问了[com.nowcoder.community.service.UserService.findUserById]
+2021-12-10 00:52:44.990 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-10 00:52:44.990 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 154(Integer)
+2021-12-10 00:52:44.992 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-10 00:52:44.993  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:44]，访问了[com.nowcoder.community.service.LikeService.findEntityLikeCount]
+2021-12-10 00:52:44.995  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:44]，访问了[com.nowcoder.community.service.UserService.findUserById]
+2021-12-10 00:52:44.995 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-10 00:52:44.995 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 154(Integer)
+2021-12-10 00:52:44.996 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-10 00:52:44.997  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:44]，访问了[com.nowcoder.community.service.LikeService.findEntityLikeCount]
+2021-12-10 00:52:44.998  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:44]，访问了[com.nowcoder.community.service.UserService.findUserById]
+2021-12-10 00:52:44.999 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-10 00:52:44.999 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 154(Integer)
+2021-12-10 00:52:45.000 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-10 00:52:45.001  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:45]，访问了[com.nowcoder.community.service.LikeService.findEntityLikeCount]
+2021-12-10 00:52:45.002  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:45]，访问了[com.nowcoder.community.service.UserService.findUserById]
+2021-12-10 00:52:45.002 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-10 00:52:45.002 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 149(Integer)
+2021-12-10 00:52:45.003 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-10 00:52:45.003  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:45]，访问了[com.nowcoder.community.service.LikeService.findEntityLikeCount]
+2021-12-10 00:52:45.004  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:45]，访问了[com.nowcoder.community.service.UserService.findUserById]
+2021-12-10 00:52:45.005 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-10 00:52:45.005 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 149(Integer)
+2021-12-10 00:52:45.006 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-10 00:52:45.006  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:45]，访问了[com.nowcoder.community.service.LikeService.findEntityLikeCount]
+2021-12-10 00:52:45.007  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:45]，访问了[com.nowcoder.community.service.UserService.findUserById]
+2021-12-10 00:52:45.008 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-10 00:52:45.008 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 149(Integer)
+2021-12-10 00:52:45.011 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-10 00:52:45.011  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:45]，访问了[com.nowcoder.community.service.LikeService.findEntityLikeCount]
+2021-12-10 00:52:45.013  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:45]，访问了[com.nowcoder.community.service.UserService.findUserById]
+2021-12-10 00:52:45.013 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2021-12-10 00:52:45.013 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 146(Integer)
+2021-12-10 00:52:45.015 DEBUG 71216 --- [http-nio-8080-exec-3] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2021-12-10 00:52:45.015  INFO 71216 --- [http-nio-8080-exec-3] c.n.community.aspect.ServiceLogAspect    : 用户[0:0:0:0:0:0:0:1]，在[2021-12-10 00:52:45]，访问了[com.nowcoder.community.service.LikeService.findEntityLikeCount]
