@@ -184,6 +184,7 @@
 			var path = CONTEXT_PATH + "/kaptcha?p=" + Math.random();
 			$("#kaptcha").attr("src", path);
 		}
+		setInterval(refresh_kaptcha, 120000);
 	</script>
 </body>
 </html>
