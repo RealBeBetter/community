@@ -84,6 +84,7 @@ public class LikeService {
     /**
      * 查询某个用户获得的赞的数量
      * 查询的逻辑是该用户拥有多少个赞，包括发帖/评论获得的赞
+     *
      * @param userId 用户 ID
      * @return 收到赞的个数
      */
