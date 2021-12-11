@@ -1,7 +1,12 @@
 package com.nowcoder.community.controller;
 
 import com.nowcoder.community.entity.Comment;
+import com.nowcoder.community.entity.DiscussPost;
+import com.nowcoder.community.entity.Event;
+import com.nowcoder.community.event.EventProducer;
 import com.nowcoder.community.service.CommentService;
+import com.nowcoder.community.service.DiscussPostService;
+import com.nowcoder.community.util.CommunityConstant;
 import com.nowcoder.community.util.HostHolder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -26,6 +31,12 @@ public class CommentController {
     @Autowired
     private HostHolder hostHolder;
 
+    @Autowired
+    private EventProducer eventProducer;
+
+    @Autowired
+    private DiscussPostService discussPostService;
+
     /**
      * 添加评论
      * @param discussionPostId 帖子 ID
@@ -41,7 +52,26 @@ public class CommentController {
         comment.setCreateTime(new Date());
         commentService.addComment(comment);
 
+        // 触发评论事件
+        Event event = new Event()
+                .setTopic(CommunityConstant.TOPIC_COMMENT)
+                .setUserId(hostHolder.getUser().getId())
+                .setEntityType(comment.getEntityType())
+                .setEntityId(comment.getEntityId())
+                .setData("postId", discussionPostId);
+
+        if (comment.getEntityType() == CommunityConstant.ENTITY_TYPE_POST) {
+            DiscussPost target = discussPostService.findDiscussPostById(comment.getEntityId());
+            event.setEntityUserId(target.getUserId());
+        } else if (comment.getEntityType() == CommunityConstant.ENTITY_TYPE_COMMENT) {
+            Comment target = commentService.findCommentById(comment.getEntityId());
+            event.setEntityUserId(target.getUserId());
+        }
+        // 发送消息
+        eventProducer.fireEvent(event);
         return "redirect:/discuss/detail/" + discussionPostId;
     }
+
+
 
 }

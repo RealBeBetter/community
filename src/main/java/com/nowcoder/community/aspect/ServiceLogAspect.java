@@ -35,6 +35,11 @@ public class ServiceLogAspect {
     public void before(JoinPoint joinPoint) {
         // 记录格式：用户[1.2.3.4]在[HH:mm:ss]访问了[com.nowcoder.community.service.xxx()]功能
         ServletRequestAttributes requestAttributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
+        // 需要通过生产者调 Service ，此时没有数据，直接返回
+        if (requestAttributes == null) {
+            // 避免 Kafka 报空指针异常
+            return;
+        }
         HttpServletRequest request = requestAttributes.getRequest();
         String host = request.getRemoteHost();
         String date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());

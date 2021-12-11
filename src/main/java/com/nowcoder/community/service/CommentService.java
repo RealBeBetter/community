@@ -39,6 +39,10 @@ public class CommentService {
         return commentMapper.selectCountByEntity(entityId, entityType);
     }
 
+    public Comment findCommentById(int id) {
+        return commentMapper.selectCommentById(id);
+    }
+
 
     /**
      * 添加评论，需要保证在一个事务当中

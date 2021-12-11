@@ -1,9 +1,9 @@
-function like(btn, entityType, entityId, entityUserId) {
+function like(btn, entityType, entityId, entityUserId, postId) {
     $.post(
         /*访问路径*/
         CONTEXT_PATH + "/like",
         /*携带参数*/
-        {"entityType" : entityType, "entityId":entityId, "entityUserId": entityUserId},
+        {"entityType": entityType, "entityId": entityId, "entityUserId": entityUserId, "postId": postId},
         /*回调函数*/
         function (data) {
             data = $.parseJSON(data);

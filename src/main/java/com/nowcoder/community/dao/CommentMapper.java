@@ -35,9 +35,18 @@ public interface CommentMapper {
 
     /**
      * 添加评论
+     *
      * @param comment 评论对象
      * @return 插入的行数
      */
     int insertComment(Comment comment);
+
+    /**
+     * 根据评论 ID 查询评论
+     *
+     * @param id 评论 ID
+     * @return comment 对象
+     */
+    Comment selectCommentById(int id);
 
 }
