@@ -60,4 +60,50 @@ public class MessageService {
         return messageMapper.updateStatus(ids, 1);
     }
 
+    /**
+     * 查询最新的通知
+     *
+     * @param userId 用户 ID
+     * @param topic  主题
+     * @return Message 对象
+     */
+    public Message findLatestNotice(int userId, String topic) {
+        return messageMapper.selectLatestNotice(userId, topic);
+    }
+
+    /**
+     * 查询通知数量
+     *
+     * @param userId 用户 ID
+     * @param topic  主题
+     * @return 通知总数
+     */
+    public int findNoticeCount(int userId, String topic) {
+        return messageMapper.selectNoticeCount(userId, topic);
+    }
+
+    /**
+     * 查询未读通知数量
+     *
+     * @param userId 用户 ID
+     * @param topic  主题
+     * @return 未读通知数量
+     */
+    public int findNoticeUnreadCount(int userId, String topic) {
+        return messageMapper.selectNoticeUnreadCount(userId, topic);
+    }
+
+    /**
+     * 查询通知列表
+     *
+     * @param userId 用户 ID
+     * @param topic  通知类型
+     * @param offset 偏移量
+     * @param limit  分页限制
+     * @return 通知列表
+     */
+    public List<Message> findNotices(int userId, String topic, int offset, int limit) {
+        return messageMapper.selectNotices(userId, topic, offset, limit);
+    }
+
 }

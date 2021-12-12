@@ -62,6 +62,7 @@ public interface MessageMapper {
 
     /**
      * 插入私信，新增私信
+     *
      * @param message message 对象
      * @return 新增行数
      */
@@ -69,10 +70,49 @@ public interface MessageMapper {
 
     /**
      * 批量修改私信的状态
-     * @param ids 一次性修改多条私信，目标私信的 ID 列表
+     *
+     * @param ids    一次性修改多条私信，目标私信的 ID 列表
      * @param status 修改的目标状态
      * @return 修改行数
      */
     int updateStatus(List<Integer> ids, int status);
+
+    /**
+     * 查询某种类型最新的通知
+     *
+     * @param userId 用户 ID
+     * @param topic  主题
+     * @return Message 对象
+     */
+    Message selectLatestNotice(int userId, String topic);
+
+    /**
+     * 查询某种类型通知总数量
+     *
+     * @param userId 用户 ID
+     * @param topic  主题
+     * @return 总数
+     */
+    int selectNoticeCount(int userId, String topic);
+
+    /**
+     * 查询某一类通知未读的数量
+     *
+     * @param userId 用户 ID
+     * @param Topic  主题
+     * @return 未读数量
+     */
+    int selectNoticeUnreadCount(int userId, String topic);
+
+    /**
+     * 查询某一类通知的详情列表
+     *
+     * @param userId 用户 ID
+     * @param topic  通知类型
+     * @param offset 偏移量
+     * @param limit  分页限制数量
+     * @return 通知列表
+     */
+    List<Message> selectNotices(int userId, String topic, int offset, int limit);
 
 }

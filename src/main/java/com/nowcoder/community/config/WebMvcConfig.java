@@ -3,6 +3,7 @@ package com.nowcoder.community.config;
 import com.nowcoder.community.interceptor.InterceptorDemo;
 import com.nowcoder.community.interceptor.LoginRequiredInterceptor;
 import com.nowcoder.community.interceptor.LoginTicketInterceptor;
+import com.nowcoder.community.interceptor.MessageInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
@@ -25,6 +26,9 @@ public class WebMvcConfig implements WebMvcConfigurer {
     @Autowired
     private LoginRequiredInterceptor loginRequiredInterceptor;
 
+    @Autowired
+    private MessageInterceptor messageInterceptor;
+
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(interceptorDemo)
@@ -37,6 +41,10 @@ public class WebMvcConfig implements WebMvcConfigurer {
 
         // 添加登录鉴权，配置登录检验拦截器
         registry.addInterceptor(loginRequiredInterceptor)
+                .excludePathPatterns("/**/*.css", "/**/*.js", "/**/*.png", "/**/*.jpg", "/**/*.jpeg");
+
+        // 添加未读消息拦截，实时显示未读消息数量
+        registry.addInterceptor(messageInterceptor)
                 .excludePathPatterns("/**/*.css", "/**/*.js", "/**/*.png", "/**/*.jpg", "/**/*.jpeg");
     }
 }
