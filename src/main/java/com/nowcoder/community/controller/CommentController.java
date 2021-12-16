@@ -69,6 +69,17 @@ public class CommentController {
         }
         // 发送消息
         eventProducer.fireEvent(event);
+
+        if (comment.getEntityType() == CommunityConstant.ENTITY_TYPE_POST) {
+            // 触发发帖事件，评论总数改变，需要修改 ES 中的数据
+            Event postEvent = new Event()
+                    .setTopic(CommunityConstant.TOPIC_PUBLISH)
+                    .setUserId(comment.getId())
+                    .setEntityType(CommunityConstant.ENTITY_TYPE_POST)
+                    .setEntityId(discussionPostId);
+            eventProducer.fireEvent(postEvent);
+        }
+
         return "redirect:/discuss/detail/" + discussionPostId;
     }
 

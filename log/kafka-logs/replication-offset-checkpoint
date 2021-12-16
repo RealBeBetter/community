@@ -1,6 +1,7 @@
 0
-54
+55
 test 0 7
+__consumer_offsets 23 0
 __consumer_offsets 29 0
 __consumer_offsets 43 0
 __consumer_offsets 0 0
@@ -26,8 +27,8 @@ __consumer_offsets 32 0
 __consumer_offsets 39 0
 __consumer_offsets 2 0
 follow 0 0
-__consumer_offsets 44 0
 __consumer_offsets 12 0
+__consumer_offsets 44 0
 __consumer_offsets 36 0
 __consumer_offsets 45 0
 __consumer_offsets 16 0
@@ -41,10 +42,10 @@ __consumer_offsets 7 0
 __consumer_offsets 48 0
 __consumer_offsets 22 0
 __consumer_offsets 46 0
-__consumer_offsets 23 0
+publish 0 2
 __consumer_offsets 42 0
-__consumer_offsets 28 4700
-comment 0 3
+__consumer_offsets 28 6725
+comment 0 4
 __consumer_offsets 4 0
 __consumer_offsets 31 0
 __consumer_offsets 5 0

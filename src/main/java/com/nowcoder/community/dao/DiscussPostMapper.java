@@ -47,6 +47,11 @@ public interface DiscussPostMapper {
      */
     DiscussPost selectDiscussPostById(int id);
 
+    /**
+     * 查询所有的帖子 Id
+     * @return
+     */
+    List<Integer> selectDiscussPostIds();
 
     /**
      * 更新帖子的评论数量
