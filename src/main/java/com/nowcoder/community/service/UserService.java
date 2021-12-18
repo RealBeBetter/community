@@ -12,14 +12,12 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.security.core.GrantedAuthority;
 import org.springframework.stereotype.Service;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
 
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Random;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -65,7 +63,7 @@ public class UserService implements CommunityConstant {
         return user.getUsername();*/
         User user = getCacheUser(userId);
         if (user == null) {
-            user  = initCacheUser(userId);
+            user = initCacheUser(userId);
         }
         return user.getUsername();
     }
@@ -276,5 +274,29 @@ public class UserService implements CommunityConstant {
     private void clearCacheUser(int userId) {
         String userKey = RedisKeyUtil.getUserKey(userId);
         redisTemplate.delete(userKey);
+    }
+
+    /**
+     * 获得用户的权限
+     *
+     * @return List<GrantedAuthority> 权限列表
+     */
+    public Collection<? extends GrantedAuthority> getAuthorities(int userId) {
+        User user = this.findUserById(userId);
+        // 获得数据库中的用户权限字段
+        int type = user.getType();
+        List<GrantedAuthority> list = new ArrayList<>();
+        list.add((GrantedAuthority) () -> {
+            // 获得用户的权限
+            switch (type) {
+                case 1:
+                    return AUTHORITY_ADMIN;
+                case 2:
+                    return AUTHORITY_MODERATOR;
+                default:
+                    return AUTHORITY_USER;
+            }
+        });
+        return list;
     }
 }

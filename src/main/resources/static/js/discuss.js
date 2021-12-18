@@ -1,4 +1,11 @@
 function like(btn, entityType, entityId, entityUserId, postId) {
+    // 发送 Ajax 请求之前，将 CSRF 令牌设置到请求的消息头中
+    let token = $("meta[name='_csrf']").attr("content");
+    let header = $("meta[name='_csrf_header']").attr("content");
+    $(document).ajaxSend(function (e, xhr, options) {
+        xhr.setRequestHeader(header, token);
+    });
+
     $.post(
         /*访问路径*/
         CONTEXT_PATH + "/like",

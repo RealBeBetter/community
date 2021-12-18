@@ -23,8 +23,11 @@ public class WebMvcConfig implements WebMvcConfigurer {
     @Autowired
     private LoginTicketInterceptor loginTicketInterceptor;
 
-    @Autowired
-    private LoginRequiredInterceptor loginRequiredInterceptor;
+    /**
+     * 弃用原先的登录鉴权方案，使用 Spring Security 解决权限管理
+     * @Autowired
+     *     private LoginRequiredInterceptor loginRequiredInterceptor;
+     */
 
     @Autowired
     private MessageInterceptor messageInterceptor;
@@ -40,8 +43,8 @@ public class WebMvcConfig implements WebMvcConfigurer {
                 .excludePathPatterns("/**/*.css", "/**/*.js", "/**/*.png", "/**/*.jpg", "/**/*.jpeg");
 
         // 添加登录鉴权，配置登录检验拦截器
-        registry.addInterceptor(loginRequiredInterceptor)
-                .excludePathPatterns("/**/*.css", "/**/*.js", "/**/*.png", "/**/*.jpg", "/**/*.jpeg");
+        //registry.addInterceptor(loginRequiredInterceptor)
+        //        .excludePathPatterns("/**/*.css", "/**/*.js", "/**/*.png", "/**/*.jpg", "/**/*.jpeg");
 
         // 添加未读消息拦截，实时显示未读消息数量
         registry.addInterceptor(messageInterceptor)

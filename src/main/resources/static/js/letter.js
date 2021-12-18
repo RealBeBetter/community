@@ -5,6 +5,14 @@ $(function(){
 
 function send_letter() {
 	$("#sendModal").modal("hide");
+
+	// 发送 Ajax 请求之前，将 CSRF 令牌设置到请求的消息头中
+	let token = $("meta[name='_csrf']").attr("content");
+	let header = $("meta[name='_csrf_header']").attr("content");
+	$(document).ajaxSend(function (e, xhr, options) {
+		xhr.setRequestHeader(header, token);
+	});
+
 	let name = $("#recipient-name").val();
 	let text = $("#message-text").val();
 	$.post(
