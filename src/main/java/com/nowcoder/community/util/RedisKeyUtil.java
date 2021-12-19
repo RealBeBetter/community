@@ -48,6 +48,16 @@ public class RedisKeyUtil {
     private static final String PREFIX_USER = "user";
 
     /**
+     * 独立访客前缀
+     */
+    private static final String PREFIX_UV = "uv";
+
+    /**
+     * 日活跃用户前缀
+     */
+    private static final String PREFIX_DAU = "dau";
+
+    /**
      * 获取某个实体的赞的 Key 值
      * 格式： like:entity:entityType:entityId -> set(userId)
      *
@@ -122,6 +132,49 @@ public class RedisKeyUtil {
      */
     public static String getUserKey(int userId) {
         return PREFIX_USER + SPLIT + userId;
+    }
+
+    /**
+     * 获取当日 UV 的 Key 值
+     * 格式： uv:date
+     *
+     * @param date 当天的日期字符串
+     * @return UV Key
+     */
+    public static String getUVKey(String date) {
+        return PREFIX_UV + SPLIT + date;
+    }
+
+    /**
+     * 获取区间之间的 UV
+     *
+     * @param startDate 开始时间
+     * @param endDate   结束时间
+     * @return redis 的 key 值
+     */
+    public static String getUVKey(String startDate, String endDate) {
+        return PREFIX_UV + SPLIT + startDate + SPLIT + endDate;
+    }
+
+    /**
+     * 获取当日的 DAU 的 key 值
+     *
+     * @param date 日期字符串
+     * @return 单日 DAU 的 key
+     */
+    public static String getDAUKey(String date) {
+        return PREFIX_DAU + SPLIT + date;
+    }
+
+    /**
+     * 获取区间之间的 DAU 数据
+     *
+     * @param startDate 开始时间
+     * @param endDate   结束时间
+     * @return 区间之间的 DAU
+     */
+    public static String getDAUKey(String startDate, String endDate) {
+        return PREFIX_DAU + SPLIT + startDate + SPLIT + endDate;
     }
 
 }

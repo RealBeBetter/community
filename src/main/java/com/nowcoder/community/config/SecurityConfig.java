@@ -70,7 +70,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter implements Comm
                         AUTHORITY_MODERATOR
                 )
                 .antMatchers(
-                        "/discuss/delete"
+                        "/discuss/delete",
+                        "/data/**"
                 )
                 .hasAnyAuthority(
                         AUTHORITY_ADMIN
@@ -109,7 +110,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter implements Comm
                             writer.write(CommunityUtil.getJSONString(403, "您没有访问此功能的权限！"));
                         } else {
                             // 表示当前请求是一个同步请求，直接重定向权限不足的页面
-                            httpServletResponse.sendRedirect("/denied");
+                            httpServletResponse.sendRedirect(httpServletRequest.getContextPath() + "/denied");
                         }
                     }
                 });
