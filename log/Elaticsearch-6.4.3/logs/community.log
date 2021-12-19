@@ -3,3 +3,1153 @@
 [2021-12-20T00:01:21,128][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
 [2021-12-20T00:01:51,142][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
 [2021-12-20T00:02:21,155][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:02:51,165][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:03:21,173][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:03:51,177][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:04:21,186][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:04:51,199][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:05:21,209][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:05:51,219][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:06:21,231][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:06:51,247][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:07:21,256][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:07:51,265][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:08:21,281][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:08:51,294][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:09:21,297][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:09:51,309][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:10:21,325][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:10:51,331][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:11:21,339][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:11:51,352][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:12:21,363][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:12:51,378][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:13:21,392][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:13:51,397][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:14:21,409][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:14:51,418][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:15:21,424][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:15:51,437][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:16:21,443][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:16:51,445][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:17:21,451][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:17:51,467][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:18:21,482][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:18:51,498][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:19:21,509][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:19:51,524][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:20:21,535][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:20:51,548][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:21:21,551][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:21:51,563][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:22:21,573][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:22:51,588][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:23:21,603][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:23:51,605][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:24:21,616][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:24:51,619][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:25:21,625][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:25:25,584][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:62765}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:25:25,584][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:62762}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:25:25,584][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:62764}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:25:25,584][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:62772}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:25:25,584][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:62768}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:25:25,584][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:62774}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:25:25,584][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:62769}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:25:25,584][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:62770}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:25:25,584][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:62767}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:25:25,584][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:62771}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:25:25,584][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:62766}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:25:25,584][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:62773}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:25:25,584][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:62763}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:25:51,630][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:26:21,646][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:26:51,658][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:27:21,662][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:27:51,674][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:28:21,689][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:28:51,692][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:29:21,705][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:29:51,710][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:30:21,726][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:30:51,737][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:31:21,743][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:31:51,745][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:32:21,754][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:32:51,755][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:33:21,764][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:33:51,770][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:34:21,772][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:34:27,699][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63639}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:34:27,701][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63637}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:34:27,700][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63635}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:34:27,699][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63638}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:34:27,702][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63630}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:34:27,701][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63628}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:34:27,701][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63631}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:34:27,701][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63636}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:34:27,701][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63633}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:34:27,701][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63627}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:34:27,701][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63632}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:34:27,701][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63634}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:34:27,700][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63629}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:34:51,783][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:35:21,796][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:35:51,798][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:36:12,067][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63831}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:36:12,067][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63830}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:36:12,067][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63836}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:36:12,067][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63828}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:36:12,067][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63835}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:36:12,067][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63834}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:36:12,067][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63829}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:36:12,067][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63827}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:36:12,067][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63824}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:36:12,067][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63826}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:36:12,067][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63833}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:36:12,067][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63832}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:36:12,067][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:63825}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:36:21,811][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:36:51,815][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:37:21,818][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:37:51,822][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:38:21,824][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:38:51,833][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:39:21,847][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:39:51,849][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:40:21,854][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:40:51,866][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:41:21,880][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:41:51,881][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:42:21,887][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.3gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:42:25,760][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:64082}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:42:25,760][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:64081}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:42:25,761][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:64092}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:42:25,760][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:64091}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.WrappedByteBuf.writeBytes(WrappedByteBuf.java:813) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:42:25,761][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:64093}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:42:25,760][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:64087}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:42:25,760][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:64090}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:42:25,760][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:64089}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:42:25,760][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:64086}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:42:25,760][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:64088}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:42:25,760][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:64085}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:42:25,760][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:64084}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:42:25,760][WARN ][o.e.x.s.t.n.SecurityNetty4ServerTransport] [PTbTXQV] exception caught on transport layer [NettyTcpChannel{localAddress=/127.0.0.1:9300, remoteAddress=/127.0.0.1:64083}], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:245) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-buffer-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:545) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [netty-transport-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[2021-12-20T00:42:51,895][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:43:21,903][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:43:51,910][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:44:21,923][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:44:51,936][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:45:21,939][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:45:51,943][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:46:21,957][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:46:51,969][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:47:21,978][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:47:51,990][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:48:22,002][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:48:52,014][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:49:22,020][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:49:52,029][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:50:22,046][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:50:52,054][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:51:00,014][INFO ][o.e.x.m.MlDailyMaintenanceService] triggering scheduled [ML] maintenance tasks
+[2021-12-20T00:51:00,016][INFO ][o.e.x.m.a.TransportDeleteExpiredDataAction] [PTbTXQV] Deleting expired data
+[2021-12-20T00:51:00,072][INFO ][o.e.x.m.a.TransportDeleteExpiredDataAction] [PTbTXQV] Completed deletion of expired data
+[2021-12-20T00:51:00,072][INFO ][o.e.x.m.MlDailyMaintenanceService] Successfully completed [ML] maintenance tasks
+[2021-12-20T00:51:22,069][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:51:52,084][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:52:22,098][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:52:52,109][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:53:22,114][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:53:52,121][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:54:22,136][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:54:52,150][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:55:22,151][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:55:52,159][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:56:22,163][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:56:52,170][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:57:22,177][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:57:52,188][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:58:22,196][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:58:52,205][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:59:22,211][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T00:59:52,214][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:00:22,217][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:00:52,233][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:01:22,240][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:01:52,256][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:02:22,267][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:02:52,269][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:03:22,273][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:03:52,288][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:04:22,298][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:04:52,306][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:05:22,317][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:05:52,329][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:06:22,343][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:06:52,349][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:07:22,362][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:07:52,367][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:08:22,371][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:08:52,382][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:09:22,393][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:09:52,401][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:10:22,414][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:10:52,429][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:11:22,440][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:11:52,446][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:12:22,462][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:12:52,477][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:13:22,478][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:13:52,486][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:14:22,493][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:14:52,508][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:15:22,515][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:15:52,525][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:16:22,533][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:16:52,542][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:17:22,553][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:17:52,555][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:18:22,560][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:18:52,570][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:19:22,578][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:19:52,586][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:20:22,598][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:20:52,603][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:21:22,610][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:21:52,613][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:22:22,617][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:22:52,626][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:23:22,637][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:23:52,646][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:24:22,659][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:24:52,674][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:25:22,680][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:25:52,681][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:26:22,690][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:26:52,704][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:27:22,713][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:27:52,715][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:28:22,728][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:28:52,730][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:29:22,742][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:29:52,748][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:30:22,758][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:30:52,764][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:31:22,770][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:31:52,786][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:32:22,799][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:32:52,810][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:33:22,814][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:33:52,827][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:34:22,837][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:34:52,845][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:35:22,849][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:35:52,856][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:36:22,863][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:36:52,867][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:37:22,881][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:37:52,885][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:38:22,890][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:38:52,905][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:39:22,914][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:39:52,928][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:40:22,943][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:40:52,958][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:41:22,968][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:41:52,973][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:42:22,976][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:42:52,986][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:43:22,990][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:43:53,003][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:44:23,005][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:44:53,015][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:45:23,016][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:45:53,019][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:46:23,024][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
+[2021-12-20T01:46:53,040][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 31.2gb[11.3%], replicas will not be assigned to this node
