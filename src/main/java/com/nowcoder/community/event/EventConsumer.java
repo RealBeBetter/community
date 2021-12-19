@@ -78,7 +78,7 @@ public class EventConsumer {
     }
 
     @KafkaListener(topics = {CommunityConstant.TOPIC_PUBLISH})
-    public void handlePublishMessage(ConsumerRecord record) {
+    public void handlePublishPost(ConsumerRecord record) {
         if (record == null || record.value() == null) {
             logger.error("消息的内容为空！");
             return;
@@ -93,8 +93,23 @@ public class EventConsumer {
 
         DiscussPost post = discussPostService.findDiscussPostById(event.getEntityId());
         elasticsearchService.saveDiscussPost(post);
+    }
 
+    @KafkaListener(topics = {CommunityConstant.TOPIC_DELETE})
+    public void handleDeletePost(ConsumerRecord record) {
+        if (record == null || record.value() == null) {
+            logger.error("消息的内容为空！");
+            return;
+        }
 
+        // 将消息队列中的字符串还原成 Event 对象
+        Event event = JSON.parseObject(record.value().toString(), Event.class);
+        if (event == null) {
+            logger.error("消息格式错误！");
+            return;
+        }
+
+        elasticsearchService.deleteDiscussPost(event.getEntityId());
     }
 
 }

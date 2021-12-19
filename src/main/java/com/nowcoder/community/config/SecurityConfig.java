@@ -3,10 +3,18 @@ package com.nowcoder.community.config;
 import com.nowcoder.community.util.CommunityConstant;
 import com.nowcoder.community.util.CommunityUtil;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.core.AuthenticationException;
+import org.springframework.security.web.AuthenticationEntryPoint;
+import org.springframework.security.web.access.AccessDeniedHandler;
 
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
@@ -54,36 +62,55 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter implements Comm
                         AUTHORITY_MODERATOR,
                         AUTHORITY_USER
                 )
+                .antMatchers(
+                        "/discuss/top",
+                        "/discuss/wonderful"
+                )
+                .hasAnyAuthority(
+                        AUTHORITY_MODERATOR
+                )
+                .antMatchers(
+                        "/discuss/delete"
+                )
+                .hasAnyAuthority(
+                        AUTHORITY_ADMIN
+                )
                 .anyRequest().permitAll();
-                // 禁用 CSRF 检查
-                // .and().csrf().disable();
+        // 禁用 CSRF 检查
+        //.and().csrf().disable();
 
         // 无权限的处理
         http.exceptionHandling()
-                .authenticationEntryPoint((httpServletRequest, httpServletResponse, e) -> {
-                    // 没有登录的处理
-                    String xRequestedWith = httpServletRequest.getHeader("x-requested-with");
-                    if ("XMLHttpRequest".equals(xRequestedWith)) {
-                        // 表示当前请求是异步请求，返回一个 JSON 字符串
-                        httpServletResponse.setContentType("application/plain;charset=utf-8");
-                        PrintWriter writer = httpServletResponse.getWriter();
-                        writer.write(CommunityUtil.getJSONString(403, "您还没有登录，请先登录！"));
-                    } else {
-                        // 表示当前请求是一个同步请求，直接重定向登录页面
-                        httpServletResponse.sendRedirect(httpServletRequest.getContextPath() + "/login");
+                .authenticationEntryPoint(new AuthenticationEntryPoint() {
+                    @Override
+                    public void commence(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, AuthenticationException e) throws IOException, ServletException {
+                        // 没有登录的处理
+                        String xRequestedWith = httpServletRequest.getHeader("x-requested-with");
+                        if ("XMLHttpRequest".equals(xRequestedWith)) {
+                            // 表示当前请求是异步请求，返回一个 JSON 字符串
+                            httpServletResponse.setContentType("application/plain;charset=utf-8");
+                            PrintWriter writer = httpServletResponse.getWriter();
+                            writer.write(CommunityUtil.getJSONString(403, "您还没有登录，请先登录！"));
+                        } else {
+                            // 表示当前请求是一个同步请求，直接重定向登录页面
+                            httpServletResponse.sendRedirect(httpServletRequest.getContextPath() + "/login");
+                        }
                     }
                 })
-                .accessDeniedHandler((httpServletRequest, httpServletResponse, e) -> {
-                    // 没有权限的处理
-                    String xRequestedWith = httpServletRequest.getHeader("x-requested-with");
-                    if ("XMLHttpRequest".equals(xRequestedWith)) {
-                        // 表示当前请求是异步请求，返回一个 JSON 字符串
-                        httpServletResponse.setContentType("application/plain;charset=utf-8");
-                        PrintWriter writer = httpServletResponse.getWriter();
-                        writer.write(CommunityUtil.getJSONString(403, "您没有访问此功能的权限！"));
-                    } else {
-                        // 表示当前请求是一个同步请求，直接重定向权限不足的页面
-                        httpServletResponse.sendRedirect("/denied");
+                .accessDeniedHandler(new AccessDeniedHandler() {
+                    @Override
+                    public void handle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, AccessDeniedException e) throws IOException, ServletException {
+                        // 没有权限的处理
+                        String xRequestedWith = httpServletRequest.getHeader("x-requested-with");
+                        if ("XMLHttpRequest".equals(xRequestedWith)) {
+                            // 表示当前请求是异步请求，返回一个 JSON 字符串
+                            httpServletResponse.setContentType("application/plain;charset=utf-8");
+                            PrintWriter writer = httpServletResponse.getWriter();
+                            writer.write(CommunityUtil.getJSONString(403, "您没有访问此功能的权限！"));
+                        } else {
+                            // 表示当前请求是一个同步请求，直接重定向权限不足的页面
+                            httpServletResponse.sendRedirect("/denied");
+                        }
                     }
                 });
 

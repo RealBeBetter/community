@@ -284,11 +284,10 @@ public class UserService implements CommunityConstant {
     public Collection<? extends GrantedAuthority> getAuthorities(int userId) {
         User user = this.findUserById(userId);
         // 获得数据库中的用户权限字段
-        int type = user.getType();
         List<GrantedAuthority> list = new ArrayList<>();
         list.add((GrantedAuthority) () -> {
             // 获得用户的权限
-            switch (type) {
+            switch (user.getType()) {
                 case 1:
                     return AUTHORITY_ADMIN;
                 case 2:

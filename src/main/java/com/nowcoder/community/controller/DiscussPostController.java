@@ -161,5 +161,117 @@ public class DiscussPostController implements CommunityConstant {
         return "/site/discuss-detail";
     }
 
+    /**
+     * 将贴子修改为置顶
+     * 置顶中，帖子 type 为 1
+     *
+     * @param id 帖子 ID
+     * @return JSON 提示
+     */
+    @RequestMapping(path = "/top", method = RequestMethod.POST)
+    @ResponseBody
+    public String setTop(int id) {
+        discussPostService.updateType(id, 1);
+
+        // 触发发帖事件，将帖子转存到 ES 服务器中
+        Event event = new Event()
+                .setTopic(TOPIC_PUBLISH)
+                .setUserId(hostHolder.getUser().getId())
+                .setEntityType(ENTITY_TYPE_POST)
+                .setEntityId(id);
+        eventProducer.fireEvent(event);
+
+        return CommunityUtil.getJSONString(0);
+    }
+
+    /**
+     * 取消帖子置顶状态
+     * 普通帖子的 type 值为 0
+     *
+     * @param id 帖子 ID
+     * @return JSONString
+     */
+    @RequestMapping(path = "/cancelTop", method = RequestMethod.POST)
+    @ResponseBody
+    public String cancelTop(int id) {
+        discussPostService.updateType(id, 0);
+
+        // 触发发帖事件，将帖子转存到 ES 服务器中
+        Event event = new Event()
+                .setTopic(TOPIC_PUBLISH)
+                .setUserId(hostHolder.getUser().getId())
+                .setEntityType(ENTITY_TYPE_POST)
+                .setEntityId(id);
+        eventProducer.fireEvent(event);
+
+        return CommunityUtil.getJSONString(0);
+    }
+
+    /**
+     * 帖子加精
+     * 加精帖子的 status 设置为 1
+     *
+     * @param id 帖子 ID
+     * @return JSON 操作提示
+     */
+    @RequestMapping(path = "/wonderful", method = RequestMethod.POST)
+    @ResponseBody
+    public String setWonderful(int id) {
+        discussPostService.updateStatus(id, 1);
+        // 触发发帖事件，将帖子转存到 ES 服务器中
+        Event event = new Event()
+                .setTopic(TOPIC_PUBLISH)
+                .setUserId(hostHolder.getUser().getId())
+                .setEntityType(ENTITY_TYPE_POST)
+                .setEntityId(id);
+        eventProducer.fireEvent(event);
+
+        return CommunityUtil.getJSONString(0);
+    }
+
+    /**
+     * 取消帖子加精，将帖子还原成普通的帖子
+     * 普通帖子 status 为 0
+     *
+     * @param id 帖子 ID
+     * @return JSON 提示
+     */
+    @RequestMapping(path = "/cancelWonderful", method = RequestMethod.POST)
+    @ResponseBody
+    public String cancelWonderful(int id) {
+        discussPostService.updateStatus(id, 0);
+        // 触发发帖事件，将帖子转存到 ES 服务器中
+        Event event = new Event()
+                .setTopic(TOPIC_PUBLISH)
+                .setUserId(hostHolder.getUser().getId())
+                .setEntityType(ENTITY_TYPE_POST)
+                .setEntityId(id);
+        eventProducer.fireEvent(event);
+
+        return CommunityUtil.getJSONString(0);
+    }
+
+    /**
+     * 帖子删除
+     *
+     * @param id 帖子 ID
+     * @return 操作结果 JSON 字符串
+     */
+    @RequestMapping(path = "/delete", method = RequestMethod.POST)
+    @ResponseBody
+    public String setDelete(int id) {
+        discussPostService.updateStatus(id, 2);
+
+        // 触发删帖事件，将 ES 服务器中对应的帖子删除，屏蔽搜索
+        Event event = new Event()
+                .setTopic(TOPIC_DELETE)
+                .setUserId(hostHolder.getUser().getId())
+                .setEntityType(ENTITY_TYPE_POST)
+                .setEntityId(id);
+        eventProducer.fireEvent(event);
+
+        return CommunityUtil.getJSONString(0);
+    }
+
 
 }
