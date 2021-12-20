@@ -54,6 +54,33 @@ spring:
     elasticsearch:
       cluster-name: community
       cluster-nodes: 127.0.0.1:9300
+  # Spring taskExecutionProperties
+  task:
+    execution:
+      pool:
+        core-size: 5
+        max-size: 15
+        queue-capacity: 100
+    # Spring taskSchedulingProperties
+    scheduling:
+      pool:
+        size: 5
+  # Spring Quartz 配置
+  quartz:
+    job-store-type: jdbc
+    scheduler-name: communityScheduler
+    properties:
+      org:
+        quartz:
+          scheduler:
+            instanceId: AUTO
+          jobStore:
+            class: org.quartz.impl.jdbcjobstore.JobStoreTX
+            driverDelegateClass: org.quartz.impl.jdbcjobstore.StdJDBCDelegate
+            isClustered: true
+          threadPool:
+            class: org.quartz.simpl.SimpleThreadPool
+            threadCount: 5
 
 mybatis:
   # 映射文件的地址
