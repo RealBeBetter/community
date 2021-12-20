@@ -46,6 +46,7 @@ public class ServiceDemo {
      * REQUIRED：支持当前事务 (外部事务)，如果不存在则创建新事务
      * REQUIRES_NEW：创建一个新事务，并且暂停当前事务(外部事务)
      * NESTED：如果当前存在事务(外部事务)，则嵌套在该事务中执行(独立的提交和回滚)，否则就会和 REQUIRED 一样
+     *
      * @return 字符串格式对象
      */
     @Transactional(isolation = Isolation.READ_COMMITTED, propagation = Propagation.REQUIRED)
@@ -73,6 +74,7 @@ public class ServiceDemo {
 
     /**
      * 编程式事务管理，使用 TransactionTemplate 进行事务管理
+     *
      * @return 对象
      */
     public Object save2() {
@@ -116,7 +118,7 @@ public class ServiceDemo {
     /**
      * 让该方法在多线程环境下以固定频率异步调用
      */
-    @Scheduled(initialDelay = 10000, fixedRate = 1000)
+    // @Scheduled(initialDelay = 10000, fixedRate = 1000)
     public void execute2() {
         logger.debug("execute2...");
     }

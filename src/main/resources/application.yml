@@ -115,3 +115,9 @@ community:
   path:
     domain: http://localhost:8080
     upload: D:\Java\IdeaProjects\community\src\main\resources\static\header
+
+# 自定义 wk 命令行操作
+wk:
+  image:
+    command: D:/Java/wkhtmltopdf/bin/wkhtmltoimage
+    storage: D:/Java/IdeaProjects/community/log/wk/image

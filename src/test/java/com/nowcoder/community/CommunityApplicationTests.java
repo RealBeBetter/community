@@ -33,13 +33,13 @@ public class CommunityApplicationTests implements ApplicationContextAware {
     private DiscussPostMapper discussPostMapper;
 
     @Test
-    public void testApplicationContext () {
+    public void testApplicationContext() {
         System.out.println(applicationContext);
     }
 
     @Test
     public void testDiscussPostMapper() {
-        List<DiscussPost> posts = discussPostMapper.selectDiscussPosts(0, 0, 10);
+        List<DiscussPost> posts = discussPostMapper.selectDiscussPosts(0, 0, 10, 0);
         for (DiscussPost post : posts) {
             System.out.println(post);
         }
@@ -51,7 +51,12 @@ public class CommunityApplicationTests implements ApplicationContextAware {
         System.out.println(i);
     }
 
-    // 实现ApplicationContextAware接口，用于获取IoC容器
+    /**
+     * 实现ApplicationContextAware接口，用于获取IoC容器
+     *
+     * @param applicationContext 应用上下文
+     * @throws BeansException Bean异常对象
+     */
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         // 将容器暂存到成员变量中，让成员变量获得容器，方便其他测试方法使用

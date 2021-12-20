@@ -9,7 +9,9 @@ import com.nowcoder.community.service.UserService;
 import com.nowcoder.community.util.CommunityConstant;
 import com.nowcoder.community.util.CommunityUtil;
 import com.nowcoder.community.util.HostHolder;
+import com.nowcoder.community.util.RedisKeyUtil;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -46,6 +48,9 @@ public class DiscussPostController implements CommunityConstant {
     @Autowired
     private EventProducer eventProducer;
 
+    @Autowired
+    private RedisTemplate redisTemplate;
+
     /**
      * 发布帖子，获取发布的用户，传入发布的帖子对象
      *
@@ -76,6 +81,11 @@ public class DiscussPostController implements CommunityConstant {
                 .setEntityType(ENTITY_TYPE_POST)
                 .setEntityId(discussPost.getId());
         eventProducer.fireEvent(event);
+
+        // 计算帖子初始分数
+        String postScoreKey = RedisKeyUtil.getPostScoreKey();
+        // 将贴子 ID 转存到 set 中
+        redisTemplate.opsForSet().add(postScoreKey, discussPost.getId());
 
         // 异常情况统一处理
         return CommunityUtil.getJSONString(0, "发布成功！");
@@ -218,13 +228,17 @@ public class DiscussPostController implements CommunityConstant {
     @ResponseBody
     public String setWonderful(int id) {
         discussPostService.updateStatus(id, 1);
-        // 触发发帖事件，将帖子转存到 ES 服务器中
+        // 触发帖子加精事件，将帖子转存到 ES 服务器中
         Event event = new Event()
                 .setTopic(TOPIC_PUBLISH)
                 .setUserId(hostHolder.getUser().getId())
                 .setEntityType(ENTITY_TYPE_POST)
                 .setEntityId(id);
         eventProducer.fireEvent(event);
+
+        // 计算帖子分数
+        String postScoreKey = RedisKeyUtil.getPostScoreKey();
+        redisTemplate.opsForSet().add(postScoreKey, id);
 
         return CommunityUtil.getJSONString(0);
     }
