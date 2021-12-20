@@ -121,3 +121,17 @@ wk:
   image:
     command: D:/Java/wkhtmltopdf/bin/wkhtmltoimage
     storage: D:/Java/IdeaProjects/community/log/wk/image
+
+# Caffeine 本地缓存配置
+caffeine:
+  posts:
+    max-size: 15
+    expire-seconds: 180
+
+# actuator 配置
+management:
+  endpoints:
+    web:
+      exposure:
+        exclude: info,caches
+        include: health,beans

@@ -5,6 +5,7 @@ import com.nowcoder.community.entity.User;
 import com.nowcoder.community.service.UserService;
 import com.nowcoder.community.util.CommunityConstant;
 import com.nowcoder.community.util.CommunityUtil;
+import com.nowcoder.community.util.MailClient;
 import com.nowcoder.community.util.RedisKeyUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
@@ -15,10 +16,9 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.CookieValue;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.*;
+import org.thymeleaf.TemplateEngine;
+import org.thymeleaf.context.Context;
 
 import javax.imageio.ImageIO;
 import javax.servlet.ServletOutputStream;
@@ -27,6 +27,8 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
+import java.util.Date;
+import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
@@ -48,6 +50,12 @@ public class LoginController implements CommunityConstant {
 
     @Autowired
     private RedisTemplate redisTemplate;
+
+    @Autowired
+    private TemplateEngine templateEngine;
+
+    @Autowired
+    private MailClient mailClient;
 
     @Value("${server.servlet.context-path}")
     private String contextPath;
@@ -162,7 +170,7 @@ public class LoginController implements CommunityConstant {
      */
     @RequestMapping(path = "/login", method = RequestMethod.POST)
     public String login(String username, String password, String code, boolean rememberMe,
-                        /*HttpSession session,*/ HttpServletResponse response, Model model, @CookieValue("kaptchaOwner") String kaptchaOwner) {
+            /*HttpSession session,*/ HttpServletResponse response, Model model, @CookieValue("kaptchaOwner") String kaptchaOwner) {
         // 检查验证码
         //String kaptcha = session.getAttribute("kaptcha").toString();
 
@@ -197,6 +205,75 @@ public class LoginController implements CommunityConstant {
             model.addAttribute("passwordMessage", map.get("passwordMessage"));
             return "/site/login";
         }
+    }
+
+    /**
+     * 获取忘记密码页面
+     *
+     * @return 忘记密码页面
+     */
+    @RequestMapping(path = "/forget", method = RequestMethod.GET)
+    public String getForgetPage() {
+        return "/site/forget";
+    }
+
+    @RequestMapping(path = "/forget/password", method = RequestMethod.POST)
+    public String forgetPassword(String email, String password, String code, Model model) {
+        // 前端页面中进行了判空操作，包括邮箱以及密码
+        // 根据邮箱获得用户
+        User user = userService.findUserByEmail(email);
+        // 判断密码是否符合要求
+        if (password.length() < 3) {
+            model.addAttribute("passwordMessage", "密码长度过短，请重新输入！");
+            return "/site/forget";
+        }
+        // 首先判断验证码是否符合
+        if (StringUtils.isBlank(code)) {
+            model.addAttribute("codeMessage", "验证码为空！请输入邮箱中收到的验证码！");
+            return "/site/forget";
+        } else {
+            if (user == null) {
+                model.addAttribute("emailMessage", "该邮箱尚未注册，请先注册");
+                return "/site/forget";
+            } else {
+                String forgetKey = RedisKeyUtil.getForgetKey(user.getId());
+                String verify = (String) redisTemplate.opsForValue().get(forgetKey);
+                if (verify == null || verify.length() == 0) {
+                    model.addAttribute("codeMessage", "验证码不正确或超过有效期，请重新获取验证码！");
+                    return "/site/forget";
+                } else {
+                    if (code.equalsIgnoreCase(verify)) {
+                        // 设置新的密码
+                        userService.updatePassword(user.getId(), CommunityUtil.md5(password + user.getSalt()));
+                        return "/site/login";
+                    } else {
+                        model.addAttribute("codeMessage", "验证码错误！请检查邮箱中收到的二维码！");
+                        return "/site/forget";
+                    }
+                }
+            }
+        }
+    }
+
+    @RequestMapping(path = "/forget/password/verify-code", method = RequestMethod.POST)
+    @ResponseBody
+    public String getVerifyCodeEmail(String email) {
+        // 提示用户是否存在
+        // 根据邮箱获得用户
+        User user = userService.findUserByEmail(email);
+        // 判断用户是否存在
+        if (user == null) {
+            // 提示用户不存在，先注册
+            return CommunityUtil.getJSONString(403, "该用户不存在！请先注册！");
+        }
+        // 生成验证码并发送邮件
+        String verify = kaptchaProducer.createText();
+        userService.sendForgetPasswordVerify(email, verify);
+        // 将验证码存入 Redis ，设置 5 min 的有效时间
+        String forgetKey = RedisKeyUtil.getForgetKey(user.getId());
+        redisTemplate.opsForValue().set(forgetKey, verify, 60 * 5, TimeUnit.SECONDS);
+        // 构造异步请求返回数据
+        return CommunityUtil.getJSONString(0, "邮件发送成功！");
     }
 
     /**

@@ -238,8 +238,29 @@ public class UserService implements CommunityConstant {
         return rows;
     }
 
+    /**
+     * 发送忘记密码邮件
+     *
+     * @param email 目标邮箱
+     * @param code  验证码
+     * @return 发送邮件的时间，需要在五分钟之内重置密码才能有效
+     */
+    public void sendForgetPasswordVerify(String email, String code) {
+        // 发送验证码邮件
+        Context context = new Context();
+        context.setVariable("email", email);
+        context.setVariable("verify", code);
+        // 模板引擎调用网页，将其中的数据填充之后，生成一个 HTML 网页字符串对象，格式化网页
+        String process = templateEngine.process("/mail/forget", context);
+        mailClient.sendMail(email, "牛客网-忘记密码", process);
+    }
+
     public User findUserByName(String username) {
         return userMapper.selectByName(username);
+    }
+
+    public User findUserByEmail(String email) {
+        return userMapper.selectByEmail(email);
     }
 
     /**

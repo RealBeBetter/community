@@ -23,6 +23,16 @@ public interface CommunityConstant {
     final int ACTIVATION_FAILED = 2;
 
     /**
+     * 忘记密码验证成功
+     */
+    final int FORGET_VERIFY_SUCCESS = 0;
+
+    /**
+     * 忘记密码验证失败
+     */
+    final int FORGET_VERIFY_FAILED = 1;
+
+    /**
      * 默认状态的登录凭证超时时间，24小时
      */
     final int DEFAULT_EXPIRED_SECONDS = 3600 * 24;

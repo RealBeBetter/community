@@ -1,6 +1,9 @@
 package com.nowcoder.community.controller;
 
+import com.alibaba.fastjson.JSONObject;
+import com.google.code.kaptcha.Producer;
 import com.nowcoder.community.annotation.LoginRequired;
+import com.nowcoder.community.config.KaptchaConfig;
 import com.nowcoder.community.entity.User;
 import com.nowcoder.community.service.FollowService;
 import com.nowcoder.community.service.LikeService;
@@ -13,18 +16,24 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @ author : Real
@@ -147,7 +156,7 @@ public class UserController {
     }
 
     @LoginRequired
-    @RequestMapping(path = "/updatePassword", method = RequestMethod.POST)
+    @RequestMapping(path = "/update/password", method = RequestMethod.POST)
     public String updatePassword(String oldPassword, String newPassword, String confirmPassword, Model model) {
         // 判断两次输入的新密码是否相等，是否合法
         if (!StringUtils.isBlank(newPassword) && !StringUtils.isBlank(confirmPassword)) {
@@ -170,13 +179,13 @@ public class UserController {
         User user = hostHolder.getUser();
         if (oldPassword.length() == 0) {
             // 原始密码为空，应该添加提示信息
-            model.addAttribute("initialError", "原密码为空！请重新输入！");
+            model.addAttribute("initialError", "原始密码为空！请输入原始密码！");
             return "/site/setting";
         }
         oldPassword = CommunityUtil.md5(oldPassword + user.getSalt());
         if (!StringUtils.isBlank(oldPassword)) {
             if (!oldPassword.equals(user.getPassword())) {
-                model.addAttribute("initialError", "原密码错误！请重新输入！");
+                model.addAttribute("initialError", "原始密码错误！请重新输入！");
                 return "/site/setting";
             }
         }

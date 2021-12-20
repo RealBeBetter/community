@@ -38,6 +38,11 @@ public class RedisKeyUtil {
     private static final String PREDIX_KAPTCHA = "kaptcha";
 
     /**
+     * 忘记密码页面验证码前缀
+     */
+    private static final String PREFIX_FORGET = "forget";
+
+    /**
      * 登录凭证前缀
      */
     private static final String PREFIX_TICKET = "ticket";
@@ -117,6 +122,16 @@ public class RedisKeyUtil {
      */
     public static String getKaptchaKey(String owner) {
         return PREDIX_KAPTCHA + SPLIT + owner;
+    }
+
+    /**
+     * 获取忘记密码页面的验证码
+     *
+     * @param userId 用户 ID
+     * @return Redis Key
+     */
+    public static String getForgetKey(int userId) {
+        return PREFIX_FORGET + SPLIT + userId;
     }
 
     /**
