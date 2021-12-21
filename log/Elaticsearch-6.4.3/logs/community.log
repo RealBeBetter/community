@@ -2785,3 +2785,12 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.16.Final.jar:4.1.16.Final]
 	at java.lang.Thread.run(Thread.java:834) [?:?]
 [2021-12-21T02:28:02,277][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 29.5gb[10.7%], replicas will not be assigned to this node
+[2021-12-21T02:28:32,286][INFO ][o.e.c.r.a.DiskThresholdMonitor] [PTbTXQV] low disk watermark [85%] exceeded on [PTbTXQV6Sq6vPa6kOgmKsA][PTbTXQV][D:\Java\IdeaProjects\community\log\Elaticsearch-6.4.3\data\nodes\0] free: 29.5gb[10.7%], replicas will not be assigned to this node
+[2021-12-21T02:28:45,224][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2021-12-21T02:28:45,225][INFO ][o.e.n.Node               ] [PTbTXQV] stopping ...
+[2021-12-21T02:28:45,242][INFO ][o.e.x.w.WatcherService   ] [PTbTXQV] stopping watch service, reason [shutdown initiated]
+[2021-12-21T02:28:45,347][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [controller/30428] [Main.cc@148] Ml controller exiting
+[2021-12-21T02:28:45,348][INFO ][o.e.x.m.j.p.NativeController] Native controller process has stopped - no new native processes can be started
+[2021-12-21T02:28:45,398][INFO ][o.e.n.Node               ] [PTbTXQV] stopped
+[2021-12-21T02:28:45,399][INFO ][o.e.n.Node               ] [PTbTXQV] closing ...
+[2021-12-21T02:28:45,412][INFO ][o.e.n.Node               ] [PTbTXQV] closed
