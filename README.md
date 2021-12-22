@@ -4,13 +4,13 @@
 
 ## 框架版本
 
-整体框架：Spring Boot 2.4.10、Spring 5.3.9 、jdk 14.0.1
-版本控制：Git 2.33.1
-数据库：MySQL 8.0.23 、Redis 3.2.100
-模板引擎：Thymeleaf
-应用服务器：Apache Tomcat 9.0.52
-消息队列：Kafka 2.12-2.8.1
-分布式搜索：Elasticsearch 6.4.3
+- 整体框架：Spring Boot 2.4.10、Spring 5.3.9 、jdk 14.0.1
+- 版本控制：Git 2.33.1
+- 数据库：MySQL 8.0.23 、Redis 3.2.100
+- 模板引擎：Thymeleaf
+- 应用服务器：Apache Tomcat 9.0.52
+- 消息队列：Kafka 2.12-2.8.1
+- 分布式搜索：Elasticsearch 6.4.3
 
 ## Kafka 配置
 
