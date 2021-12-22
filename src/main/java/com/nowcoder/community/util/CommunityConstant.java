@@ -107,4 +107,9 @@ public interface CommunityConstant {
      */
     String AUTHORITY_MODERATOR = "moderator";
 
+    /**
+     * 权限：作者
+     */
+    String AUTHORITY_AUTHOR = "author";
+
 }
