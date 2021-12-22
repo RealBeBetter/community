@@ -4,13 +4,11 @@ import com.alibaba.fastjson.JSONObject;
 import com.google.code.kaptcha.Producer;
 import com.nowcoder.community.annotation.LoginRequired;
 import com.nowcoder.community.config.KaptchaConfig;
+import com.nowcoder.community.entity.Comment;
 import com.nowcoder.community.entity.DiscussPost;
 import com.nowcoder.community.entity.Page;
 import com.nowcoder.community.entity.User;
-import com.nowcoder.community.service.DiscussPostService;
-import com.nowcoder.community.service.FollowService;
-import com.nowcoder.community.service.LikeService;
-import com.nowcoder.community.service.UserService;
+import com.nowcoder.community.service.*;
 import com.nowcoder.community.util.CommunityConstant;
 import com.nowcoder.community.util.CommunityUtil;
 import com.nowcoder.community.util.HostHolder;
@@ -70,6 +68,9 @@ public class UserController {
 
     @Autowired
     private DiscussPostService discussPostService;
+
+    @Autowired
+    private CommentService commentService;
 
     @LoginRequired
     @RequestMapping(path = "/setting", method = RequestMethod.GET)
@@ -251,7 +252,7 @@ public class UserController {
         // 设置分页参数
         page.setPath(contextPath + "/user/post/" + userId);
         page.setRows(rows);
-        page.setLimit(5);
+        page.setLimit(10);
 
         // 需要显示的内容包括发布的帖子数量、帖子标题、内容、发布时间、点赞数量
         List<Map<String, Object>> postVoList = new ArrayList<>();
@@ -271,6 +272,44 @@ public class UserController {
             model.addAttribute("posts", postVoList);
         }
         return "/site/my-post";
+    }
+
+    @RequestMapping(path = "/reply/{userId}", method = RequestMethod.GET)
+    public String getMyReply(@PathVariable("userId") int userId, Page page, Model model) {
+        User user = userService.findUserById(userId);
+        if (user == null) {
+            throw new RuntimeException("该用户不存在！");
+        }
+        // 用户相关信息显示
+        model.addAttribute("user", user);
+
+        // 查询用户发表的评论数量，需要显示
+        int commentCount = commentService.findCommentCountByUserId(userId);
+        model.addAttribute("commentCount", commentCount);
+
+        // 设置分页参数
+        page.setPath(contextPath + "/user/reply/" + userId);
+        page.setRows(commentCount);
+        page.setLimit(10);
+
+        List<Map<String, Object>> replyVOList = new ArrayList<>();
+        List<Comment> comments = commentService.findCommentsByUserId(userId, page.getOffset(), page.getLimit());
+        if (comments != null) {
+            for (Comment comment : comments) {
+                Map<String, Object> map = new HashMap<>();
+                // 帖子 ID
+                map.put("postId", comment.getEntityId());
+                // 帖子标题
+                map.put("title", discussPostService.findDiscussPostById(comment.getEntityId()).getTitle());
+                // 评论内容
+                map.put("content", comment.getContent());
+                // 评论时间
+                map.put("createTime", comment.getCreateTime());
+                replyVOList.add(map);
+            }
+            model.addAttribute("reply", replyVOList);
+        }
+        return "/site/my-reply";
     }
 
 }

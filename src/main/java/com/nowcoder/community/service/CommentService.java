@@ -69,4 +69,26 @@ public class CommentService {
         }
         return rows;
     }
+
+    /**
+     * 根据用户 ID 查询用户发表的评论/回复数量
+     *
+     * @param userId 用户 ID
+     * @return Comment 数量
+     */
+    public int findCommentCountByUserId(int userId) {
+        return commentMapper.selectCountByUserId(userId);
+    }
+
+    /**
+     * 根据用户查询发表的评论/回复
+     *
+     * @param userId 用户 ID
+     * @param offset 偏移量
+     * @param limit  分页限制
+     * @return Comment 分页列表
+     */
+    public List<Comment> findCommentsByUserId(int userId, int offset, int limit) {
+        return commentMapper.selectCommentsByUserId(userId, offset, limit);
+    }
 }

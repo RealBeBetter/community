@@ -45,7 +45,7 @@ __consumer_offsets 46 0
 delete 0 0
 publish 0 0
 __consumer_offsets 42 0
-__consumer_offsets 28 0
+__consumer_offsets 28 264
 comment 0 0
 __consumer_offsets 4 0
 __consumer_offsets 31 0
