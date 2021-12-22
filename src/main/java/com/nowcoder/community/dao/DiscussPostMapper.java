@@ -14,7 +14,7 @@ import java.util.List;
 public interface DiscussPostMapper {
 
     /**
-     * 查询首页需要显示的帖子
+     * 查询首页需要显示的帖子，显示用户个人主页已发布的帖子
      * 显示发表用户，届时帖子需要点击至个人主页，所以需要显示用户个人的id
      * offset 每一行的行号， limit 分页显示的条数
      *
@@ -74,4 +74,12 @@ public interface DiscussPostMapper {
     int updateStatus(int id, int status);
 
     int updateScore(int id, double score);
+
+    /**
+     * 根据用户 ID 查询帖子——我的帖子
+     *
+     * @param userId 用户 ID
+     * @return 帖子列表
+     */
+    // List<DiscussPost> selectDiscussPostByUserId(int userId);
 }

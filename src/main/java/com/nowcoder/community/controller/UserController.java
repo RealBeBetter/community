@@ -4,7 +4,10 @@ import com.alibaba.fastjson.JSONObject;
 import com.google.code.kaptcha.Producer;
 import com.nowcoder.community.annotation.LoginRequired;
 import com.nowcoder.community.config.KaptchaConfig;
+import com.nowcoder.community.entity.DiscussPost;
+import com.nowcoder.community.entity.Page;
 import com.nowcoder.community.entity.User;
+import com.nowcoder.community.service.DiscussPostService;
 import com.nowcoder.community.service.FollowService;
 import com.nowcoder.community.service.LikeService;
 import com.nowcoder.community.service.UserService;
@@ -31,9 +34,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.OutputStream;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @ author : Real
@@ -66,6 +67,9 @@ public class UserController {
 
     @Autowired
     private FollowService followService;
+
+    @Autowired
+    private DiscussPostService discussPostService;
 
     @LoginRequired
     @RequestMapping(path = "/setting", method = RequestMethod.GET)
@@ -229,6 +233,44 @@ public class UserController {
         model.addAttribute("hasFollowed", hasFollowed);
 
         return "/site/profile";
+    }
+
+    @RequestMapping(path = "/post/{userId}", method = RequestMethod.GET)
+    public String getMyPost(@PathVariable("userId") int userId, Page page, Model model) {
+        User user = userService.findUserById(userId);
+        if (user == null) {
+            throw new RuntimeException("该用户不存在！");
+        }
+        // 用户相关信息显示
+        model.addAttribute("user", user);
+
+        // 求出个人用户发布的帖子个数
+        int rows = discussPostService.findDiscussPostRows(userId);
+        model.addAttribute("postCount", rows);
+
+        // 设置分页参数
+        page.setPath(contextPath + "/user/post/" + userId);
+        page.setRows(rows);
+        page.setLimit(5);
+
+        // 需要显示的内容包括发布的帖子数量、帖子标题、内容、发布时间、点赞数量
+        List<Map<String, Object>> postVoList = new ArrayList<>();
+        List<DiscussPost> posts = discussPostService.findDiscussPosts(userId, page.getOffset(), page.getLimit(), 0);
+        if (posts != null) {
+            for (DiscussPost post : posts) {
+                Map<String, Object> map = new HashMap<>();
+                // 获取帖子的点赞数量
+                long likeCount = likeService.findEntityLikeCount(CommunityConstant.ENTITY_TYPE_POST, post.getId());
+                map.put("id", post.getId());
+                map.put("title", post.getTitle());
+                map.put("content", post.getContent());
+                map.put("createTime", post.getCreateTime());
+                map.put("likeCount", likeCount);
+                postVoList.add(map);
+            }
+            model.addAttribute("posts", postVoList);
+        }
+        return "/site/my-post";
     }
 
 }
