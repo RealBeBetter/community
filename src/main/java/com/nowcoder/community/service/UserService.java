@@ -317,6 +317,32 @@ public class UserService implements CommunityConstant {
                     return AUTHORITY_USER;
             }
         });
+        /*list.add((GrantedAuthority) () -> {
+            if (list.contains(AUTHORITY_MODERATOR)) {
+                // 判断是版主，可能为作者
+                // 业务在帖子详情控制器页面编写
+            }
+            if (list.contains(AUTHORITY_USER)) {
+                // 判断是普通用户，可能为作者
+
+            }
+        });*/
+        return list;
+    }
+
+    /**
+     * 授权用户为作者
+     *
+     * @param authority 权限
+     * @return 权限集合
+     */
+    public Collection<? extends GrantedAuthority> getAuthorities(String authority) {
+        // 获得数据库中的用户权限字段
+        List<GrantedAuthority> list = new ArrayList<>();
+        list.add((GrantedAuthority) () -> {
+            // 获得用户的权限
+            return authority;
+        });
         return list;
     }
 }

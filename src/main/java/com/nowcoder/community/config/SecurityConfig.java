@@ -60,7 +60,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter implements Comm
                 .hasAnyAuthority(
                         AUTHORITY_ADMIN,
                         AUTHORITY_MODERATOR,
-                        AUTHORITY_USER
+                        AUTHORITY_USER,
+                        AUTHORITY_AUTHOR
                 )
                 .antMatchers(
                         "/discuss/top",
@@ -76,8 +77,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter implements Comm
                 )
                 .hasAnyAuthority(
                         AUTHORITY_ADMIN
+                ).
+                antMatchers(
+                        "/discuss/delete"
                 )
-                .anyRequest().permitAll();
+                .hasAnyAuthority(
+                        AUTHORITY_AUTHOR
+                ).anyRequest().permitAll();
         // 禁用 CSRF 检查
         //.and().csrf().disable();
 

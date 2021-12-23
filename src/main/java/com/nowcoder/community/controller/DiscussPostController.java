@@ -12,6 +12,10 @@ import com.nowcoder.community.util.HostHolder;
 import com.nowcoder.community.util.RedisKeyUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.context.SecurityContextImpl;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -112,6 +116,16 @@ public class DiscussPostController implements CommunityConstant {
         // 帖子点赞状态
         int likeStatus = hostHolder.getUser() == null ? 0 : likeService.findEntityLikeStatus(hostHolder.getUser().getId(), CommunityConstant.ENTITY_TYPE_POST, id);
         model.addAttribute("likeStatus", likeStatus);
+
+        // 判断当前登录用户是否是帖子作者，判断是否能够删除帖子
+        User loginUser = hostHolder.getUser();
+        if (loginUser.getId() == user.getId()) {
+            // 将授权结果存入 SecurityContext 中，便于 Security 进行授权
+            Authentication authentication = new UsernamePasswordAuthenticationToken(
+                    user, user.getPassword(), userService.getAuthorities(CommunityConstant.AUTHORITY_AUTHOR)
+            );
+            SecurityContextHolder.setContext(new SecurityContextImpl(authentication));
+        }
 
         // 评论分页信息
         page.setLimit(5);
