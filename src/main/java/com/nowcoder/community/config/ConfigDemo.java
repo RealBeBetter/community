@@ -15,7 +15,8 @@ public class ConfigDemo {
 
     /**
      * 标识一个第三方的类为 Bean，一般使用的是 @Bean 注解来完成
-     * @return
+     *
+     * @return {@link SimpleDateFormat}
      */
     @Bean
     public SimpleDateFormat simpleDateFormat() {

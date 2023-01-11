@@ -29,7 +29,7 @@ public class SensitiveFilter {
     private final TrieNode rootNode = new TrieNode();
 
     /**
-     * 读取敏感词
+     * 初始化，读取敏感词
      */
     @PostConstruct
     public void init() {
@@ -75,7 +75,7 @@ public class SensitiveFilter {
      * 过滤文本，输出过滤之后的字符串
      *
      * @param text 待过滤的文本
-     * @return 过滤后的文本
+     * @return {@link String}
      */
     public String filter(String text) {
         if (StringUtils.isBlank(text)) {

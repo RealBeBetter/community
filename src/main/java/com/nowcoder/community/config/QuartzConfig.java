@@ -27,7 +27,6 @@ public class QuartzConfig {
      *
      * @return JobDetailFactoryBean
      */
-    // @Bean
     public JobDetailFactoryBean alphaJobDetail() {
         JobDetailFactoryBean factoryBean = new JobDetailFactoryBean();
         factoryBean.setJobClass(AlphaJob.class);
@@ -44,7 +43,6 @@ public class QuartzConfig {
      * @param alphaJobDetail JobDetail 对象
      * @return SimpleTriggerFactoryBean
      */
-    // @Bean
     public SimpleTriggerFactoryBean alphaSimpleTrigger(JobDetail alphaJobDetail) {
         SimpleTriggerFactoryBean factoryBean = new SimpleTriggerFactoryBean();
         factoryBean.setJobDetail(alphaJobDetail);
@@ -59,7 +57,7 @@ public class QuartzConfig {
     /**
      * 刷新帖子分数任务配置
      *
-     * @return JobDetailFactoryBean
+     * @return {@link JobDetailFactoryBean}
      */
     @Bean
     public JobDetailFactoryBean postScoreRefreshJobDetail() {
@@ -72,6 +70,12 @@ public class QuartzConfig {
         return factoryBean;
     }
 
+    /**
+     * 分数刷新后触发
+     *
+     * @param postScoreRefreshJobDetail 文章分数刷新工作细节
+     * @return {@link SimpleTriggerFactoryBean}
+     */
     @Bean
     public SimpleTriggerFactoryBean postScoreRefreshTrigger(JobDetail postScoreRefreshJobDetail) {
         SimpleTriggerFactoryBean factoryBean = new SimpleTriggerFactoryBean();

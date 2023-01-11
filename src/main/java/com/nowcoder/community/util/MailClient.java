@@ -30,6 +30,13 @@ public class MailClient {
     @Value("${spring.mail.username}")
     private String from;
 
+    /**
+     * 发送邮件
+     *
+     * @param to      目标
+     * @param subject 主题
+     * @param content 内容
+     */
     public void sendMail(String to, String subject, String content) {
         // 使用 MimeMessage 构建邮件主体
         try {

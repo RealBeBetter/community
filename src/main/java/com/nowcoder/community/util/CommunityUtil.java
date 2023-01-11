@@ -17,6 +17,8 @@ public class CommunityUtil {
 
     /**
      * 生成随机字符串，充当验证码使用
+     *
+     * @return {@link String}
      */
     public static String generatorUUID() {
         return UUID.randomUUID().toString().replace("-", "");
@@ -32,13 +34,6 @@ public class CommunityUtil {
         }
         return DigestUtils.md5DigestAsHex(key.getBytes());
     }
-
-    /*public static void main(String[] args) {
-        // String s = md5("12327dc0");     // 68bb6c4ff160bbf37d0dcdd90692786a
-        String s = md5("1227dc0");     // 5a7efd31b0d9c0fb9f5596b4daece9ee
-
-        System.out.println(s);
-    }*/
 
     public static String getJSONString(int code, String message, Map<String, Object> map) {
         JSONObject json = new JSONObject();
